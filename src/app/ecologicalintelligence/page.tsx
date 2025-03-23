@@ -10,10 +10,10 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Bridging Environmental Science with Spiritual Wisdom", delay: "100ms" },
-  { text: " Exploring Divine Patterns within Natural Systems", delay: "200ms" },
-  { text: " Developing Ethical & Sustainable Approaches to Ecology", delay: "300ms" },
-  { text: " Fostering Awareness of Humanity’s Role in Creation Stewardship", delay: "400ms" },
+  { text: "Bridging Environmental Science with Spiritual Wisdom"  },
+  { text: " Exploring Divine Patterns within Natural Systems" },
+  { text: " Developing Ethical & Sustainable Approaches to Ecology"  },
+  { text: " Fostering Awareness of Humanity’s Role in Creation Stewardship" },
 ];
 const ScienceSlides = [
   {

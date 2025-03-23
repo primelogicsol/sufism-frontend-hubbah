@@ -10,10 +10,10 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Activating Higher Sensory Awareness for Growth"  },
-  { text: " Developing Inner Perception & Metaphysical Senses"  },
-  { text: "Physical Sensory Experience with Spiritual Dimensions" },
-  { text: " Enhancing the Understanding of Sufi Mystical Phenomena"},
+  { text: "Bridging Classical Sufi Ethics with Character Development" },
+  { text: "Providing a Systematic Approach to Spiritual Refinement" },
+  { text: "Understanding the Science Behind Virtue & Consciousness" },
+  { text: "Developing Actionable Strategies for Living an Aligned, Ethical Life" },
 ];
 const ScienceSlides = [
   {
@@ -53,12 +53,12 @@ const ScienceSlides = [
   },
 ];
 const blogTitles = [
-    "Subtle Development",
-    "Inner Sight",
-    "Spiritual Hearing",
-    "Divine Taste",
-    "Sacred Touch",
-    "Transcendent Smell"
+    "Transcendent Ethics",
+    "Divine Engineering",
+    "Sacred Embodiment",
+    "Virtue Cultivation",
+    "Justice Mechanics",
+    "Compassionate Action"
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -122,17 +122,16 @@ export default function Home() {
                 <div>
                   <div className="text-left ">
                     <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-bold uppercase z-[1]">
-                    Perceptual Gateways
+                    Character Alchemy
                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                     </span>
                     
                   </div>
                   <p className="text-gray-700 mt-4">
-                  Perceptual Gateways explores the expanded dimensions of human perception, transcending the limitations of the physical senses to access higher awareness and spiritual cognition. Rooted in Sufi teachings on the refinement of perception, this framework maps the subtle faculties through which one experiences inner reality, divine communication, and sacred resonance.
-
+                  Character Alchemy is the science of inner transformation, refining the raw materials of the self into higher states of virtue, wisdom, and divine embodiment. Rooted in Sufi ethical philosophy and advanced spiritual psychology, this framework merges inner refinement with sacred engineering, guiding seekers through the systematic process of spiritual self-mastery
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study provides a structured approach to awakening latent senses, training seekers to refine perception, deepen spiritual sensitivity, and attune to divine frequencies.
+                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured path for developing transcendent ethics, cultivating virtue, and embodying divine justice in action.
                   </p>
                 </div>
 

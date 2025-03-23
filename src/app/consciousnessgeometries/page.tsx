@@ -10,10 +10,10 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Bridging Quantum Science with Sufi Consciousness Studies", delay: "100ms" },
-  { text: " Awareness through Geometric & Multi-Dimensional Models", delay: "200ms" },
-  { text: "Exploring Non-Locality, Perception, & Nature of Reality", delay: "300ms" },
-  { text: "Developing Practical Applications for Conscious Evolution", delay: "400ms" },
+  { text: "Bridging Quantum Science with Sufi Consciousness Studies" },
+  { text: " Awareness through Geometric & Multi-Dimensional Models" },
+  { text: "Exploring Non-Locality, Perception, & Nature of Reality" },
+  { text: "Developing Practical Applications for Conscious Evolution" },
 ];
 const ScienceSlides = [
   {

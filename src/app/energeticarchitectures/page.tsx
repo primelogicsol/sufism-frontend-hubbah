@@ -10,10 +10,10 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Activating Higher Sensory Awareness for Growth"  },
-  { text: " Developing Inner Perception & Metaphysical Senses"  },
-  { text: "Physical Sensory Experience with Spiritual Dimensions" },
-  { text: " Enhancing the Understanding of Sufi Mystical Phenomena"},
+  { text: "Bridging Sufi Energy Sciences & Modern Biophysics" },
+  { text: "Understanding the Connection Between Energy & Spirituality" },
+  { text: "Exploring Consciousness Beyond the Brain in Cells" },
+  { text: "Techniques for Energy Optimization & Spiritual Vitality" },
 ];
 const ScienceSlides = [
   {
@@ -53,12 +53,12 @@ const ScienceSlides = [
   },
 ];
 const blogTitles = [
-    "Subtle Development",
-    "Inner Sight",
-    "Spiritual Hearing",
-    "Divine Taste",
-    "Sacred Touch",
-    "Transcendent Smell"
+    "Circulation Systems",
+    "Force Amplification",
+    "Purification Science",
+    "Spiritual Nutrition",
+    "Cellular Consciousness",
+    "Bioenergetic Fields"
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -122,17 +122,16 @@ export default function Home() {
                 <div>
                   <div className="text-left ">
                     <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-bold uppercase z-[1]">
-                    Perceptual Gateways
+                    Energetic Architectures 
                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                     </span>
                     
                   </div>
                   <p className="text-gray-700 mt-4">
-                  Perceptual Gateways explores the expanded dimensions of human perception, transcending the limitations of the physical senses to access higher awareness and spiritual cognition. Rooted in Sufi teachings on the refinement of perception, this framework maps the subtle faculties through which one experiences inner reality, divine communication, and sacred resonance.
-
+                  Energetic Architectures explores the hidden structures that regulate life force, consciousness, and vitality within the human body and beyond. Rooted in Sufi traditions of spiritual physiology and modern bioenergetic sciences, this framework examines how energy circulates, amplifies, and transforms through purification, nutrition, and field harmonization.Energetic Architectures explores the hidden structures that regulate life force, consciousness, and vitality within the human body and beyond. Rooted in Sufi traditions of spiritual physiology and modern bioenergetic sciences, this framework examines how energy circulates, amplifies, and transforms through purification, nutrition, and field harmonization.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study provides a structured approach to awakening latent senses, training seekers to refine perception, deepen spiritual sensitivity, and attune to divine frequencies.
+                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study merges ancient wisdom with scientific inquiry, offering seekers a functional model for enhancing energy flow, optimizing health, and elevating spiritual consciousness.
                   </p>
                 </div>
 

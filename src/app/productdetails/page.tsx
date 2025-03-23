@@ -66,7 +66,7 @@ export default function Home() {
 
               <div className="mt-6 flex space-x-4">
                 <Link
-                  href="/yourcart"
+                  href="/cart"
                   className="bg-fixnix-lightpurple hover:bg-fixnix-darkpurple text-white px-4 py-2 rounded"
                 >
                   Add to Cart

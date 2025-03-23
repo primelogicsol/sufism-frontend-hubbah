@@ -133,7 +133,7 @@ export default function Menu() {
           <ul className="bg-white absolute z-50 mt-0 pt-4 px-2 w-72 rounded-b-md max-h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-fixnix-darkpurple scrollbar-track-fixnix-lightpuple hidden group-hover:block">
             <li className="mb-2">
               <Link
-                href="/your-journey"
+                href="/beginyourjourney"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Begin Your Journey
@@ -225,7 +225,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/HumanSciences"
+                href="/realityframeworks"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Reality Frameworks
@@ -233,7 +233,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/cosmicharmonics"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Cosmic Harmonics
@@ -241,7 +241,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/energeticarchitectures"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Energetic Architectures 
@@ -249,7 +249,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/characteralchemy"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Character Alchemy 
@@ -257,7 +257,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/unitysciences"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Unity Sciences
@@ -433,7 +433,7 @@ export default function Menu() {
           </ul>
         </li>
         <Link
-          href="/yourcart"
+          href="/cart"
           className="text-xl px-2 sm:text-md md:text-2xl text-fixnix-lightpurple transition-all duration-500 ease-in-out hover:text-fixnix-darkpurple"
         >
           <i className="fas fa-shopping-cart"></i>

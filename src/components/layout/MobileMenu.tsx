@@ -234,7 +234,7 @@ const MobileMenu = ({
                 >
                   <li>
                     <Link
-                      href="/your-journey"
+                      href="/beginyourjourney"
                       className="text-white text-sm font-medium"
                     >
                       Begin Your Journey

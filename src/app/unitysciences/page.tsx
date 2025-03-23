@@ -10,10 +10,10 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Activating Higher Sensory Awareness for Growth"  },
-  { text: " Developing Inner Perception & Metaphysical Senses"  },
-  { text: "Physical Sensory Experience with Spiritual Dimensions" },
-  { text: " Enhancing the Understanding of Sufi Mystical Phenomena"},
+  { text: "Bridging Sufi Mysticism & Scientific Inquiry into Oneness" },
+  { text: "Exploring the Hidden Science of Divine Order & Multiplicity" },
+  { text: "The Mechanics of Separation & Reunification" },
+  { text: " Developing Practical Techniques for Unity Consciousness" },
 ];
 const ScienceSlides = [
   {
@@ -53,12 +53,12 @@ const ScienceSlides = [
   },
 ];
 const blogTitles = [
-    "Subtle Development",
-    "Inner Sight",
-    "Spiritual Hearing",
-    "Divine Taste",
-    "Sacred Touch",
-    "Transcendent Smell"
+    "Multiplicity Studies",
+    "Oneness Dynamics",
+    "Names Manifestation",
+    "Separation Mechanics",
+    "Unity Technology",
+    "Divine Expression"
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -122,17 +122,16 @@ export default function Home() {
                 <div>
                   <div className="text-left ">
                     <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-bold uppercase z-[1]">
-                    Perceptual Gateways
+                    Unity Sciences
                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                     </span>
                     
                   </div>
                   <p className="text-gray-700 mt-4">
-                  Perceptual Gateways explores the expanded dimensions of human perception, transcending the limitations of the physical senses to access higher awareness and spiritual cognition. Rooted in Sufi teachings on the refinement of perception, this framework maps the subtle faculties through which one experiences inner reality, divine communication, and sacred resonance.
-
+                  Unity Sciences explores the principles that govern oneness, multiplicity, and divine manifestation. Rooted in Sufi metaphysics, sacred geometry, and advanced ontological studies, this framework analyzes how existence emerges from unity, unfolds into multiplicity, and ultimately returns to its singular source.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study provides a structured approach to awakening latent senses, training seekers to refine perception, deepen spiritual sensitivity, and attune to divine frequencies.
+                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study bridges classical mystical thought with contemporary scientific models, revealing the hidden mechanics of unity, separation, and divine manifestation.
                   </p>
                 </div>
 
