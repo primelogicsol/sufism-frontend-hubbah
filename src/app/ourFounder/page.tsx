@@ -352,7 +352,7 @@ export default function Home() {
              
                 <div className="flex flex-col md:flex-row bg-gray-100  p-0 pb-[52px] mb-[110px] relative z-10 rounded-3xl">
                 <div className="absolute top-0 right-0 uppercase bg-fixnix-lightpurple text-white py-1 px-3 rounded-tr-3xl rounded-bl-xl text-sm font-medium z-20">
-                Our Core Practices
+                BIRTH OF SSC
                 </div>
                   <div className=" pt-[100px] px-10 relative ">
                     
@@ -434,7 +434,7 @@ export default function Home() {
 
               {/* Section Text */}
               <p className="pt-[15px] sm:pt-[20px] text-left xs:text-left sm:text-left md:text-center lg:text-center text-white text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[26px] md:leading-[30px]">
-              To ensure his message reaches beyond Kashmir, one of Dr. Kumar’s students, who immigrated to the United States in 2019 and is now a U.S. citizen, established the Dr. Kumar Foundation USA.<br/>
+              To ensure his message reaches beyond Kashmir, one of Dr. Kumar’s students, who immigrated to the United States in 2019 and is now a U.S. citizen, established the Dr. Kumar Foundation USA.
               This foundation preserves, promotes, and spreads his message of love, divine unity, and self-realization to seekers across the world. It carries his teachings to a global audience, ensuring that his light continues to guide those searching for truth.
               </p>
               <h2 className="mt-[5px] sm:mt-[14px] text-white text-[18px] sm:text-[20px] md:text-[22px] leading-[30px] sm:leading-[40px] font-bold">
