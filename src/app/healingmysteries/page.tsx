@@ -10,55 +10,55 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Bridging Environmental Science with Spiritual Wisdom"  },
-  { text: " Exploring Divine Patterns within Natural Systems" },
-  { text: " Developing Ethical & Sustainable Approaches to Ecology"  },
-  { text: " Fostering Awareness of Humanity’s Role in Creation Stewardship" },
+  { text: " Bridging Sufi Healing Traditions & Modern Science"  },
+  { text: "Exploring the Role of Energy, Mind & Spirit in Well-Being" },
+  { text: "Understanding Biofield Mechanics & Healing Sciences" },
+  { text: "Developing Practical Tools for Self-Healing & Spiritual Vitality" },
 ];
-const ecologySlides = [
+const healingSlides = [
   {
-    subTitle: "Wisdom of the Natural World",
-    title: "Aligning with <br/>Nature’s Harmony",
-    text: "Ecological intelligence reveals the sacred balance<br/> between humanity and nature, promoting spiritual and environmental harmony.  ",
+    subTitle: "Unveiling the Secrets of Healing ",
+    title: "Sacred Paths to<br/> Wholeness ",
+    text: "Healing mysteries guide seekers toward spiritual and physical<br/> restoration through sacred knowledge. ",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Ecology Unfolded",
-    title: "Finding Spiritual Truth <br/>in Nature ",
-    text: " Understanding the sacred patterns of nature helps seekers find <br/>harmony, peace, and a deeper connection with creation.  ",
+    subTitle: "Sacred Wisdom of Healing  ",
+    title: " Unlocking the Body’s <br/>Divine Power",
+    text: "Through healing mysteries, seekers awaken their inner capacity for<br/> spiritual and physical restoration.    ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Living in Sacred Balance",
-    title: "Nature’s Wisdom and<br/> Spiritual Growth ",
-    text: "Ecological intelligence teaches how to live in harmony with<br/> the earth, guided by spiritual balance and natural rhythms.  ",
+    subTitle: "Healing Through Spiritual Wisdom  ",
+    title: "Restoring Harmony <br/>and Balance ",
+    text: "Healing mysteries offer insight into the sacred connection<br/> between mind, body, and spirit. ",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Nature as a Spiritual Teacher",
-    title: " Learning from the Language<br/> of Nature",
-    text: "Nature’s design mirrors spiritual truths, guiding seekers to live<br/> in harmony with the rhythms of existence.  ",
+    subTitle: "The Path to Wholeness  ",
+    title: "Unlocking Sacred <br/>Healing Codes  ",
+    text: "By understanding healing mysteries, seekers find the key to<br/> restoring balance and spiritual health.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Awakening Through Nature’s Wisdom ",
-    title: "Sacred Balance of<br/> Life and Spirit ",
-    text: "By aligning with ecological intelligence, seekers unlock the<br/> hidden spiritual codes embedded in the natural world.  ",
+    subTitle: "Spiritual Restoration Revealed",
+    title: "The Sacred Art of <br/>Healing ",
+    text: "Healing mysteries provide seekers with the tools to restore<br/> body and soul through sacred knowledge. ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/",
   },
 ];
 const blogTitles = [
-    "Sacred Ecology",
-    "Divine Balance",
-    "Creation Stewardship",
-    "Natural Communication",
-    "Ecosystem Mapping",
-    "Earth Resonance"
+    "Prophetic Medicine",
+    "Interdimensional Protocols",
+    "Biofield Measurement",
+    "Epigenetic Influence",
+    "Heart Intelligence",
+    "Regenerative Wisdom"
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ecologySlides}/>
+        <Banner slides={healingSlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">
@@ -122,16 +122,16 @@ export default function Home() {
                 <div>
                   <div className="text-left ">
                     <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-bold uppercase z-[1]">
-                    Ecological Intelligence
+                    Healing Mysteries
                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                     </span>
                     
                   </div>
                   <p className="text-gray-700 mt-4">
-                  Ecological Intelligence is the sacred science of living in harmony with creation, integrating spiritual consciousness, environmental ethics, and divine stewardship. Rooted in Sufi cosmology, this framework explores the interconnectedness of nature, humanity, and divine order, guiding seekers toward a holistic and ethical engagement with the natural world.
+                  Healing Mysteries explores the hidden sciences of health, regeneration, and spiritual well-being, integrating Prophetic medicine, bioenergetics, and interdimensional healing protocols. Rooted in Sufi healing traditions and modern scientific advancements, this framework examines the interplay between consciousness, biology, and vibrational medicine.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured approach to understanding ecology as a spiritual discipline, offering deep insights into divine patterns within nature, sustainability through sacred balance, and the role of humans as stewards of creation.
+                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study merges sacred knowledge with emerging health sciences, offering seekers a deeper understanding of healing mechanisms across physical, energetic, and consciousness-based dimensions.
                   </p>
                 </div>
 

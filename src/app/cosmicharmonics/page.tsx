@@ -15,39 +15,39 @@ const featuresData = [
   { text: "Aligning Human Consciousness with Universal Harmonics" },
   { text: "Exploring How Light, Sound & Time Shape Spiritual Evolution" },
 ];
-const ScienceSlides = [
+const cosmicSlides = [
   {
-    subTitle: "Exploring Knowledge, Rooted in Wisdom",
-    title: " Unveiling the Core of<br/> Sufi Science",
-    text: "Discover the fundamental sciences that bridge spirituality and intellect,<br/> forming the foundation of Kashmiri Sufi wisdom and enlightenment.",
+    subTitle: "Aligning with the Music of the Spheres",
+    title: "Discovering the<br/> Harmony of Existence ",
+    text: "Cosmic harmonics reveal the sacred vibrations of existence,<br/> guiding seekers toward unity with the universe.",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Science, Spirituality, Harmony, Truth, Understanding",
-    title: "The Scientific Foundations of<br/> Sufi Thought",
-    text: "Explore the principles of foundational sciences in Sufism, where reason,<br/> observation, and divine knowledge unite in harmony.",
+    subTitle: "Vibration of the Divine ",
+    title: "Tuning into Cosmic<br/> Frequencies ",
+    text: "Through cosmic harmonics, seekers align their spirit with the sacred<br/> vibrations of the universe and divine order. ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Timeless Wisdom, Scientific Exploration, Enlightenment",
-    title: "Connecting Spirituality with<br/> Scientific Inquiry",
-    text: "Unravel the essential sciences that support the philosophical, metaphysical, <br/>and intellectual traditions of Kashmiri Sufism.",
+    subTitle: "Sacred Rhythms of the Cosmos",
+    title: "Finding Unity <br/>Through Vibration ",
+    text: "Cosmic harmonics reveal the hidden order of existence, <br/>guiding seekers to resonate with universal truth.",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Knowledge, Scientific Inquiry, Truth",
-    title: " Bridging Science and <br/>Spiritual Wisdom",
-    text: "Foundational sciences in Sufism offer a deeper understanding of nature, consciousness,<br/> and the universe through spiritual and intellectual exploration.",
+    subTitle: "The Sound of Creation",
+    title: " Tuning into the<br/> Universe’s Pulse",
+    text: "By understanding cosmic harmonics, seekers discover the <br/>sacred soundscape of existence and spiritual awakening.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Ancient Science, Modern Spiritual Awakening",
-    title: " Discover the Science Behind<br/> Sufi Mysticism",
-    text: "  Learn how Kashmiri Sufi traditions incorporate scientific reasoning, natural laws,<br/> and divine knowledge to explore the mysteries of existence.",
+    subTitle: " Resonating with Universal Truth",
+    title: "Awakening Through Cosmic<br/> Vibration ",
+    text: "Cosmic harmonics help seekers connect with the sacred rhythms of the universe,<br/> finding harmony and enlightenment.",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ScienceSlides}/>
+        <Banner slides={cosmicSlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">

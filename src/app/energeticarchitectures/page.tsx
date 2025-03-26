@@ -15,39 +15,39 @@ const featuresData = [
   { text: "Exploring Consciousness Beyond the Brain in Cells" },
   { text: "Techniques for Energy Optimization & Spiritual Vitality" },
 ];
-const ScienceSlides = [
+const energeticSlides = [
   {
-    subTitle: "Exploring Knowledge, Rooted in Wisdom",
-    title: " Unveiling the Core of<br/> Sufi Science",
-    text: "Discover the fundamental sciences that bridge spirituality and intellect,<br/> forming the foundation of Kashmiri Sufi wisdom and enlightenment.",
+    subTitle: "Building the Framework of Spirit  ",
+    title: "Exploring the Energy<br/> of Creation",
+    text: "Energetic architectures reveal the hidden structure of energy behind<br/> existence, guiding seekers toward spiritual balance.  ",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Science, Spirituality, Harmony, Truth, Understanding",
-    title: "The Scientific Foundations of<br/> Sufi Thought",
-    text: "Explore the principles of foundational sciences in Sufism, where reason,<br/> observation, and divine knowledge unite in harmony.",
+    subTitle: "Sacred Structures of Energy ",
+    title: "Understanding the<br/> Architecture of Spirit",
+    text: "Through energetic architectures, seekers uncover the patterns of<br/> energy shaping existence and spiritual harmony. ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Timeless Wisdom, Scientific Exploration, Enlightenment",
-    title: "Connecting Spirituality with<br/> Scientific Inquiry",
-    text: "Unravel the essential sciences that support the philosophical, metaphysical, <br/>and intellectual traditions of Kashmiri Sufism.",
+    subTitle: "Designing the Spirit’s Blueprint",
+    title: "Exploring the Sacred <br/>Energy Grid",
+    text: "Energetic architectures provide seekers with a map to understanding<br/> the spiritual design of existence.",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Knowledge, Scientific Inquiry, Truth",
-    title: " Bridging Science and <br/>Spiritual Wisdom",
-    text: "Foundational sciences in Sufism offer a deeper understanding of nature, consciousness,<br/> and the universe through spiritual and intellectual exploration.",
+    subTitle: "Energy as Divine Structure",
+    title: "Tapping Into the Power <br/>of Creation ",
+    text: " Understanding energetic architectures helps seekers align with the<br/> hidden energy frameworks of existence.",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Ancient Science, Modern Spiritual Awakening",
-    title: " Discover the Science Behind<br/> Sufi Mysticism",
-    text: "  Learn how Kashmiri Sufi traditions incorporate scientific reasoning, natural laws,<br/> and divine knowledge to explore the mysteries of existence.",
+    subTitle: "The Sacred Design of Energy",
+    title: "Awakening Through Energetic<br/> Structures ",
+    text: "Energetic architectures reveal the spiritual patterns behind existence,<br/> guiding seekers toward deeper truth. ",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ScienceSlides}/>
+        <Banner slides={energeticSlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">

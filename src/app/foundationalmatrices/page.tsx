@@ -15,41 +15,41 @@ const featuresData = [
   { text: "Integrating Mysticism with Scientific Exploration" },
   { text: "Practical Applications for Consciousness & Transformation" },
 ];
-const ScienceSlides = [
+const MatricesSlides = [
   {
-    subTitle: "Exploring Knowledge, Rooted in Wisdom",
-    title: " Unveiling the Core of<br/> Sufi Science",
-    text: "Discover the fundamental sciences that bridge spirituality and intellect,<br/> forming the foundation of Kashmiri Sufi wisdom and enlightenment.",
+    subTitle: "Blueprint of Spiritual Design",
+    title: "Discovering the Core <br/>of Existence",
+    text: " Foundational matrices reveal the hidden patterns of creation, guiding seekers <br/>toward the universal truth and spiritual balance.  ",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Science, Spirituality, Harmony, Truth, Understanding",
-    title: "The Scientific Foundations of<br/> Sufi Thought",
-    text: "Explore the principles of foundational sciences in Sufism, where reason,<br/> observation, and divine knowledge unite in harmony.",
+    subTitle: "Patterns of Divine Order ",
+    title: "Unlocking the Mysteries<br/> of Creation",
+    text: "Foundational matrices provide a map to understanding existence through<br/> spiritual codes and sacred geometric alignments.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Timeless Wisdom, Scientific Exploration, Enlightenment",
-    title: "Connecting Spirituality with<br/> Scientific Inquiry",
-    text: "Unravel the essential sciences that support the philosophical, metaphysical, <br/>and intellectual traditions of Kashmiri Sufism.",
+    subTitle: "Decoding the Sacred Patterns",
+    title: " Exploring the Core<br/> of Reality",
+    text: "Spiritual matrices offer insight into the architecture of<br/> existence, connecting seekers with the hidden order of life.  ",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Knowledge, Scientific Inquiry, Truth",
-    title: " Bridging Science and <br/>Spiritual Wisdom",
-    text: "Foundational sciences in Sufism offer a deeper understanding of nature, consciousness,<br/> and the universe through spiritual and intellectual exploration.",
+    subTitle: " Keys to Spiritual Frameworks  ",
+    title: "Mapping the Divine<br/> Blueprints ",
+    text: "Foundational matrices serve as spiritual keys to understanding<br/> creation and unlocking higher states of consciousness.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Ancient Science, Modern Spiritual Awakening",
-    title: " Discover the Science Behind<br/> Sufi Mysticism",
-    text: "  Learn how Kashmiri Sufi traditions incorporate scientific reasoning, natural laws,<br/> and divine knowledge to explore the mysteries of existence.",
+    subTitle: "Understanding Life’s Sacred Grid",
+    title: "  Foundational Insights <br/>into Creation",
+    text: "The foundational matrices reflect the sacred structure of existence,<br/> guiding seekers to the heart of divine truth.  ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/",
   },
 ];
 const blogTitles = [
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ScienceSlides}/>
+        <Banner slides={MatricesSlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">

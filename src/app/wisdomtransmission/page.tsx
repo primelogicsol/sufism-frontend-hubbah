@@ -10,55 +10,55 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Bridging Environmental Science with Spiritual Wisdom"  },
-  { text: " Exploring Divine Patterns within Natural Systems" },
-  { text: " Developing Ethical & Sustainable Approaches to Ecology"  },
-  { text: " Fostering Awareness of Humanity’s Role in Creation Stewardship" },
+  { text: "Preserving the Integrity of Sacred Knowledge " },
+  { text: "Understanding the  Spiritual Transmission & Activation" },
+  { text: "Bridging Historical Lineages with Modern Seekers" },
+  { text: " Ensuring the Practical Application of Transmitted Wisdom" },
 ];
-const ecologySlides = [
+const wisdomSlides = [
   {
-    subTitle: "Wisdom of the Natural World",
-    title: "Aligning with <br/>Nature’s Harmony",
-    text: "Ecological intelligence reveals the sacred balance<br/> between humanity and nature, promoting spiritual and environmental harmony.  ",
+    subTitle: "Passing the Flame of Truth",
+    title: "Unfolding the <br/>Sacred Teachings",
+    text: "Wisdom transmission connects seekers with ancient teachings,<br/> guiding them toward spiritual awakening.  ",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Ecology Unfolded",
-    title: "Finding Spiritual Truth <br/>in Nature ",
-    text: " Understanding the sacred patterns of nature helps seekers find <br/>harmony, peace, and a deeper connection with creation.  ",
+    subTitle: "Knowledge from the Ancients  ",
+    title: " Receiving the <br/>Gift of Wisdom ",
+    text: "Through wisdom transmission, seekers receive sacred knowledge,<br/> connecting them to timeless truths.   ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Living in Sacred Balance",
-    title: "Nature’s Wisdom and<br/> Spiritual Growth ",
-    text: "Ecological intelligence teaches how to live in harmony with<br/> the earth, guided by spiritual balance and natural rhythms.  ",
+    subTitle: "Sacred Knowledge Unfolded  ",
+    title: "The Flow of <br/>Eternal Truth  ",
+    text: "Wisdom transmission provides seekers with the insight to<br/> align with spiritual truth and divine order.   ",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Nature as a Spiritual Teacher",
-    title: " Learning from the Language<br/> of Nature",
-    text: "Nature’s design mirrors spiritual truths, guiding seekers to live<br/> in harmony with the rhythms of existence.  ",
+    subTitle: "Awakening Through Sacred Teachings ",
+    title: " Receiving the Light<br/> of Wisdom",
+    text: "Through wisdom transmission, seekers connect with the<br/> sacred lineage of spiritual knowledge. ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Awakening Through Nature’s Wisdom ",
-    title: "Sacred Balance of<br/> Life and Spirit ",
-    text: "By aligning with ecological intelligence, seekers unlock the<br/> hidden spiritual codes embedded in the natural world.  ",
+    subTitle: "Spiritual Inheritance Unfolded  ",
+    title: "Receiving the Keys <br/>of Knowledge ",
+    text: " Wisdom transmission helps seekers align with the spiritual truth passed down through sacred traditions. ",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
 ];
 const blogTitles = [
-    "Sacred Ecology",
-    "Divine Balance",
-    "Creation Stewardship",
-    "Natural Communication",
-    "Ecosystem Mapping",
-    "Earth Resonance"
+    "Knowledge Preservation",
+    "Silsila Dynamics",
+    "Lineage Integration",
+    "Prophetic Inheritance",
+    "Sacred Embodiment",
+    "Community Dynamics"
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ecologySlides}/>
+        <Banner slides={wisdomSlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">
@@ -122,16 +122,16 @@ export default function Home() {
                 <div>
                   <div className="text-left ">
                     <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-bold uppercase z-[1]">
-                    Ecological Intelligence
+                    Wisdom Transmission
                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                     </span>
                     
                   </div>
                   <p className="text-gray-700 mt-4">
-                  Ecological Intelligence is the sacred science of living in harmony with creation, integrating spiritual consciousness, environmental ethics, and divine stewardship. Rooted in Sufi cosmology, this framework explores the interconnectedness of nature, humanity, and divine order, guiding seekers toward a holistic and ethical engagement with the natural world.
+                  Wisdom Transmission explores the science of preserving, transferring, and embodying sacred knowledge across time, space, and consciousness. Rooted in Sufi traditions of lineage, silsila (spiritual chain), and prophetic inheritance, this framework examines how divine wisdom is safeguarded, transmitted, and actualized in individuals and communities.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured approach to understanding ecology as a spiritual discipline, offering deep insights into divine patterns within nature, sustainability through sacred balance, and the role of humans as stewards of creation.
+                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study merges historical preservation with metaphysical transmission, offering seekers insights into how wisdom is passed, activated, and lived through sacred tradition.
                   </p>
                 </div>
 

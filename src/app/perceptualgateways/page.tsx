@@ -15,39 +15,39 @@ const featuresData = [
   { text: "Physical Sensory Experience with Spiritual Dimensions" },
   { text: " Enhancing the Understanding of Sufi Mystical Phenomena"},
 ];
-const ScienceSlides = [
+const gatewaysSlides = [
   {
-    subTitle: "Exploring Knowledge, Rooted in Wisdom",
-    title: " Unveiling the Core of<br/> Sufi Science",
-    text: "Discover the fundamental sciences that bridge spirituality and intellect,<br/> forming the foundation of Kashmiri Sufi wisdom and enlightenment.",
+    subTitle: "Doors to Higher Awareness ",
+    title: "Opening the Gates<br/> of Perception ",
+    text: "Perceptual gateways offer seekers access to hidden dimensions of truth,<br/> awareness, and spiritual insight.",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Science, Spirituality, Harmony, Truth, Understanding",
-    title: "The Scientific Foundations of<br/> Sufi Thought",
-    text: "Explore the principles of foundational sciences in Sufism, where reason,<br/> observation, and divine knowledge unite in harmony.",
+    subTitle: "Awakening Through Sacred Portals",
+    title: "Discovering the Path to<br/> Inner Visiont",
+    text: "Perceptual gateways expand awareness, connecting seekers to spiritual<br/> truth and higher dimensions of consciousness.",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Timeless Wisdom, Scientific Exploration, Enlightenment",
-    title: "Connecting Spirituality with<br/> Scientific Inquiry",
-    text: "Unravel the essential sciences that support the philosophical, metaphysical, <br/>and intellectual traditions of Kashmiri Sufism.",
+    subTitle: "Unlocking Inner Sight ",
+    title: "The Path to <br/>Spiritual Perception",
+    text: "Perceptual gateways reveal hidden dimensions of existence, <br/>helping seekers find clarity and deeper understanding.  ",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Knowledge, Scientific Inquiry, Truth",
-    title: " Bridging Science and <br/>Spiritual Wisdom",
-    text: "Foundational sciences in Sufism offer a deeper understanding of nature, consciousness,<br/> and the universe through spiritual and intellectual exploration.",
+    subTitle: "Keys to Mystical Vision",
+    title: "Discovering the Power<br/> of Perception",
+    text: "By unlocking perceptual gateways, seekers expand their spiritual<br/> awareness and connect to higher truths.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Ancient Science, Modern Spiritual Awakening",
-    title: " Discover the Science Behind<br/> Sufi Mysticism",
-    text: "  Learn how Kashmiri Sufi traditions incorporate scientific reasoning, natural laws,<br/> and divine knowledge to explore the mysteries of existence.",
+    subTitle: "Portals to Spiritual Awareness",
+    title: "Opening the Mind’s <br />Hidden Doors",
+    text: " Perceptual gateways allow seekers to transcend physical limitations<br/> and access higher realms of consciousness. ",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ScienceSlides}/>
+        <Banner slides={gatewaysSlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">

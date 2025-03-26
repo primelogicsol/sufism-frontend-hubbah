@@ -10,55 +10,55 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Bridging Environmental Science with Spiritual Wisdom"  },
-  { text: " Exploring Divine Patterns within Natural Systems" },
-  { text: " Developing Ethical & Sustainable Approaches to Ecology"  },
-  { text: " Fostering Awareness of Humanity’s Role in Creation Stewardship" },
+  { text: "Bridging Sufi Aesthetics with Metaphysical Science" },
+  { text: "Understanding the Art in Transmission & Transformation" },
+  { text: "Exploring the Vibrational Effects of Sacred Design" },
+  { text: "Developing Art as a Tool for Divine Connection " },
 ];
-const ecologySlides = [
+const artistrySlides = [
   {
-    subTitle: "Wisdom of the Natural World",
-    title: "Aligning with <br/>Nature’s Harmony",
-    text: "Ecological intelligence reveals the sacred balance<br/> between humanity and nature, promoting spiritual and environmental harmony.  ",
+    subTitle: "Crafting the Divine Expression",
+    title: "Art as a Sacred Path ",
+    text: "Sacred artistry reveals the spiritual power of creative expression,<br/> guiding seekers toward divine truth. ",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Ecology Unfolded",
-    title: "Finding Spiritual Truth <br/>in Nature ",
-    text: " Understanding the sacred patterns of nature helps seekers find <br/>harmony, peace, and a deeper connection with creation.  ",
+    subTitle: "Creativity as Spiritual Devotion ",
+    title: "Expressing the Sacred<br/> Through Art  ",
+    text: " Sacred artistry reflects the divine order, helping seekers align <br/>with higher truth through creativity.   ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Living in Sacred Balance",
-    title: "Nature’s Wisdom and<br/> Spiritual Growth ",
-    text: "Ecological intelligence teaches how to live in harmony with<br/> the earth, guided by spiritual balance and natural rhythms.  ",
+    subTitle: "The Divine in Creative Form  ",
+    title: "Unlocking the Power<br/> of Sacred Art",
+    text: "Sacred artistry provides seekers with a path to<br/> spiritual truth through creative expression.",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Nature as a Spiritual Teacher",
-    title: " Learning from the Language<br/> of Nature",
-    text: "Nature’s design mirrors spiritual truths, guiding seekers to live<br/> in harmony with the rhythms of existence.  ",
+    subTitle: " Spiritual Truth Through Creativity ",
+    title: "Crafting the Divine ",
+    text: "Sacred artistry allows seekers to express spiritual truth and<br/> align with divine creativity.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Awakening Through Nature’s Wisdom ",
-    title: "Sacred Balance of<br/> Life and Spirit ",
-    text: "By aligning with ecological intelligence, seekers unlock the<br/> hidden spiritual codes embedded in the natural world.  ",
+    subTitle: "Creativity as a Sacred Act  ",
+    title: "Discovering the Power <br/>of Art  ",
+    text: " Through sacred artistry, seekers connect with<br/> divine truth and spiritual expression.",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
 ];
 const blogTitles = [
-    "Sacred Ecology",
-    "Divine Balance",
-    "Creation Stewardship",
-    "Natural Communication",
-    "Ecosystem Mapping",
-    "Earth Resonance"
+    "Geometric Harmonics",
+"Illuminated Calligraphy",
+"Movement Practices",
+"Wisdom Poetry",
+"Acoustical Engineering",
+"Symbolic Expression"
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ecologySlides}/>
+        <Banner slides={artistrySlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">
@@ -122,16 +122,16 @@ export default function Home() {
                 <div>
                   <div className="text-left ">
                     <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-bold uppercase z-[1]">
-                    Ecological Intelligence
+                    Sacred Artistry
                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                     </span>
                     
                   </div>
                   <p className="text-gray-700 mt-4">
-                  Ecological Intelligence is the sacred science of living in harmony with creation, integrating spiritual consciousness, environmental ethics, and divine stewardship. Rooted in Sufi cosmology, this framework explores the interconnectedness of nature, humanity, and divine order, guiding seekers toward a holistic and ethical engagement with the natural world.
+                  Sacred Artistry explores the spiritual dimensions of creative expression, where art serves as a vessel for divine harmony, metaphysical insight, and transcendent beauty. Rooted in Sufi aesthetics, geometry, and sound sciences, this framework examines how art becomes a bridge between the seen and unseen, a channel for wisdom, and a medium for spiritual refinement.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured approach to understanding ecology as a spiritual discipline, offering deep insights into divine patterns within nature, sustainability through sacred balance, and the role of humans as stewards of creation.
+                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study merges artistic mastery with sacred intention, offering seekers a structured understanding of how geometry, movement, sound, and symbolic representation convey divine realities.
                   </p>
                 </div>
 

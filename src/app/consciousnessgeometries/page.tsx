@@ -15,39 +15,39 @@ const featuresData = [
   { text: "Exploring Non-Locality, Perception, & Nature of Reality" },
   { text: "Developing Practical Applications for Conscious Evolution" },
 ];
-const ScienceSlides = [
+const geometrySlides = [
   {
-    subTitle: "Exploring Knowledge, Rooted in Wisdom",
-    title: " Unveiling the Core of<br/> Sufi Science",
-    text: "Discover the fundamental sciences that bridge spirituality and intellect,<br/> forming the foundation of Kashmiri Sufi wisdom and enlightenment.",
+    subTitle: "Sacred Shapes of Awareness",
+    title: "Mapping the Geometry of Consciousness",
+    text: "Consciousness geometries reveal the hidden order of mind and <br/>spirit, unlocking deeper dimensions of awareness.  ",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Science, Spirituality, Harmony, Truth, Understanding",
-    title: "The Scientific Foundations of<br/> Sufi Thought",
-    text: "Explore the principles of foundational sciences in Sufism, where reason,<br/> observation, and divine knowledge unite in harmony.",
+    subTitle: "Aligning with Sacred Symmetry",
+    title: "The Hidden Architecture<br/> of Awareness",
+    text: "Through sacred geometry, seekers align their consciousness <br/>with the divine order of existence.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Timeless Wisdom, Scientific Exploration, Enlightenment",
-    title: "Connecting Spirituality with<br/> Scientific Inquiry",
-    text: "Unravel the essential sciences that support the philosophical, metaphysical, <br/>and intellectual traditions of Kashmiri Sufism.",
+    subTitle: "Paths of Geometric Awakening",
+    title: "Understanding the Shape<br/> of Mind",
+    text: "Consciousness geometries help seekers decode the sacred structures behind <br/>thought, awareness, and spiritual awakening.  ",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Knowledge, Scientific Inquiry, Truth",
-    title: " Bridging Science and <br/>Spiritual Wisdom",
-    text: "Foundational sciences in Sufism offer a deeper understanding of nature, consciousness,<br/> and the universe through spiritual and intellectual exploration.",
+    subTitle: "Harmonizing the Mind’s Blueprint",
+    title: "Sacred Geometry of <br/>Consciousness ",
+    text: "By aligning thought with geometric patterns, seekers unlock deeper states<br/> of clarity, insight, and spiritual harmony.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Ancient Science, Modern Spiritual Awakening",
-    title: " Discover the Science Behind<br/> Sufi Mysticism",
-    text: "  Learn how Kashmiri Sufi traditions incorporate scientific reasoning, natural laws,<br/> and divine knowledge to explore the mysteries of existence.",
+    subTitle: "Unfolding the Patterns of Awareness",
+    title: "Sacred Codes of Thought<br/> and Spirit ",
+    text: " Consciousness geometries map the journey toward spiritual awakening,<br/> revealing the hidden patterns of the mind.",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ScienceSlides}/>
+        <Banner slides={geometrySlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">

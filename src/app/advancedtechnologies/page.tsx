@@ -10,55 +10,57 @@ import Banner from "@/components/sections/home3/Banner";
 import Features from "@/components/sections/home3/Features";
 
 const featuresData = [
-  { text: "Bridging Environmental Science with Spiritual Wisdom"  },
-  { text: " Exploring Divine Patterns within Natural Systems" },
-  { text: " Developing Ethical & Sustainable Approaches to Ecology"  },
-  { text: " Fostering Awareness of Humanity’s Role in Creation Stewardship" },
+  { text: "Bridging Sufi Mysticism with Quantum Physics & Energy Science" },
+  { text: "Exploring the Hidden Technologies of Consciousness & Creation" },
+  { text: "Understanding the Mechanics of Energy, Resonance & Light Activation" },
+  { text: "Developing Functional Tools for Self-Realization & Transcendence" },
 ];
-const ecologySlides = [
+const technologySlides = [
   {
-    subTitle: "Wisdom of the Natural World",
-    title: "Aligning with <br/>Nature’s Harmony",
-    text: "Ecological intelligence reveals the sacred balance<br/> between humanity and nature, promoting spiritual and environmental harmony.  ",
+    subTitle: "Merging Spirit with Innovation ",
+    title: " Unlocking the Sacred Power<br/> of Technology",
+    text: "Advanced technologies bridge the gap between spiritual wisdom and modern innovation, <br/>guiding seekers toward enlightenment.",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Ecology Unfolded",
-    title: "Finding Spiritual Truth <br/>in Nature ",
-    text: " Understanding the sacred patterns of nature helps seekers find <br/>harmony, peace, and a deeper connection with creation.  ",
+    subTitle: "Technology as a Path to Awakening ",
+    title: "Harnessing Modern Tools for<br/> Spiritual Growth",
+    text: "Through advanced technologies, seekers gain new insights into ancient<br/> spiritual truths and universal order.",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Living in Sacred Balance",
-    title: "Nature’s Wisdom and<br/> Spiritual Growth ",
-    text: "Ecological intelligence teaches how to live in harmony with<br/> the earth, guided by spiritual balance and natural rhythms.  ",
+    subTitle: "Innovation in Service of Spirit ",
+    title: "Aligning Modern Tools with Spiritual Wisdom ",
+    text: "Advanced technologies provide seekers with the means to explore spiritual truth through modern innovation.",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Nature as a Spiritual Teacher",
-    title: " Learning from the Language<br/> of Nature",
-    text: "Nature’s design mirrors spiritual truths, guiding seekers to live<br/> in harmony with the rhythms of existence.  ",
+    subTitle: "Tech Meets Transcendence ",
+    title: "Modern Solutions for<br/> Eternal Questions",
+    text: "By integrating advanced technologies, seekers uncover deeper<br/> spiritual insights and universal harmony.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Awakening Through Nature’s Wisdom ",
-    title: "Sacred Balance of<br/> Life and Spirit ",
-    text: "By aligning with ecological intelligence, seekers unlock the<br/> hidden spiritual codes embedded in the natural world.  ",
+    subTitle: "Tools for Spiritual Evolution ",
+    title: "Expanding Consciousness<br/> Through Innovation   ",
+    text: "Advanced technologies empower seekers to explore spiritual <br/>dimensions and unlock hidden truths ",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
 ];
 const blogTitles = [
-    "Sacred Ecology",
-    "Divine Balance",
-    "Creation Stewardship",
-    "Natural Communication",
-    "Ecosystem Mapping",
-    "Earth Resonance"
+    "Energy Systems",
+"Luminous Activation",
+"Energy Crystallography",
+"Vibrational Science",
+"Particle Physics",
+"Symmetry Patterning",
+"Barrier Transcendence",
+"Remembrance Science"
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -108,7 +110,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ecologySlides}/>
+        <Banner slides={technologySlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">
@@ -122,16 +124,16 @@ export default function Home() {
                 <div>
                   <div className="text-left ">
                     <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-bold uppercase z-[1]">
-                    Ecological Intelligence
+                    Advanced Technologies
                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                     </span>
                     
                   </div>
                   <p className="text-gray-700 mt-4">
-                  Ecological Intelligence is the sacred science of living in harmony with creation, integrating spiritual consciousness, environmental ethics, and divine stewardship. Rooted in Sufi cosmology, this framework explores the interconnectedness of nature, humanity, and divine order, guiding seekers toward a holistic and ethical engagement with the natural world.
+                  Advanced Technologies explores the frontiers of energy systems, vibrational science, and the deeper physics governing reality, merging Sufi metaphysical insights with cutting-edge scientific thought. This framework investigates the structure of energy, the properties of matter, and the technologies embedded within consciousness and natural law that facilitate activation, resonance, and transformation.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured approach to understanding ecology as a spiritual discipline, offering deep insights into divine patterns within nature, sustainability through sacred balance, and the role of humans as stewards of creation.
+                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study merges classical wisdom with emerging paradigms, offering seekers a functional understanding of luminous energy systems, high-frequency states, and the mechanics of transcending barriers within physical and metaphysical domains.
                   </p>
                 </div>
 

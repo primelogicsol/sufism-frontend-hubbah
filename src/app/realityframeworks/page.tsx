@@ -15,39 +15,39 @@ const featuresData = [
   { text: "The Role of Energy, Information & Consciousness" },
   { text: "Providing a Practical Framework for Higher Awareness" },
 ];
-const ScienceSlides = [
+const realitySlides = [
   {
-    subTitle: "Exploring Knowledge, Rooted in Wisdom",
-    title: " Unveiling the Core of<br/> Sufi Science",
-    text: "Discover the fundamental sciences that bridge spirituality and intellect,<br/> forming the foundation of Kashmiri Sufi wisdom and enlightenment.",
+    subTitle: "Building the Foundations of Truth ",
+    title: "Exploring the Structure<br/> of Reality ",
+    text: "Reality frameworks reveal the hidden design behind existence,<br/> helping seekers align with spiritual order.",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Science, Spirituality, Harmony, Truth, Understanding",
-    title: "The Scientific Foundations of<br/> Sufi Thought",
-    text: "Explore the principles of foundational sciences in Sufism, where reason,<br/> observation, and divine knowledge unite in harmony.",
+    subTitle: "Sacred Frameworks of Existence ",
+    title: "Mapping the Truth of Reality ",
+    text: "Reality frameworks offer seekers a guide to understanding the<br/> hidden structure of the universe and existence.  ",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Timeless Wisdom, Scientific Exploration, Enlightenment",
-    title: "Connecting Spirituality with<br/> Scientific Inquiry",
-    text: "Unravel the essential sciences that support the philosophical, metaphysical, <br/>and intellectual traditions of Kashmiri Sufism.",
+    subTitle: "Unlocking the Codes of Reality ",
+    title: "The Blueprint of<br/> Existence ",
+    text: "By exploring reality frameworks, seekers uncover the hidden laws<br/> guiding existence and spiritual balance.  ",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Knowledge, Scientific Inquiry, Truth",
-    title: " Bridging Science and <br/>Spiritual Wisdom",
-    text: "Foundational sciences in Sufism offer a deeper understanding of nature, consciousness,<br/> and the universe through spiritual and intellectual exploration.",
+    subTitle: "Discovering the Architecture of Being",
+    title: "Reality’s Sacred Blueprint",
+    text: "Reality frameworks provide the map to understanding existence,<br/> guiding seekers to align with cosmic truth.",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Ancient Science, Modern Spiritual Awakening",
-    title: " Discover the Science Behind<br/> Sufi Mysticism",
-    text: "  Learn how Kashmiri Sufi traditions incorporate scientific reasoning, natural laws,<br/> and divine knowledge to explore the mysteries of existence.",
+    subTitle: "Truth in the Structure of Life ",
+    title: "Decoding the <br/>Sacred Framework",
+    text: "Reality frameworks reveal the hidden structure of existence,<br/> allowing seekers to align with divine order.  ",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ScienceSlides}/>
+        <Banner slides={realitySlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">

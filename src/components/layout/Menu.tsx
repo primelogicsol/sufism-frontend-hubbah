@@ -265,7 +265,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/healingmysteries"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Healing Mysteries
@@ -273,7 +273,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/wisdomtransmission"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Wisdom Transmission
@@ -281,7 +281,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/sacredartistry"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Sacred Artistry
@@ -289,7 +289,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/SpiritualTechnologies"
+                href="/advancedtechnologies"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Advanced Technologies

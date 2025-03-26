@@ -15,39 +15,39 @@ const featuresData = [
   { text: "Understanding the Science Behind Virtue & Consciousness" },
   { text: "Developing Actionable Strategies for Living an Aligned, Ethical Life" },
 ];
-const ScienceSlides = [
+const alchemySlides = [
   {
-    subTitle: "Exploring Knowledge, Rooted in Wisdom",
-    title: " Unveiling the Core of<br/> Sufi Science",
-    text: "Discover the fundamental sciences that bridge spirituality and intellect,<br/> forming the foundation of Kashmiri Sufi wisdom and enlightenment.",
+    subTitle: "Refining the Spirit Within",
+    title: "Transforming Through<br/> Inner Alchemy ",
+    text: "Character alchemy helps seekers purify and transform their inner being,<br/> revealing their divine essence.",
     buttonText: "Read More",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Science, Spirituality, Harmony, Truth, Understanding",
-    title: "The Scientific Foundations of<br/> Sufi Thought",
-    text: "Explore the principles of foundational sciences in Sufism, where reason,<br/> observation, and divine knowledge unite in harmony.",
+    subTitle: "Becoming the Higher Self",
+    title: "Spiritual Transformation <br/>Through Alchemy",
+    text: "Character alchemy guides seekers through inner change, <br/>refining the soul and awakening divine potential.",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Timeless Wisdom, Scientific Exploration, Enlightenment",
-    title: "Connecting Spirituality with<br/> Scientific Inquiry",
-    text: "Unravel the essential sciences that support the philosophical, metaphysical, <br/>and intellectual traditions of Kashmiri Sufism.",
+    subTitle: "Purification of the Soul",
+    title: "Unlocking the Power <br/>of Alchemy",
+    text: "By practicing character alchemy, seekers transform their <br/>inner being and awaken to spiritual truth.",
     buttonText: "Join Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Sacred Knowledge, Scientific Inquiry, Truth",
-    title: " Bridging Science and <br/>Spiritual Wisdom",
-    text: "Foundational sciences in Sufism offer a deeper understanding of nature, consciousness,<br/> and the universe through spiritual and intellectual exploration.",
+    subTitle: "Rebirth Through Inner Change",
+    title: "The Sacred Art of <br/>Character Alchemy",
+    text: "Through character alchemy, seekers refine their inner nature,<br/> aligning with higher spiritual truths.",
     buttonText: "Explore Now",
     buttonLink: "/Home",
   },
   {
-    subTitle: "Ancient Science, Modern Spiritual Awakening",
-    title: " Discover the Science Behind<br/> Sufi Mysticism",
-    text: "  Learn how Kashmiri Sufi traditions incorporate scientific reasoning, natural laws,<br/> and divine knowledge to explore the mysteries of existence.",
+    subTitle: "Spiritual Refinement Unveiled ",
+    title: "The Path of<br/> Inner Alchemy  ",
+    text: " Character alchemy helps seekers dissolve the ego and<br/> awaken the hidden divinity within.  ",
     buttonText: "Join Now",
     buttonLink: "/Join",
   },
@@ -108,7 +108,7 @@ export default function Home() {
     <>
       <Layout headerStyle={2} footerStyle={1}>
         {/*Core Services Start*/}
-        <Banner slides={ScienceSlides}/>
+        <Banner slides={alchemySlides}/>
         
 
         <div className="py-16 bg-gray-100 text-left-mobile">
