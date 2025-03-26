@@ -307,54 +307,71 @@ const MobileMenu = ({
                   className="space-y-2 ml-4"
                 >
                   <li>
-                    <Link
-                      href="/foundationalmatrices"
-                      className="text-white text-sm font-medium"
-                    >
+                    <Link href="/foundationalmatrices" className="text-white text-sm font-medium">
                       Foundational Matrices
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/Mind&Consciousness"
-                      className="text-white text-sm font-medium"
-                    >
-                      Mind & Conciousness
+                    <Link href="/ecologicalIntelligence" className="text-white text-sm font-medium">
+                      Ecological Intelligence
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/Nature&Environment"
-                      className="text-white text-sm font-medium"
-                    >
-                      Nature & Environment
+                    <Link href="/consciousnessgeometries" className="text-white text-sm font-medium">
+                      Consciousness Geometries
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/Philosophy&Ethics"
-                      className="text-white text-sm font-medium"
-                    >
-                      Philosophy & Ethics
+                    <Link href="/perceptualgateways" className="text-white text-sm font-medium">
+                      Perceptual Gateways
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/HumanSciences"
-                      className="text-white text-sm font-medium"
-                    >
-                      Human Sciences
+                    <Link href="/realityframeworks" className="text-white text-sm font-medium">
+                      Reality Frameworks
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/SpiritualTechnologies"
-                      className="text-white text-sm font-medium"
-                    >
-                      Spiritual Technologies
+                    <Link href="/cosmicharmonics" className="text-white text-sm font-medium">
+                      Cosmic Harmonics
                     </Link>
                   </li>
-                </ul>
+                  <li>
+                    <Link href="/energeticarchitectures" className="text-white text-sm font-medium">
+                      Energetic Architectures
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/characteralchemy" className="text-white text-sm font-medium">
+                      Character Alchemy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/unitysciences" className="text-white text-sm font-medium">
+                      Unity Sciences
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/healingmysteries" className="text-white text-sm font-medium">
+                      Healing Mysteries
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/wisdomtransmission" className="text-white text-sm font-medium">
+                      Wisdom Transmission
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/sacredartistry" className="text-white text-sm font-medium">
+                      Sacred Artistry
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/advancedtechnologies" className="text-white text-sm font-medium">
+                      Advanced Technologies
+                ```    </Link>
+                  </li>
+                ````</ul>
                 <button
                   className={`absolute right-2 top-1 mt-2 transform -translate-y-1/2 text-white transition-transform duration-300 ${
                     isActive.key === "4" ? "rotate-90" : ""

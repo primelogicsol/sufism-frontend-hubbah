@@ -217,63 +217,120 @@ export default function StickyHeader() {
 
           {/* Programs & Events Dropdown */}
           <li className="relative group">
-            <Link
-              href="#"
-              className="text-white text-[15px] lg:text-[10px] xl:text-[15px] 2xl:text-[18px] font-bold hover:text-fixnix-darkpurple"
-            >
-              SUFI SCIENCE EXPLORER
-            </Link>
-            <ul className="bg-white absolute z-50 mt-0 pt-4 px-2 w-72 rounded-b-md max-h-[500px] hidden group-hover:block">
-              <li className="mb-2">
-                <Link
-                  href="/foundationalmatrices"
-                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
-                >
-                  Foundational Matrices
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/Mind&Consciousness"
-                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
-                >
-                  Mind & Consciousness
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/Nature&Environment"
-                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
-                >
-                  Nature & Environment
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/Philosophy&Ethics"
-                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
-                >
-                  Philosophy & Ethics
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/HumanSciences"
-                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
-                >
-                  Human Sciences
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/SpiritualTechnologies"
-                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
-                >
-                  Spiritual Technologies
-                </Link>
-              </li>
-            </ul>
-          </li>
+  <Link
+    href="#"
+    className="text-white text-[15px] lg:text-[10px] xl:text-[15px] 2xl:text-[18px] font-bold hover:text-fixnix-darkpurple"
+  >
+    SUFI SCIENCE EXPLORER
+  </Link>
+  <ul className="bg-white absolute z-50 mt-0 pt-4 px-2 w-72 rounded-b-md max-h-[500px] hidden group-hover:block">
+    <li className="mb-2">
+      <Link
+        href="/foundationalmatrices"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Foundational Matrices
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/ecologicalIntelligence"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Ecological Intelligence
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/consciousnessgeometries"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Consciousness Geometries
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/perceptualgateways"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Perceptual Gateways
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/realityframeworks"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Reality Frameworks
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/cosmicharmonics"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Cosmic Harmonics
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/energeticarchitectures"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Energetic Architectures
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/characteralchemy"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Character Alchemy
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/unitysciences"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Unity Sciences
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/healingmysteries"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Healing Mysteries
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/wisdomtransmission"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Wisdom Transmission
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/sacredartistry"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Sacred Artistry
+      </Link>
+    </li>
+    <li className="mb-2">
+      <Link
+        href="/advancedtechnologies"
+        className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+      >
+        Advanced Technologies
+      </Link>
+    </li>
+  </ul>
+</li>
+
 
           {/* Knowledge Hub Dropdown */}
           <li className="relative group">
