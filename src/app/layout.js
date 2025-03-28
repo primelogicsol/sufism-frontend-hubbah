@@ -8,7 +8,7 @@ import { saira, nunitoSans } from "../lib/font"; // Relative path
 
 export const metadata = {
   title: "SSC-Kashmir Chapter",
-  description: "Electronics & Gadgets Repair Next Js",
+  
 };
 
 export default function RootLayout({ children }) {

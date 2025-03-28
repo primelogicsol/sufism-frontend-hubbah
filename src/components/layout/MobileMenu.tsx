@@ -540,7 +540,7 @@ const MobileMenu = ({
                   </li>
                   <li>
                     <Link
-                      href="/collaborations"
+                      href="/collaboration"
                       className="text-white text-sm font-medium"
                     >
                       Collaborations
