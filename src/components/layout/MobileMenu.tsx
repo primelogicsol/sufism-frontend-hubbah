@@ -560,7 +560,7 @@ const MobileMenu = ({
               {/* Additional menu items... */}
               <li>
                 <Link
-                  href="/Contact"
+                  href="/membership"
                   className="text-red-600 text-lg font-bold"
                 >
                   GET MEMBERSHIP
@@ -568,38 +568,35 @@ const MobileMenu = ({
               </li>
             </ul>
           </div>
-          <div className="flex  py-2 px-4 rounded-lg text-sm font-bold transition-all duration-300  text-fixnix-darkpurple  space-x-2">
-    <i className="fa fa-user-circle  text-white bg-lightpurple p-2 rounded-full mr-2"></i>
-    <Link
-      href="/login"
-      className="hover:underline text-fixnix-white hover:text-fixnix-white"
-    >
+          
+
+         {/* Contact */}
+<ul className="mobile-nav__contact list-unstyled space-y-3">
+<li className="flex items-center text-sm text-dark">
+    <i className="fa fa-user-circle text-white bg-lightpurple p-2 rounded-full mr-2"></i>
+    <Link href="/login" className="text-white">
       Login
     </Link>
-    <span>/</span>
-    <Link
-      href="/Register"
-      className="hover:underline text-fixnix-darkpurple hover:text-fixnix-white"
-    >
+    <span className="mx-2 text-white">/</span>
+    <Link href="/Register" className="text-white">
       Register
     </Link>
-  </div>
+  </li>
+  <li className="flex items-center text-sm text-dark">
+    <i className="fa fa-envelope text-white bg-lightpurple p-2 rounded-full mr-2"></i>
+    <Link href="mailto:needhelp@elitecons.com" className="text-white">
+      needhelp@elitecons.com
+    </Link>
+  </li>
+  <li className="flex items-center text-sm text-dark">
+    <i className="fa fa-phone-alt text-white bg-lightpurple p-2 rounded-full mr-2"></i>
+    <Link href="tel:666-888-0000" className="text-white">
+      666 888 0000
+    </Link>
+  </li>
+  
+</ul>
 
-          {/* Contact */}
-          <ul className="mobile-nav__contact list-unstyled space-y-3">
-            <li className="flex items-center text-sm text-dark">
-              <i className="fa fa-envelope text-white bg-lightpurple p-2 rounded-full mr-2"></i>
-              <Link href="mailto:needhelp@elitecons.com" className="text-white">
-                needhelp@elitecons.com
-              </Link>
-            </li>
-            <li className="flex items-center text-sm text-dark">
-              <i className="fa fa-phone-alt text-white bg-lightpurple p-2 rounded-full mr-2"></i>
-              <Link href="tel:666-888-0000" className="text-white">
-                666 888 0000
-              </Link>
-            </li>
-          </ul>
 
           {/* Social Media */}
           <div className="mobile-nav__social flex items-center space-x-4">

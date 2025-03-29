@@ -25,9 +25,10 @@ export default function About() {
                 >
                   <img src="assets/images/resources/about-1-1.jpg" alt="" />
                   <div className="about-one__our-goal">
-                    <p className="about-one__our-goal-sub-title">Our goal:</p>
+                    <p className="about-one__our-goal-sub-title">Our goal :</p>
                     <h3 className="about-one__our-goal-title">
-                      "We will fix it, till we make it"
+                    “Grow your mind. Fuel your soul.
+                    Let the light find you.”
                     </h3>
                   </div>
                 </div>
@@ -37,17 +38,22 @@ export default function About() {
               <div className="about-one__right">
                 <div className="section-title text-left">
                   <span className="section-title__tagline">
-                    OUR INTRODUCTION
+                  The Next Generation Sufi Way Forward
                   </span>
-                  <h2 className="section-title__title">
-                    Welcome To Smartphone & Laptop Repair Service Center
-                  </h2>
+                  <h2 className="font-bold mt-3 text-3xl text-fixnix-darkpurple">
+                  Welcome to the Sufi Science Centre</h2>
+                  <h2 className="font-semibold text-2xl text-fixnix-darkpurple"> A Harmony of Knowledge and Inner Peace</h2> 
+                 
+                  
                 </div>
                 <p className="about-one__right-text-1">
-                  Duis aute irure dolor in repreh enderit in volup tate velit
-                  esse cillum dolore eu fugiat nulla dolor atur with Lorem ipsum
-                  is simply free text market web bites eius mod ut labore duis
-                  aute irure pari
+                Step into a world where Kashmiri Sufi wisdom meets the pulse of modern discovery.
+                      Here, your mind expands, your soul deepens, and your journey begins.
+
+                      Whether you're seeking truth, exploring purpose, or simply curious,
+                      this is your space to grow, reflect, and awaken.
+
+                      We blend timeless mysticism, conscious learning, and sacred science to inspire a new way forward, one that’s rooted in unity, upliftment, and inner transformation.
                 </p>
                 <ul className="about-one__points list-unstyled">
                   <li>
@@ -57,10 +63,10 @@ export default function About() {
                       </div>
                       <div className="about-one__points-text">
                         <h3 className="about-one__points-title">
-                          <Link href="#">Repair Device</Link>
+                          <Link href="/beginyourjourney">Begin Your Journey</Link>
                         </h3>
                         <p className="about-one__points-subtitle">
-                          Lorem ipsum dolor sit amet at labore consectetur
+                        Start exploring your inner and outer path
                         </p>
                       </div>
                     </div>
@@ -72,14 +78,32 @@ export default function About() {
                       </div>
                       <div className="about-one__points-text">
                         <h3 className="about-one__points-title">
-                          <Link href="#">Replace Device</Link>
+                          <Link href="/">Explore Sacred Knowledge</Link>
                         </h3>
                         <p className="about-one__points-subtitle">
-                          Lorem ipsum dolor sit amet at labore consectetur
+                        Dive into teachings, science & soulwork
                         </p>
                       </div>
                     </div>
+                    
                   </li>
+                  <li>
+                    <div className="about-one__points-single">
+                      <div className="about-one__points-icon">
+                        <span className="icon-phone"></span>
+                      </div>
+                      <div className="about-one__points-text">
+                        <h3 className="about-one__points-title">
+                          <Link href="/"> Join the Movement</Link>
+                        </h3>
+                        <p className="about-one__points-subtitle">
+                        Be part of a conscious, global community
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </li>
+
                 </ul>
                 <Link href="/Contact" className="thm-btn">
                   Contact Us

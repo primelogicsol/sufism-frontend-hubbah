@@ -162,8 +162,8 @@ export default function Footer1() {
           <div className="container">
             <div className="site-footer__bottom-inner">
               <p className="site-footer__bottom-text">
-                © 2024 Copyright by{" "}
-                <Link href="https://themeforest.net/user/thememx">Thememx</Link>
+                © 2025 Copyright by{" "}
+                <Link href="">The Sufi Science Centre</Link>
               </p>
             </div>
           </div>
