@@ -4223,7 +4223,7 @@ ul {
   width: 0px;
   height: 30px;
   border-radius: 0;
-  background-color: var(--fixnix-lightpuple);
+  background-color: var(--fixnix-lightpurple);
   -webkit-transition: all 1500ms ease;
   transition: all 1500ms ease;
 }
@@ -4232,7 +4232,7 @@ ul {
   position: absolute;
   right: 15px;
   bottom: 1px;
-  color: var(--fixnix-white);
+  color: var(--fixnix-lightpurple);
   line-height: 24px;
   font-size: 14px;
   text-align: center;

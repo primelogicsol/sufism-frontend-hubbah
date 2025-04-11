@@ -105,9 +105,7 @@ export default function About() {
                   </li>
 
                 </ul>
-                <Link href="/Contact" className="thm-btn">
-                  Contact Us
-                </Link>
+                
               </div>
             </div>
           </div>

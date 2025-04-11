@@ -21,7 +21,7 @@ export default function Welcome() {
               <div className="welcome-one__left">
                 <div className="section-title text-left">
                   <span className="section-title__tagline">Welcome To</span>
-                  <h2 className="section-title__title">Our Repair Pro</h2>
+                  <h2 className="section-title__title">Your Journey</h2>
                 </div>
                 <p className="welcome-one__text-1">
                   If you are going to use a passage of Lorem Ipsum, you need to
@@ -39,7 +39,7 @@ export default function Welcome() {
                     Contact Us
                   </Link>
                   <Link href="/About" className="welcome-one__btn-2 thm-btn">
-                    Explore More
+                   Explore Growth & Development
                   </Link>
                 </div>
               </div>

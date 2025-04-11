@@ -189,11 +189,11 @@ const MobileMenu = ({
                   </li>
                   <li>
                     <Link
-                      href="/understandingkashmirisufism"
+                      href="/exploringkashmirisufism"
                       className="text-white text-sm font-medium"
                       onClick={handleMobileMenu}
                     >
-                      Understanding Kashmiri Sufism
+                      Exploring Kashmiri Sufism
                     </Link>
                   </li>
                   <li>

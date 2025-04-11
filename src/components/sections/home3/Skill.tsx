@@ -14,7 +14,7 @@ export default function Skill() {
               <div className="skill-one__left">
                 <div className="section-title text-left">
                   <span className="section-title__tagline">
-                    Our Skills & Expertise
+                    Core Learning Paths
                   </span>
                   <h2 className="section-title__title">
                     We Specialize In Quick &
@@ -32,6 +32,9 @@ export default function Skill() {
                   words which don't look even slightly believable.
                 </p>
                 <div className="skill-one__progress">
+                  
+                  
+              
                   <div className="skill-one__progress-single">
                     <div className="bar">
                       <div className="bar-inner count-bar" data-percent="84%">

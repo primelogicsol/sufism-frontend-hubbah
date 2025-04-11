@@ -106,10 +106,10 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/understandingkashmirisufism"
+                href="/exploringkashmirisufism"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
-                Understanding Kashmiri Sufism
+                Exploring Kashmiri Sufism
               </Link>
             </li>
             <li className="mb-2">

@@ -7,10 +7,7 @@ export default function Funfacts() {
       <section className="counter-one">
         <div
           className="counter-one__bg jarallax"
-          style={{
-            backgroundImage:
-              "url(assets/images/backgrounds/counter-one-bg.jpg)",
-          }}
+          
         ></div>
         <div className="container">
           <div className="row">

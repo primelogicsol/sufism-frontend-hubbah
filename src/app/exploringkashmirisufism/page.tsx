@@ -85,7 +85,7 @@ export default function Home() {
                                         <div className="relative">
                                           <div className="text-left mb-8">
                                             <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-semibold uppercase z-[1]">
-                                            Understanding Kashmiri Sufism
+                                            Exploring Kashmiri Sufism
                                               <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                                             </span>
                                             <h2 className="text-4xl sm:text-3xl md:text-2xl font-semibold mt-4 mb-2 leading-snug sm:leading-tight">

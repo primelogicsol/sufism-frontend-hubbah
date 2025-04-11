@@ -38,11 +38,11 @@ export default function Services() {
               link2Text: "Our Work & Practices"
             },
             { 
-              title: "Understanding Sufism & Leadership", 
+              title: "Sufism & Leadership", 
               href: "/ourfounder", 
               desc: "Explore the philosophy of Kashmiri Sufism and meet the visionary behind the movement.",
-              link1: "/understandingkashmirisufism",
-              link1Text: "Understanding Kashmiri Sufism",
+              link1: "/exploringkashmirisufism",
+              link1Text: "Exploring Kashmiri Sufism",
               link2: "/ourfounder",
               link2Text: "Our Founder"
             }
