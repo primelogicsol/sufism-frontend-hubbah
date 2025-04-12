@@ -129,7 +129,7 @@ export default function Footer1() {
                       <Link href="/collaboration">Social Initiatives</Link>
                     </li>
                     <li>
-                      <Link href="/collaboration">Community Empowerment</Link>
+                      <Link href="/collaboration">Local Empowerment</Link>
                     </li>
                   </ul>
                 </div>
