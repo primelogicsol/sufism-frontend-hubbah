@@ -13,7 +13,7 @@ export default function Blog() {
         ></div>
         <div className="container">
           <div className="section-title section-title--two text-center">
-            <span className="section-title__tagline">From Our Blog</span>
+            <span className="section-title__tagline">DIGITAL ACADEMY</span>
             <h2 className="section-title__title">News And Articles</h2>
             <p className="section-title__text">
               Duis aute irure dolor in repreh enderit in volup tate velit esse

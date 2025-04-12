@@ -40,6 +40,8 @@ const LegacySlides = [
     buttonLink: "/Join",
   },
 ];
+
+
 export default function Home() {
   return (
     <>
@@ -106,7 +108,64 @@ export default function Home() {
                           </div>
                         </div>
                       </section>
-                      <section className="relative block py-[120px] pb-[10px]">
+                      <div className="bg-gray-100 text-gray-800 py-20 px-4 sm:px-6 lg:px-8">
+                <div className="max-w-5xl mx-auto">
+                  <h1 className="text-3xl sm:text-4xl font-bold text-center my-8">
+                    Kashmiri Sufi Saints: A Spiritual Journey
+                  </h1>
+
+                  {/* Filters */}
+                  <div className="flex flex-col md:flex-row md:items-center  md:justify-between gap-4 mb-8">
+                    <input
+                      type="text"
+                      placeholder="Search saints..."
+                      className="w-full md:w-1/3 px-4 py-2 border rounded-lg shadow-sm focus:outline-none"
+                    />
+                    <select className="w-full md:w-1/4 px-4 py-2 border rounded-lg shadow-sm">
+                      <option>14th Century</option>
+                    </select>
+                    <select className="w-full md:w-1/4 px-4 py-2 border rounded-lg shadow-sm">
+                      <option>All Themes</option>
+                    </select>
+                    <button className="w-full md:w-auto px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
+                      Reset
+                    </button>
+                  </div>
+
+                  {/* Cards */}
+                  <div className="space-y-6">
+                    {/* Lal Ded */}
+                    <div className="bg-white rounded-lg shadow-md p-6">
+                      <h2 className="text-xl font-semibold">Lal Ded</h2>
+                      <p className="text-sm text-gray-600 mb-2">c. 1320–1392 | Formative Period</p>
+                      <p className="mb-4">
+                        Female mystic poet whose "Vakhs" established foundational principles for Kashmiri Sufism,
+                        bridging Hindu Shaivite traditions with Islamic mysticism.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="bg-fixnix-lightpurple text-gray-100 text-xs font-medium px-2 py-1 rounded-full">Mysticism</span>
+                        <span className="bg-fixnix-lightpurple text-gray-100 text-xs font-medium px-2 py-1 rounded-full">Poetry</span>
+                        <span className="bg-fixnix-lightpurple text-gray-100 text-xs font-medium px-2 py-1 rounded-full">Cross-Traditional Spirituality</span>
+                      </div>
+                    </div>
+
+                    {/* Mir Sayyid Ali Hamadani */}
+                    <div className="bg-white rounded-lg shadow-md p-6">
+                      <h2 className="text-xl font-semibold">Mir Sayyid Ali Hamadani</h2>
+                      <p className="text-sm text-gray-600 mb-2">1314–1384 | Formative Period</p>
+                      <p className="mb-4">
+                        Persian Sufi master known as "Shah-e-Hamadan" who introduced formal Kubrawi Sufi practices
+                        to Kashmir and established an extensive network of khanqahs.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="bg-fixnix-lightpurple text-gray-100 text-xs font-medium px-2 py-1 rounded-full">Institutional Development</span>
+                        <span className="bg-fixnix-lightpurple text-gray-100 text-xs font-medium px-2 py-1 rounded-full">Spiritual Transmission</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+   <section className="relative block py-[120px] pb-[10px]">
           <div className="container mx-auto px-4">
             <div className="relative block mb-[52px]">
               <div className="flex items-center">

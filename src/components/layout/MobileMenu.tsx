@@ -312,7 +312,7 @@ const MobileMenu = ({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/ecologicalIntelligence" className="text-white text-sm font-medium">
+                    <Link href="/ecologicalintelligence" className="text-white text-sm font-medium">
                       Ecological Intelligence
                     </Link>
                   </li>

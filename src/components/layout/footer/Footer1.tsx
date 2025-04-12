@@ -72,7 +72,7 @@ export default function Footer1() {
                       <Link href="">Sufi Science Explorer</Link>
                     </li>
                     <li>
-                      <Link href="">Learning Center</Link>
+                      <Link href="">Digital Academy</Link>
                     </li>
                     <li>
                       <Link href="">Sacred Gift Shop</Link>
@@ -81,80 +81,60 @@ export default function Footer1() {
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
+                className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                data-wow-delay="200ms"
               >
-                <div className="footer-widget__column footer-widget__services">
+                <div className="footer-widget__column footer-widget__links">
                   <div className="footer-widget__title-box">
                     <h3 className="footer-widget__title">Our Services</h3>
                   </div>
-                  <ul className="footer-widget__services-list list-unstyled">
+                  <ul className="footer-widget__Explore-list list-unstyled">
                     <li>
-                      <Link href="services-details">Smartphone Repair</Link>
+                      <Link href="/waystogive">Donate to SSC</Link>
                     </li>
                     <li>
-                      <Link href="services-details">Laptop Repair</Link>
+                      <Link href="/waystogive">Sponsor Sufi Scholar</Link>
                     </li>
                     <li>
-                      <Link href="services-details">Desktop Repair</Link>
+                      <Link href="/waystogive">Preserve Sufi Art</Link>
                     </li>
                     <li>
-                      <Link href="services-details">Tablet Repair</Link>
+                      <Link href="/waystogive">Sponsor Events</Link>
                     </li>
                     <li>
-                      <Link href="services-details">Smart Watch Repair</Link>
+                      <Link href="/volunteerwithus">Outreach & Engage </Link>
                     </li>
                   </ul>
                 </div>
               </div>
               <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
+                className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                data-wow-delay="200ms"
               >
-                <div className="footer-widget__column footer-widget__Contact">
+                <div className="footer-widget__column footer-widget__links">
                   <div className="footer-widget__title-box">
-                    <h3 className="footer-widget__title">Contact Us</h3>
+                    <h3 className="footer-widget__title">Our Services</h3>
                   </div>
-                  <ul className="footer-widget__Contact-list list-unstyled">
+                  <ul className="footer-widget__Explore-list list-unstyled">
                     <li>
-                      <div className="icon">
-                        <span className="fas fa-map"></span>
-                      </div>
-                      <div className="text">
-                        <p>
-                          32 Main Street, Miami, <br /> Florida 19091, FL
-                        </p>
-                      </div>
+                      <Link href="/volunteerwithus">Create Sacred Art</Link>
                     </li>
                     <li>
-                      <div className="icon">
-                        <span className="fas fa-headphones"></span>
-                      </div>
-                      <div className="text">
-                        <p>
-                          <Link href="tel:6668880000">666 888 0000</Link>
-                          <Link href="tel:4448880000">444 888 0000</Link>
-                        </p>
-                      </div>
+                      <Link href="/collaboration">Learning Partners</Link>
                     </li>
                     <li>
-                      <div className="icon">
-                        <span className="fas fa-envelope"></span>
-                      </div>
-                      <div className="text">
-                        <p>
-                          <Link href="mailto:needhelp@company.com">
-                            needhelp@company.com
-                          </Link>
-                          <Link href="mailto:company@gmail.com">
-                            company@gmail.com
-                          </Link>
-                        </p>
-                      </div>
+                      <Link href="/collaboration">Spiritual Retreats</Link>
+                    </li>
+                    <li>
+                      <Link href="/collaboration">Social Initiatives</Link>
+                    </li>
+                    <li>
+                      <Link href="/collaboration">Community Empowerment</Link>
                     </li>
                   </ul>
                 </div>
               </div>
+             
             </div>
           </div>
         </div>
