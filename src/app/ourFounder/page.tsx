@@ -68,7 +68,7 @@ export default function Home() {
                                 <div className="relative">
                                   <div className="rounded-lg overflow-hidden relative group">
                                     <Image
-                                      src="/assets/images/services/work.png"
+                                      src="/assets/images/services/Dr_kumar_sahib.png"
                                       alt="Core services"
                                       layout="responsive"
                                       width={500}
@@ -228,7 +228,7 @@ export default function Home() {
                         <div className="relative">
                           <div className="rounded-lg overflow-hidden relative group">
                             <Image
-                              src="/assets/images/services/traditions.png"
+                              src="/assets/images/services/bargah.png"
                               alt="Core services"
                               layout="responsive"
                               width={500}
@@ -258,7 +258,7 @@ export default function Home() {
                             In the spirit of Sufi Khidmat (selfless service), his devotees have established:
                             </h2>
                           </div>
-                          <ul className="space-y-5 sm:space-y-6 lg:space-y-9">
+                          <ul className="space-y-5 sm:space-y-6 lg:space-y-7">
                             {/* List Item 1 */}
                             <li className="relative flex items-center p-2 py-6 md:py-8 bg-fixnix-lightpurple hover:-translate-y-[10px] group rounded-lg shadow-md  transition-all duration-500">
                               
@@ -296,6 +296,13 @@ export default function Home() {
                               </div>
                             </li>
                           </ul>
+                          <p className="font-bold text-xl -mb-7 mt-2 text-fixnix-darkpurple">
+  <i className="fas fa-map-marked-alt mr-2 text-fixnix-darkpurple text-2xl"></i>
+  Find us on the map: 
+  <a href="https://maps.app.goo.gl/Z7WtC8dtsGrcLBmn8" target="_blank" className="text-blue-600 hover:underline"> View Map</a>
+</p>
+
+
                           
                         </div>
                       </div>
@@ -317,7 +324,7 @@ export default function Home() {
 
             {/* Section Text */}
             <p className="pt-[15px] sm:pt-[20px] text-gray-600 text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[26px] md:leading-[30px]">
-            The new educated generation of Kashmir often struggles to understand the ancient language of Sufism, which has traditionally been expressed through Kashmiri Chakir music and mystic poetry.<br/>However, Dr. Kumar’s teachings serve as a bridge between the old and the new. Unlike many before him, his spiritual communication integrates scientific reasoning and tele codes, making the timeless truths of Sufism accessible to today's seekers.
+            The new educated generation of Kashmir often struggles to understand the ancient language of Sufism, which has traditionally been expressed through Kashmiri Chakir music and mystic poetry. However, Dr. Kumar’s teachings serve as a bridge between the old and the new. Unlike many before him, his spiritual communication integrates scientific reasoning and tele codes, making the timeless truths of Sufism accessible to today's seekers.
             </p>
             <h2 className="mt-[10px] sm:mt-[14px] text-fixnix-darkpurple text-[20px] sm:text-[32px] md:text-[35px] leading-[32px] sm:leading-[40px] md:leading-[52px] font-semibold">
             His words are not just poetry, they are lightning bolts of spiritual awakening, guiding young souls toward self-discovery and divine love.

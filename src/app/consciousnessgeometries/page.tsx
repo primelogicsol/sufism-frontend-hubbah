@@ -117,7 +117,7 @@ export default function Home() {
         
           <section className="relative  bg-cover bg-center">
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-56 mb-11 items-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-48 mb-11 items-center">
                 {/* Left Column */}
                 <div>
                   <div className="text-left ">
