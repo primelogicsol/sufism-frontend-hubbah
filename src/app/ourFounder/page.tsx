@@ -243,22 +243,22 @@ export default function Home() {
                       {/* Right Section */}
                       <div className="w-full lg:w-7/12 xl:w-1/2 py-8 lg:py-5 lg:pl-12 xl:pl-24">
                         <div className="relative">
-                          <div className="text-left mb-8">
+                          <div className="text-left mb-4">
                             <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-semibold uppercase z-[1]">
                             Banday Bagh  
                               <span className="absolute top-[10px] left-[-50px] w-[40px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                             </span>
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mt-3 mb-3 leading-snug sm:leading-tight">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mt-3 mb-1 leading-snug sm:leading-tight">
                             The Spiritual Station
                             </h2>
                             <p className="text-base sm:text-lg text-gray-700">
                             In the valley of Serch Banday Bagh, Ganderbal, where the whispers of the saints still echo through the winds and trees, Dr. Kumar’s spiritual *maqam* (station) stands as a lighthouse for seekers. Hundreds come seeking, searching, yearning for peace, wisdom, and divine guidance and none leave empty-handed.
                             </p>
-                            <h2 className="text-xl sm:text-xl md:text-xl font-semibold mt-4 -mb-6  leading-snug sm:leading-tight">
+                            <h2 className="text-xl sm:text-xl md:text-xl font-semibold mt-2 -mb-4  leading-snug sm:leading-tight">
                             In the spirit of Sufi Khidmat (selfless service), his devotees have established:
                             </h2>
                           </div>
-                          <ul className="space-y-5 sm:space-y-6 lg:space-y-7">
+                          <ul className="space-y-5 sm:space-y-6 lg:space-y-4">
                             {/* List Item 1 */}
                             <li className="relative flex items-center p-2 py-6 md:py-8 bg-fixnix-lightpurple hover:-translate-y-[10px] group rounded-lg shadow-md  transition-all duration-500">
                               
@@ -296,11 +296,28 @@ export default function Home() {
                               </div>
                             </li>
                           </ul>
-                          <p className="font-bold text-xl -mb-7 mt-2 text-fixnix-darkpurple">
-  <i className="fas fa-map-marked-alt mr-2 text-fixnix-darkpurple text-2xl"></i>
-  Find us on the map: 
-  <a href="https://maps.app.goo.gl/Z7WtC8dtsGrcLBmn8" target="_blank" className="text-blue-600 hover:underline"> View Map</a>
-</p>
+                          <p className="font-bold text-xl  text-fixnix-darkpurple">
+                          Let your heart lead the way, discover light, silence, saint. 
+                           
+                      
+                          </p>
+                          <div className="flex items-center space-x-4 -mt-2 -mb-12">
+                          <p className="font-semibold text-fixnix-darkpurple">
+                            Get Spiritual Direction
+                          </p>
+                          <a 
+                            href="https://maps.app.goo.gl/Z7WtC8dtsGrcLBmn8" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                          >
+                            <img 
+                              src="/assets/images/services/location.png" 
+                              alt="Our Location" 
+                              className="w-50 h-50 hover:opacity-90 transition"
+                            />
+                          </a>
+                        </div>
+
 
 
                           
