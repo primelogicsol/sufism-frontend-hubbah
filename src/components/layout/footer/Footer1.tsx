@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {/* First Column - About SSC */}
               <div className="wow fadeInUp" data-wow-delay="100ms">
-                <div className="relative block mr-0 lg:mr-12 xl:mr-20 mt-3">
+                <div className="relative block mr-0 lg:mr-12 xl:mr-20 mt-4">
                   <div className="relative block">
                     <Link href="#">
                       <img src="assets/images/resources/logo-4.png" alt="Sufi Science Centre Logo" className="max-w-full h-auto" />
