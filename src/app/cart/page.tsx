@@ -103,7 +103,7 @@ export default function Home() {
                   Update
                 </Link>
                 <Link
-                  href="/check-out"
+                  href="/checkout"
                   className="px-6 py-3 text-white bg-fixnix-lightpurple hover:bg-fixnix-darkpurple"
                 >
                   Checkout

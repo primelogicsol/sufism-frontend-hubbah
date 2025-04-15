@@ -1,150 +1,259 @@
 import Link from "next/link";
 
-export default function Footer1() {
+export default function Footer() {
   return (
     <>
       {/*Site Footer Start*/}
-      <footer className="site-footer">
+      <footer className="relative block bg-[var(--fixnix-darkpurple)] overflow-hidden z-10">
         <div
-          className="site-footer-shape-1 float-bob-y"
+          className="absolute top-0 left-1/2 w-full max-w-[1323px] h-[586px] transform -translate-x-1/2 -z-10 float-bob-y"
           style={{
             backgroundImage:
               "url(assets/images/shapes/site-footer-shape-1.png)",
           }}
         ></div>
-        <div className="site-footer__top">
-          <div className="container">
-            <div className="row">
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="100ms"
-              >
-                <div className="footer-widget__column footer-widget__about">
-                  <div className="footer-widget__logo">
+        <div className="relative block py-16 md:py-20 lg:py-28">
+          <div className="container px-4 md:px-6 mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {/* First Column - About SSC */}
+              <div className="wow fadeInUp" data-wow-delay="100ms">
+                <div className="relative block mr-0 lg:mr-12 xl:mr-20 mt-3">
+                  <div className="relative block">
                     <Link href="#">
-                      <img src="assets/images/resources/logo-4.png" alt="" />
+                      <img src="assets/images/resources/logo-4.png" alt="Sufi Science Centre Logo" className="max-w-full h-auto" />
                     </Link>
                   </div>
-                  <div className="footer-widget__about-text-box">
-                    <p className="footer-widget__about-text">
-                      Connects Sufi traditions with modern science, inspiring
-                      the next generation of spiritual and scientific
-                      exploration.
+                  <div className="relative block pt-8 md:pt-10 lg:pt-8 pb-4">
+                    
+                    <p className="text-base text-[var(--fixnix-white)]">
+                    A sanctuary of mystical wisdom and sacred science, the Sufi Science Centre bridges Kashmir’s spiritual legacy with evolving human consciousness,  nurturing seekers through devotion, inner transformation, and universal discovery. A U.S.-based initiative, it is a heartfelt gift to the Kashmir Sufi movement.
                     </p>
                   </div>
-                  <div className="footer-widget__social-box">
-                    <h4 className="footer-widget__social-title">
-                      Stay Connected
+                  <div className="relative block">
+                    <h4 className="text-lg text-[var(--fixnix-white)] font-semibold leading-7 mb-1 md:mb-1">
+                    📩 info@sufisciencecenter.info
                     </h4>
-                    <div className="site-footer__social">
-                      <Link href="#">
-                        <i className="fab fa-twitter"></i>
-                      </Link>
-                      <Link href="#">
+                    <p className="text-base text-[var(--fixnix-white)] mb-3">We welcome inquiries, collaborations, and spiritual seekers from around the world.</p>
+                    
+                    <div className="flex items-center">
+                      <Link href="#" className="relative flex items-center justify-center h-10 w-10 text-center text-[var(--fixnix-white)] bg-[#272a2d] text-sm rounded overflow-hidden transition-all duration-500 ease-in-out z-10 hover:text-[var(--fixnix-white)] hover:bg-[var(--fixnix-lightpuple)] group">
                         <i className="fab fa-facebook"></i>
+                        <span className="absolute top-0 left-0 right-0 h-full bg-[var(--fixnix-lightpuple)] transition-all delay-100 duration-400 ease-in-out opacity-100 origin-top transform scale-y-0 z-[-1] group-hover:scale-y-100"></span>
                       </Link>
-                      <Link href="#">
-                        <i className="fab fa-pinterest-p"></i>
-                      </Link>
-                      <Link href="#">
+                      <Link href="#" className="relative flex items-center justify-center h-10 w-10 text-center text-[var(--fixnix-white)] bg-[#272a2d] text-sm rounded overflow-hidden transition-all duration-500 ease-in-out z-10 hover:text-[var(--fixnix-white)] hover:bg-[var(--fixnix-lightpuple)] group ml-2.5">
                         <i className="fab fa-instagram"></i>
+                        <span className="absolute top-0 left-0 right-0 h-full bg-[var(--fixnix-lightpuple)] transition-all delay-100 duration-400 ease-in-out opacity-100 origin-top transform scale-y-0 z-[-1] group-hover:scale-y-100"></span>
+                      </Link>
+                      <Link href="#" className="relative flex items-center justify-center h-10 w-10 text-center text-[var(--fixnix-white)] bg-[#272a2d] text-sm rounded overflow-hidden transition-all duration-500 ease-in-out z-10 hover:text-[var(--fixnix-white)] hover:bg-[var(--fixnix-lightpuple)] group ml-2.5">
+                        <i className="fab fa-youtube"></i>
+                        <span className="absolute top-0 left-0 right-0 h-full bg-[var(--fixnix-lightpuple)] transition-all delay-100 duration-400 ease-in-out opacity-100 origin-top transform scale-y-0 z-[-1] group-hover:scale-y-100"></span>
+                      </Link>
+                      <Link href="#" className="relative flex items-center justify-center h-10 w-10 text-center text-[var(--fixnix-white)] bg-[#272a2d] text-sm rounded overflow-hidden transition-all duration-500 ease-in-out z-10 hover:text-[var(--fixnix-white)] hover:bg-[var(--fixnix-lightpuple)] group ml-2.5">
+                        <i className="fab fa-linkedin"></i>
+                        <span className="absolute top-0 left-0 right-0 h-full bg-[var(--fixnix-lightpuple)] transition-all delay-100 duration-400 ease-in-out opacity-100 origin-top transform scale-y-0 z-[-1] group-hover:scale-y-100"></span>
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div
-                className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div className="footer-widget__column footer-widget__links">
-                  <div className="footer-widget__title-box">
-                    <h3 className="footer-widget__title">Quick Links</h3>
+              
+              {/* Second Column - Quick Links */}
+              <div className="wow fadeInUp" data-wow-delay="200ms">
+                <div className="relative block">
+                  <div className="relative block mb-6 md:mb-8 lg:mb-12">
+                    <h3 className="text-xl md:text-2xl text-[var(--fixnix-white)] font-semibold leading-6">ABOUT SSC</h3>
                   </div>
-                  <ul className="footer-widget__Explore-list list-unstyled">
-                    <li>
-                      <Link href="/">Discover SSC</Link>
+                  <ul className="list-none">
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="/" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Our Heritage & Identity</Link>
                     </li>
-                    <li>
-                      <Link href="">Your Journey</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Kashmiri Sufi Legacy</Link>
                     </li>
-                    <li>
-                      <Link href="">Sufi Science Explorer</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Purpose & Direction</Link>
                     </li>
-                    <li>
-                      <Link href="">Digital Academy</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Our Work & Practices</Link>
                     </li>
-                    <li>
-                      <Link href="">Sacred Gift Shop</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Exploring Kashmiri Sufism</Link>
                     </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Our Founder</Link>
+
+                    </li>
+                    <div className="relative block mb-6 md:mb-8 lg:my-8 ">
+                    <h3 className="text-xl md:text-2xl text-[var(--fixnix-white)] font-semibold leading-6">YOUR JOURNEY</h3>
+                  </div>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Begin Your Journey</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Core Learning Paths</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Growth & Development</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Leadership & Teaching</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Abstract Submission</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Teaching Path Assessment</Link>
+                    </li>
+                    
                   </ul>
                 </div>
               </div>
-              <div
-                className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div className="footer-widget__column footer-widget__links">
-                  <div className="footer-widget__title-box">
-                    <h3 className="footer-widget__title">Our Services</h3>
+              
+              {/* Third Column - Sufi Science Explorer */}
+              <div className="wow fadeInUp" data-wow-delay="300ms">
+                <div className="relative block">
+                  <div className="relative block mb-6 md:mb-8 lg:mb-12">
+                    <h3 className="text-xl md:text-2xl text-[var(--fixnix-white)] font-semibold leading-6">SUFI EXPLORER</h3>
                   </div>
-                  <ul className="footer-widget__Explore-list list-unstyled">
-                    <li>
-                      <Link href="/waystogive">Donate to SSC</Link>
+                  <ul className="list-none">
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Foundational Matrices</Link>
                     </li>
-                    <li>
-                      <Link href="/waystogive">Sponsor Sufi Scholar</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Consciousness Geometries</Link>
                     </li>
-                    <li>
-                      <Link href="/waystogive">Preserve Sufi Art</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Reality Frameworks</Link>
                     </li>
-                    <li>
-                      <Link href="/waystogive">Sponsor Events</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Character Alchemy</Link>
                     </li>
-                    <li>
-                      <Link href="/volunteerwithus">Outreach & Engage </Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Unity Sciences</Link>
                     </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Advanced Technologies</Link>
+                    </li>
+                   
+                    
+                    <div className="relative block mb-6 md:mb-8 lg:my-8 ">
+                    <h3 className="text-xl md:text-2xl text-[var(--fixnix-white)] font-semibold leading-6">SSC SUPPORT</h3>
+                  </div>
+                  
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Resources & Guidance</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Membership</Link>
+                    </li>
+                   
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Conference Registration</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Checklist for Sufi Journey</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Technical Assistance</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Contact </Link>
+                    </li>
+                    
                   </ul>
                 </div>
               </div>
-              <div
-                className="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div className="footer-widget__column footer-widget__links">
-                  <div className="footer-widget__title-box">
-                    <h3 className="footer-widget__title">Our Services</h3>
+              
+              {/* Fourth Column - Support Us & Newsletter */}
+              <div className="wow fadeInUp" data-wow-delay="400ms">
+                <div className="relative block">
+                  <div className="relative block mb-6 md:mb-8 lg:mb-12">
+                    <h3 className="text-xl md:text-2xl text-[var(--fixnix-white)] font-semibold leading-6">SSC SHOP</h3>
                   </div>
-                  <ul className="footer-widget__Explore-list list-unstyled">
-                    <li>
-                      <Link href="/volunteerwithus">Create Sacred Art</Link>
+                  <ul className="list-none mb-8">
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="/waystogive" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Scholarly Insights</Link>
                     </li>
-                    <li>
-                      <Link href="/collaboration">Learning Partners</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="/volunteerwithus" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Digital Books</Link>
                     </li>
-                    <li>
-                      <Link href="/collaboration">Spiritual Retreats</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="/collaboration" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Audio Spectrum</Link>
                     </li>
-                    <li>
-                      <Link href="/collaboration">Social Initiatives</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="/waystogive" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Art & Wall Decor</Link>
                     </li>
-                    <li>
-                      <Link href="/collaboration">Local Empowerment</Link>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="/volunteerwithus" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Jewelry & Accessories</Link>
                     </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="/collaboration" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Wellness & Meditation</Link>
+                    </li>
+                    
+                    <div className="relative block mb-6 md:mb-8 lg:my-8 ">
+                    <h3 className="text-xl md:text-2xl text-[var(--fixnix-white)] font-semibold leading-6">ENGAGE </h3>
+                  </div>
+                  
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Educational Partnerships</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Cultural Preservation</Link>
+                    </li>
+                   
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Community Outreach</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Sponsor a Sufi Scholar</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Donate to SSC</Link>
+                    </li>
+                    <li className="relative block mb-3 md:mb-4">
+                      <Link href="#" className="relative flex items-center text-base text-[var(--fixnix-white)] pl-4 transition-all duration-500 ease-in-out hover:text-[var(--fixnix-lightpuple)] before:content-['\f0da'] before:absolute before:top-1/2 before:left-0 before:transform before:-translate-y-1/2 before:font-['Font_Awesome_5_free'] before:font-bold before:text-sm before:text-[var(--fixnix-lightpuple)] before:transition-all before:duration-500 before:ease-in-out">Sponsor Sufi Dialogues</Link>
+                    </li>
+                    
                   </ul>
+
+                  {/* Newsletter Sign-up */}
+                  {/* <div className="relative block">
+                    <h3 className="text-xl md:text-2xl text-[var(--fixnix-white)] font-semibold leading-6 mb-4 mt-">NEWSLETTER SIGN-UP</h3>
+                    <p className="text-base text-[var(--fixnix-white)] mb-4">
+                      Stay aligned with our journey. Receive mystical insights, event updates, and research breakthroughs.
+                    </p>
+                    <form className="flex flex-col md:flex-row gap-2">
+                      <input 
+                        type="email" 
+                        placeholder="Email Address" 
+                        className="px-4 py-3 bg-[#272a2d] text-[var(--fixnix-white)] rounded focus:outline-none w-full md:flex-grow"
+                      />
+                      <button 
+                        type="submit" 
+                        className="px-6 py-3 bg-[var(--fixnix-lightpuple)] text-[var(--fixnix-white)] rounded hover:bg-opacity-90 transition-all duration-300 whitespace-nowrap"
+                      >
+                        Subscribe
+                      </button>
+                    </form>
+                  </div> */}
                 </div>
               </div>
-             
             </div>
           </div>
         </div>
-        <div className="site-footer__bottom">
-          <div className="container">
-            <div className="site-footer__bottom-inner">
-              <p className="site-footer__bottom-text">
-                © 2025 Copyright by{" "}
-                <Link href="">The Sufi Science Centre</Link>
-              </p>
+
+        {/* Copyright Section */}
+        <div className="border-t border-[var(--fixnix-lightpuple)] -mt-6  py-6">
+          <div className="container px-4 md:px-6 mx-auto flex flex-col md:flex-row justify-between items-center text-[var(--fixnix-white)] text-sm space-y-4 md:space-y-0">
+            <p>&copy; {new Date().getFullYear()} Sufi Science Center. All Rights Reserved. <br/>Developed by Prime Logic Solutions with devotion in USA & guided by the wisdom of the cosmos.</p>
+            <div className="flex flex-wrap gap-4">
+              <Link href="/privacy-policy" className="text-white hover:text-[var(--fixnix-lightpuple)] transition-colors duration-300">Privacy Policy</Link>
+              <span>|</span>
+              <Link href="/return-policy" className="text-white hover:text-[var(--fixnix-lightpuple)] transition-colors duration-300">Return Policy</Link>
+              <span>|</span>
+              <Link href="/terms-of-use" className="text-white hover:text-[var(--fixnix-lightpuple)] transition-colors duration-300">Terms of Use</Link>
+              <span>|</span>
+              <Link href="/terms-of-use" className="text-white hover:text-[var(--fixnix-lightpuple)] transition-colors duration-300">Shipping Policy</Link>
             </div>
           </div>
         </div>
