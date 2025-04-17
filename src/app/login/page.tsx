@@ -4,27 +4,26 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 
-type RegisterFormInputs = {
-  name: string;
+type LoginFormInputs = {
   email: string;
   password: string;
 };
 
-export default function Register() {
+export default function Login() {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<RegisterFormInputs>(); // <-- Pass the form type here
+  } = useForm<LoginFormInputs>();
 
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  const onSubmit = (data: RegisterFormInputs) => {
+  const onSubmit = (data: LoginFormInputs) => {
     setLoading(true);
-    // Simulate an async request, then go to OTP page
+    // Simulate login API call
     setTimeout(() => {
-      router.push("/otp");
+      router.push("/otp"); // Replace with actual redirect after login
     }, 1000);
   };
 
@@ -32,39 +31,54 @@ export default function Register() {
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="bg-white p-6 rounded-lg shadow-md w-96">
         <h2 className="text-center text-2xl font-semibold text-fixnix-lightpurple">
-          Login SSC
+          Login to SSC
         </h2>
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 mt-4">
-  {/* Email Field */}
-  <label className="relative block">
-    <input
-      {...register("email", { required: "Email is required" })}
-      type="email"
-      placeholder=" "
-      className="w-full p-2 border border-gray-300 rounded focus:border-blue-500 outline-none peer"
-    />
-    <span className="absolute left-2 top-2 text-gray-500 transition-opacity transform scale-100 opacity-50 peer-placeholder-shown:opacity-50 peer-placeholder-shown:scale-100 peer-focus:opacity-100 peer-focus:scale-75 peer-focus:-translate-y-5 peer-focus:-translate-x-1 peer-focus:text-fixnix-lightpurple peer-focus:bg-white">
-      Email
-    </span>
-  </label>
-  {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
 
-  {/* Password Field */}
-  <label className="relative block">
-    <input
-      {...register("password", {
-        required: "Password is required",
-        minLength: { value: 6, message: "At least 6 characters" },
-      })}
-      type="password"
-      placeholder=" "
-      className="w-full p-2 border border-gray-300 rounded focus:border-blue-500 outline-none peer"
-    />
-    <span className="absolute left-2 top-2 text-gray-500 transition-opacity transform scale-100 opacity-50 peer-placeholder-shown:opacity-50 peer-placeholder-shown:scale-100 peer-focus:opacity-100 peer-focus:scale-75 peer-focus:-translate-y-5 peer-focus:-translate-x-1 peer-focus:text-fixnix-lightpurple peer-focus:bg-white">
-      Password
-    </span>
-  </label>
-  {errors.password && <p className="text-red-500 text-sm">{errors.password.message}</p>}
+        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4 mt-4">
+          {/* Email Field */}
+          <label className="relative block">
+            <input
+              {...register("email", { required: "Email is required" })}
+              type="email"
+              placeholder=" "
+              className="w-full p-2 border border-gray-300 rounded focus:border-blue-500 outline-none peer"
+            />
+            <span className="absolute left-2 top-2 text-gray-500 transition-opacity transform scale-100 opacity-50 peer-placeholder-shown:opacity-50 peer-placeholder-shown:scale-100 peer-focus:opacity-100 peer-focus:scale-75 peer-focus:-translate-y-5 peer-focus:-translate-x-1 peer-focus:text-fixnix-lightpurple peer-focus:bg-white">
+              Email
+            </span>
+          </label>
+          {errors.email && (
+            <p className="text-red-500 text-sm">{errors.email.message}</p>
+          )}
+
+          {/* Password Field */}
+          <label className="relative block">
+            <input
+              {...register("password", {
+                required: "Password is required",
+                minLength: { value: 6, message: "At least 6 characters" },
+              })}
+              type="password"
+              placeholder=" "
+              className="w-full p-2 border border-gray-300 rounded focus:border-blue-500 outline-none peer"
+            />
+            <span className="absolute left-2 top-2 text-gray-500 transition-opacity transform scale-100 opacity-50 peer-placeholder-shown:opacity-50 peer-placeholder-shown:scale-100 peer-focus:opacity-100 peer-focus:scale-75 peer-focus:-translate-y-5 peer-focus:-translate-x-1 peer-focus:text-fixnix-lightpurple peer-focus:bg-white">
+              Password
+            </span>
+          </label>
+          {errors.password && (
+            <p className="text-red-500 text-sm">{errors.password.message}</p>
+          )}
+
+          {/* Forgot Password Link */}
+          <div className="text-right">
+            <Link
+              href="/forget-password"
+              className="text-sm text-fixnix-darkpurple hover:underline"
+            >
+              Forgot Password?
+            </Link>
+          </div>
 
           {/* Submit Button */}
           <button
@@ -74,8 +88,9 @@ export default function Register() {
             {loading ? "Processing..." : "Login"}
           </button>
         </form>
+
         <p className="text-center mt-4 text-sm">
-          Don't have an account?{" "}
+          Don’t have an account?{" "}
           <Link href="/Register" className="text-fixnix-darkpurple font-bold">
             Register
           </Link>
@@ -83,7 +98,7 @@ export default function Register() {
 
         {/* Social Login Buttons */}
         <p className="text-sm sm:text-md text-center text-gray-600 mt-4">
-           Sign In With 
+          Sign In With
         </p>
         <div className="flex items-center justify-center py-2 space-x-3 text-center">
           <Link
@@ -92,18 +107,8 @@ export default function Register() {
           >
             <i className="fab fa-google"></i>
           </Link>
-         
         </div>
       </div>
-
-      {/* <div className="flex items-center justify-center space-x-4 mt-2">
-          <button className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 text-white bg-blue-600 rounded-md hover:bg-blue-700 transition duration-200">
-            <FontAwesomeIcon icon={faFacebookF} className="text-lg sm:text-xl" />
-          </button>
-          <button className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 text-white bg-red-600 rounded-md hover:bg-red-700 transition duration-200">
-            <FontAwesomeIcon icon={faGoogle} className="text-lg sm:text-xl" />
-          </button>
-        </div> */}
     </div>
   );
 }
