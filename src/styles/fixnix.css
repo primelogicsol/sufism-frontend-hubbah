@@ -11429,10 +11429,11 @@ ul {
 
 .welcome-one__btn-2 {
   margin-left: 20px;
+  margin-top: 10px;
   background-color: transparent;
   color: var(--fixnix-lightpuple);
   border: 1px solid var(--fixnix-lightpuple);
-  padding: 15px 42px 13px;
+  padding: 17px 17px 17px 17px;
 }
 
 .welcome-one__btn-2::before {

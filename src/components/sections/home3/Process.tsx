@@ -30,6 +30,25 @@ export default function Process() {
                 <h3 className="process-one__title">Damage Device</h3>
               </div>
             </div>
+            <div className="col-xl-3 col-lg-6 col-md-6">
+              <div className="process-one__single">
+                <div className="process-one__icon">
+                  <span className="icon-computer"></span>
+                  <div className="process-one__count-box"></div>
+                </div>
+                <h3 className="process-one__title">Damage Device</h3>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-6 col-md-6">
+              <div className="process-one__single">
+                <div className="process-one__icon">
+                  <span className="icon-computer"></span>
+                  <div className="process-one__count-box"></div>
+                </div>
+                <h3 className="process-one__title">Damage Device</h3>
+              </div>
+            </div>
+            
             {/*Process One Single End*/}
             {/*Process One Single Start*/}
             <div className="col-xl-3 col-lg-6 col-md-6">

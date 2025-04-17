@@ -24,22 +24,25 @@ export default function Welcome() {
                   <h2 className="section-title__title">Your Journey</h2>
                 </div>
                 <p className="welcome-one__text-1">
-                  If you are going to use a passage of Lorem Ipsum, you need to
-                  be there isn't anything embarrassing hidden in the middle of
-                  text.
+                Step into the cosmic path of the New Generation Sufi, from the sacred depths of the Himalayan peaks rises the Sufi Science Centre Kashmir, where mystic intuition meets scientific inquiry.
                 </p>
                 <p className="welcome-one__text-2">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected randomised words which don't look even
-                  slightly believable.
+                This journey unfolds from inner awakening to expansive consciousness through Core Learning Paths, Growth Modules, and Quantum Leadership. Explore sacred geometries of thought, submit your abstract revelations, and access a library of metaphysical tools. This is not just a path, it’s your transformation into a conscious architect of divine reality and spiritual intelligence.
                 </p>
                 <div className="welcome-one__btn-box">
-                  <Link href="/Contact" className="welcome-one__btn thm-btn">
-                    Contact Us
+                  <Link href="/corelearningpaths" className="welcome-one__btn-2 thm-btn">
+                    Core Learning Paths
                   </Link>
-                  <Link href="/About" className="welcome-one__btn-2 thm-btn">
-                   Explore Growth & Development
+                  <Link href="/leadership&teaching" className="welcome-one__btn-2 thm-btn">
+                    Leadership & Teaching
+                  </Link>
+                </div>
+                <div className="welcome-one__btn-box">
+                  <Link href="/submissionportal" className="welcome-one__btn-2 thm-btn">
+                    Abstract Submission
+                  </Link>
+                  <Link href="/resources&support" className="welcome-one__btn-2 thm-btn">
+                    Resources & Support
                   </Link>
                 </div>
               </div>
@@ -55,14 +58,7 @@ export default function Welcome() {
                     src="assets/images/resources/welcome-one-img-1.jpg"
                     alt=""
                   />
-                  <div className="welcome-one__video-link">
-                    <a onClick={() => setOpen(true)} className="video-popup">
-                      <div className="welcome-one__video-icon">
-                        <span className="fa fa-play"></span>
-                        <i className="ripple"></i>
-                      </div>
-                    </a>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -70,12 +66,7 @@ export default function Welcome() {
         </div>
       </section>
       {/*Welcome One End*/}
-      <ModalVideo
-        channel="youtube"
-        isOpen={isOpen}
-        videoId="Get7rqXYrbQ"
-        onClose={() => setOpen(false)}
-      />
+      
     </>
   );
 }

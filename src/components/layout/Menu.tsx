@@ -9,14 +9,14 @@ export default function Menu() {
         {/* HOME */}
         <li className="dropdown megamenu relative group">
           <Link
-            href="/"
+            href="/Index-3"
             className="text-fixnix-darkpurple text-[15px] lg:text-[12px] xl:text-[15px] 2xl:text-[18px] font-bold hover:text-fixnix-darkpurple"
           >
             HOME
           </Link>
 
           {/* Megamenu */}
-          <ul className="absolute left-0 hidden h-80 -mt-2 space-y-4 group-hover:block bg-white shadow-lg rounded-lg overflow-hidden max-w-4xl scrollbar-thin scrollbar-thumb-fixnix-darkpurple scrollbar-track-fixnix-lightpurple">
+          {/* <ul className="absolute left-0 hidden h-80 -mt-2 space-y-4 group-hover:block bg-white shadow-lg rounded-lg overflow-hidden max-w-4xl scrollbar-thin scrollbar-thumb-fixnix-darkpurple scrollbar-track-fixnix-lightpurple">
             <li>
               <section className="-mt-[31px] -mb-[31px]">
                 <div className="container">
@@ -60,7 +60,7 @@ export default function Menu() {
                 </div>
               </section>
             </li>
-          </ul>
+          </ul> */}
         </li>
 
         {/* About Us */}

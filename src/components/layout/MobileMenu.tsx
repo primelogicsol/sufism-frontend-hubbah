@@ -75,13 +75,13 @@ const MobileMenu = ({
                 className={`${isActive.key === "1" ? "current" : ""} dropdown`}
               >
                 <Link
-                  href="/"
+                  href="/Index-3"
                   className="text-white text-sm uppercase font-bold"
                   onClick={handleMobileMenu}
                 >
                   Home
                 </Link>
-                <ul
+                {/* <ul
                   style={{
                     display: `${isActive.key === "1" ? "block" : "none"}`,
                   }}
@@ -123,15 +123,15 @@ const MobileMenu = ({
                       Home Four
                     </Link>
                   </li>
-                </ul>
-                <button
+                </ul> */}
+                {/* <button
                   className={`absolute right-2 top-1 mt-2 transform -translate-y-1/2 text-white transition-transform duration-300 ${
                     isActive.key === "1" ? "rotate-90" : ""
                   }`}
                   onClick={() => handleToggle("1")}
                 >
                   <span className="fa fa-angle-right" />
-                </button>
+                </button> */}
               </li>
 
               {/* Discover KSSC menu */}

@@ -39,19 +39,19 @@ const swiperOptions = {
 };
 
 const testimonials = [
-  { name: "Ava Thompson", title: "UI/UX Designer", text: "FixNix has truly transformed the way I approach design. Their platform is intuitive and the support is amazing!" },
-  { name: "Liam Johnson", title: "Marketing Manager", text: "We've seen a 40% increase in engagement since switching to FixNix. The results speak for themselves." },
-  { name: "Sophia Williams", title: "Product Owner", text: "From planning to execution, FixNix helped streamline every aspect of our product lifecycle." },
-  { name: "Noah Brown", title: "Freelance Developer", text: "I love how easily I can manage client tasks and feedback all in one place using FixNix." },
-  { name: "Isabella Davis", title: "Entrepreneur", text: "FixNix gives me confidence in my business processes. It’s like having a full-time project assistant." },
-  { name: "Mason Miller", title: "Tech Lead", text: "The real-time insights and transparency offered by FixNix are exactly what we needed as a growing team." },
-  { name: "Emma Wilson", title: "Data Analyst", text: "All of our reports, documentation, and compliance checks are now faster and easier. FixNix saves us hours!" },
-  { name: "James Moore", title: "Security Expert", text: "As someone who values security and privacy, I appreciate the detailed audit trails and control FixNix provides." },
-  { name: "Mia Taylor", title: "Software Engineer", text: "FixNix integrates seamlessly into our dev stack. Their API is clean, and support is always helpful." },
-  { name: "Elijah Anderson", title: "Cloud Architect", text: "For managing infrastructure tasks and documentation, FixNix has been a game-changer." },
-  { name: "Charlotte Thomas", title: "HR Coordinator", text: "Managing training and internal reviews has become so much easier. FixNix brings clarity to our workflow." },
-  { name: "Benjamin Jackson", title: "QA Specialist", text: "The attention to detail in FixNix's tools ensures nothing falls through the cracks in our testing cycle." },
-  { name: "Amelia White", title: "Operations Manager", text: "From onboarding to documentation, FixNix helps me run a tighter ship with fewer errors and more confidence." },
+  { name: "Foundational Matrices", title: "UI/UX Designer", text: "Unveil the divine scaffolding of existence—where the Pen (Qalam) etched realities into being through luminous codes of pre-eternity." },
+  { name: "Ecological Intelligence", title: "Marketing Manager", text: "Witness nature as the Breath of the Compassionate—where every leaf, stream, and stone mirrors divine balance (mīzān) and remembrance." },
+  { name: "Consciousness Geometries", title: "Product Owner", text: "Trace the soul’s ascent through sacred forms—latā’if, circles, and stars—mapping the inner heavens of experiential gnosis (ma‘rifah)." },
+  { name: "Perceptual Gateways", title: "Freelance Developer", text: "Open the subtle senses (bāṭin) beyond physical sight—where intuition becomes vision (basīrah) and silence speaks through unveiling (kashf)." },
+  { name: "Reality Frameworks", title: "Entrepreneur", text: "Journey through the layered worlds (‘ālam al-mithāl, al-malakūt, al-jabarūt)—where quantum multiplicity reflects divine oneness (tawḥīd)." },
+  { name: "Cosmic Harmonics", title: "Tech Lead", text: "Enter the symphony of divine breath—where dhikr aligns soul to the harmonic architecture of the Names (Asmā’ al-Ḥusnā)." },
+  { name: "Energetic Architectures", title: "Data Analyst", text: "Know your being as a luminous circuitry—where spiritual centers (latā’if) channel divine light (nūr) through remembrance and stillness." },
+  { name: "Character Alchemy", title: "Security Expert", text: "Refine the nafs through inner jihad—transmuting rusted traits into polished mirrors of divine attributes via Sufi disciplines and adab." },
+  { name: "Unity Sciences", title: "Software Engineer", text: "Witness the hidden One in every form—where multiplicity collapses into the Face of the Friend (Wajh Allāh), eternally present." },
+  { name: "Healing Mysteries", title: "Cloud Architect", text: "Let divine names descend like medicine—where sacred sound, breath, and presence become elixirs for hearts wounded by distance." },
+  { name: "Wisdom Transmission", title: "HR Coordinator", text: "Receive the unseen (ghaib) through chains of light—where the master’s gaze, silence, or a single breath transfers oceans." },
+  { name: "Sacred Artistry", title: "QA Specialist", text: "Create with reverence—where form is veil and unveiling, and every curve is a reflection of al-Jamīl, the Beautiful." },
+  { name: "Advanced Technologies", title: "Operations Manager", text: "Navigate modern tools as instruments of the Real—where AI, neurotech, and digital networks become means of divine witnessing (shuhūd)." },
 ];
 
 export default function Testimonial() {
@@ -64,9 +64,9 @@ export default function Testimonial() {
               <span className="absolute top-[6px] left-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
               <span className="absolute top-[6px] right-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
               </span>
-          <h2 className="text-3xl md:text-4xl font-bold mt-2">Our Customers Review</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mt-2">Decoding the Divine Design : One Veil at a Time.</h2>
           <p className="mt-2 text-gray-600 text-base md:text-lg">
-            Hear what our happy customers have to say about our product and services.
+          Journey Beyond the Seen: Where Science Meets Sainthood.
           </p>
         </div>
 

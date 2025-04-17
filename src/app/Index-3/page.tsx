@@ -215,7 +215,6 @@ export default function Home() {
       </section>
         <Services />
         <Welcome />
-        <Skill />
         <Funfact />
         
         <SufiSciences/>
@@ -362,6 +361,45 @@ export default function Home() {
                       </div>
                     </div>
                     {/*Blog One Single End*/}
+                    <div
+                      className="col-xl-4 col-lg-4 wow fadeInUp"
+                      data-wow-delay="300ms"
+                    >
+                      <div className="blog-one__single">
+                        <div className="blog-one__img">
+                          <img src="assets/images/blog/blog-1-3.jpg" alt="" />
+                          <div className="blog-one__plus">
+                            <Link href="/Donations">
+                              <i className="fa fa-plus"></i>
+                            </Link>
+                          </div>
+                        </div>
+                        <div className="blog-one__content">
+                          <ul className="blog-one__meta list-unstyled">
+                            <li>
+                              <Link href="/Donations">
+                                <i className="fa fa-calendar-alt"></i>5 AUG 2023
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/Donations">
+                                <i className="far fa-comments"></i>02 COMMENTS
+                              </Link>
+                            </li>
+                          </ul>
+                          <h3 className="blog-one__title">
+                            <Link href="/Donations">
+                              What Is The Best Affordable Android Phone In 2023?
+                            </Link>
+                          </h3>
+                          <div className="blog-one__btn-box">
+                            <Link href="/Donations" className="thm-btn blog-one__btn">
+                              Read More
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

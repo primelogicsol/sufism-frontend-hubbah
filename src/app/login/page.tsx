@@ -92,19 +92,7 @@ export default function Register() {
           >
             <i className="fab fa-google"></i>
           </Link>
-          <Link
-            href="#"
-            className="flex items-center justify-center h-9 w-9 bg-fixnix-lightpurple text-white rounded-full text-sm transition-all duration-300 hover:bg-fixnix-lightpurple hover:text-fixnix-white"
-          >
-            <i className="fab fa-facebook"></i>
-          </Link>
-
-          <Link
-            href="#"
-            className="flex items-center justify-center h-9 w-9 bg-fixnix-lightpurple text-white rounded-full text-sm transition-all duration-300 hover:bg-fixnix-lightpurple hover:text-fixnix-white"
-          >
-            <i className="fab fa-instagram"></i>
-          </Link>
+         
         </div>
       </div>
 
