@@ -9,7 +9,7 @@ export default function Menu() {
         {/* HOME */}
         <li className="dropdown megamenu relative group">
           <Link
-            href="/Index-3"
+            href="/"
             className="text-fixnix-darkpurple text-[15px] lg:text-[12px] xl:text-[15px] 2xl:text-[18px] font-bold hover:text-fixnix-darkpurple"
           >
             HOME

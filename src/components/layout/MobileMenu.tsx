@@ -75,7 +75,7 @@ const MobileMenu = ({
                 className={`${isActive.key === "1" ? "current" : ""} dropdown`}
               >
                 <Link
-                  href="/Index-3"
+                  href="/"
                   className="text-white text-sm uppercase font-bold"
                   onClick={handleMobileMenu}
                 >
