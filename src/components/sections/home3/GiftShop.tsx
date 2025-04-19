@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Blog() {
+export default function GiftShop() {
   return (
     <section className="py-20 relative z-10 bg-white">
       {/* Background shape */}
@@ -15,15 +15,15 @@ export default function Blog() {
         {/* Section Title */}
         <div className="sm:text-left lg:text-center  mb-10">
           <span className="relative inline-block text-[18px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
-          DIGITAL ACADEMY
+          Sacred Gift Shop
             <span className="absolute top-[6px] left-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
             <span className="absolute top-[6px] right-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
           </span>
           <h2 className="text-3xl md:text-4xl  font-bold mt-2">
-          The Library of Light
+          Divinely Crafted Sufi Treasures
           </h2>
           <p className="mt-2 text-gray-600 text-base md:text-lg">
-          Access the echoes of divine knowledge curated, digitized, and decoded for the New Generation Sufi mind.
+          Curated Beauty for the Soul, Where Every Object Reflects the Divine in Form, Function, and Meaning
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -32,7 +32,7 @@ export default function Blog() {
             <div className="relative group">
               <img src="assets/images/blog/blog-1-1.jpg" alt="" className="w-full h-64 object-cover rounded-t-xl" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
-                <Link href="/scholarlyinsights">
+                <Link href="/wall&artdecor">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
               </div>
@@ -40,10 +40,10 @@ export default function Blog() {
             <div className="px-4 py-3 ">
              
               <h3 className="text-xl font-semibold mt-2 text-fixnix-darkpurple">
-                <Link href="/scholarlyinsights" className="text-white">Scholarly Insights</Link>
+                <Link href="/wall&artdecor" className="text-white">Art & Wall Decor</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
-                Dive into timeless commentaries, Sufi manuscripts, and contemporary reflections merging  wisdom with modern inquiry.
+              Infuse your space with sacred geometry, calligraphy, and celestial forms that echo divine remembrance in visual presence.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Blog() {
             <div className="relative group">
               <img src="assets/images/blog/blog-1-2.jpg" alt="" className="w-full h-64 object-cover rounded-t-xl" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
-                <Link href="/visualresources">
+                <Link href="/jewelry&accessories">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
               </div>
@@ -61,10 +61,10 @@ export default function Blog() {
             <div className="px-4 py-3 ">
               
               <h3 className="text-xl font-semibold mt-2 text-gray-800">
-                <Link href="/visualresources" className="text-white" >Visual Resources</Link>
+                <Link href="/jewelry&accessories" className="text-white" >Jewelry & Accessories</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
-                Explore sacred diagrams, cosmic maps, and interactive infographics that visualize mystical concepts in scientifically resonant design.
+              Wear the sacred crafted talismans, and symbolic adornments designed to harmonize inner states and intentions.
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Blog() {
             <div className="relative group">
               <img src="assets/images/blog/blog-1-3.jpg" alt="" className="w-full h-64 object-cover rounded-t-xl" />
               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
-                <Link href="/digitalbooks">
+                <Link href="/fashion&apparel">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
               </div>
@@ -82,10 +82,10 @@ export default function Blog() {
             <div className="px-4 py-3 ">
               
               <h3 className="text-xl font-semibold mt-2 text-gray-800">
-                <Link href="/digitalbooks"className="text-white"> Digital Books</Link>
+                <Link href="/fashion&apparel"className="text-white"> Fashion & Apparel</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
-                A digital sanctum of classical texts, treatises, and modern explorations, bridging the written word with the ineffable Real.
+              Dress in garments of grace textiles rooted in tradition, infused with spiritual symbolism and ethical craftsmanship.
               </p>
             </div>
           </div>
@@ -103,10 +103,10 @@ export default function Blog() {
             <div className="px-4 py-3 ">
               
               <h3 className="text-xl font-semibold mt-2 text-gray-800">
-                <Link href="/audiospectrum" className="text-white">Audio Spectrum</Link>
+                <Link href="/audiospectrum" className="text-white"> Wellness & Meditation</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
-                Enter auditory immersion dhikr, lectures, Sufi poetry, and harmonic meditations to attune the soul to divine rhythm.
+              Equip your inner practice with mindful essentials from handcrafted mats to therapeutic blends.
               </p>
             </div>
           </div>

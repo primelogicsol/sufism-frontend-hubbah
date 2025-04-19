@@ -172,17 +172,7 @@ const Header2: React.FC<Header2Props> = ({
                 </div>
 
                 {/* Search Icon */}
-                <div className="flex items-center">
-                  <div className="relative flex items-center">
-                    <Link
-                      href="#"
-                      className="text-2xl text-fixnix-lightpurple transition-all duration-500 ease-in-out hover:text-fixnix-darkpurple"
-                      onClick={handlePopup}
-                    >
-                      <i className="<FaSearch />"></i>
-                    </Link>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
