@@ -296,27 +296,38 @@ export default function Home() {
                               </div>
                             </li>
                           </ul>
-                          <p className="font-bold text-xl  text-fixnix-darkpurple">
+                          <p className="font-bold text-xl py-2 text-fixnix-darkpurple">
                           Let your heart lead the way, discover light, silence, saint. 
                            
                       
                           </p>
-                          <div className="flex items-center space-x-4 -mt-2 -mb-12">
-                          <p className="font-semibold text-fixnix-darkpurple">
-                            Get Spiritual Direction
-                          </p>
-                          <a 
-                            href="https://maps.app.goo.gl/Z7WtC8dtsGrcLBmn8" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                          >
-                            <img 
-                              src="/assets/images/services/location.png" 
-                              alt="Our Location" 
-                              className="w-50 h-50 hover:opacity-90 transition"
-                            />
-                          </a>
-                        </div>
+                         
+
+                          <div className="flex items-center space-x-4 lg:-ml-20 -mb-12">
+  <a 
+    href="https://maps.app.goo.gl/Z7WtC8dtsGrcLBmn8" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="flex-shrink-0"
+  >
+    <Image 
+      src="/assets/images/services/location.png" 
+      alt="Our Location" 
+      width={200} 
+      height={200} 
+      className="w-20 sm:w-28 md:w-36 lg:w-44 h-auto hover:opacity-90 transition"
+    />
+  </a>
+  <div className="flex items-center space-x-2">
+    <i className="fas fa-arrow-right text-fixnix-darkpurple text-xl"></i>
+    <p className="font-bold text-fixnix-darkpurple whitespace-nowrap text-base sm:text-lg md:text-xl">
+      Get Spiritual Direction
+    </p>
+  </div>
+</div>
+
+
+
 
 
 

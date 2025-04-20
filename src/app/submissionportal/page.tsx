@@ -304,7 +304,7 @@ export default function Home() {
               
           </div>
         </section>
-         <div className="min-h-screen bg-white -mt-28  pb-12 px-4 sm:px-6 lg:px-8">
+         <div id="conference-form" className="min-h-screen bg-white -mt-28  pb-12 px-4 sm:px-6 lg:px-8">
               <div className="max-w-6xl mx-auto">
                 <div className="bg-white rounded-xl shadow-xl overflow-hidden">
                   {/* Header */}

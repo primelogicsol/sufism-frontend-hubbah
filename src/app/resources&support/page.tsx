@@ -228,7 +228,7 @@ export default function Home() {
                           
                           </p>
                           <p>
-                          <p>
+                          
                           •	Templates for recording both objective and subjective dimensions of experience<br/>
                           •	Frameworks for recognizing patterns and development over time<br/>
                           •	Reflection prompts that integrate scientific and spiritual perspectives<br/>
@@ -236,7 +236,7 @@ export default function Home() {
 
 
                           </p>
-                          </p>
+                          
                           
                         </div>
                       </li>
@@ -515,7 +515,7 @@ export default function Home() {
              
             </div>
             </div>
-            <div className="relative  block  pt-[60px] ">
+            <div id="techical-assistance" className="relative  block  pt-[60px] ">
               
               <div className="mb-[52px] ">
              

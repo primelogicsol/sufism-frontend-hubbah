@@ -417,7 +417,7 @@ export default function Home() {
         
       <div className="w-full lg:w-8/12 mx-auto ">
       <div className="relative block">
-                    <div className="text-left py-5">
+                    <div  className="text-left py-5">
                       <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-semibold uppercase z-[1]">
                       The Sufi Journey: A Path to Enlightenment
                         <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
@@ -578,7 +578,7 @@ export default function Home() {
       </section>
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           
-          <div className="bg-gradient-to-r from-fixnix-lightpurple to-fixnix-darkpurple py-6 px-4 sm:px-6 md:px-10">
+          <div id="checklist-form" className="bg-gradient-to-r from-fixnix-lightpurple to-fixnix-darkpurple py-6 px-4 sm:px-6 md:px-10">
           <div className="absolute top-0 right-0 bg-fixnix-lightpurple text-white py-1 px-3 rounded-tr-3xl rounded-bl-xl text-sm font-medium z-20">
                  EVALUATE NOW
                 </div>

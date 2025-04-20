@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <>
       {/* Contact One Start */}
-      <section className="relative py-16 bg-cover bg-center bg-no-repeat bg-gray-100" >
+      <section id="contact" className="relative py-16 bg-cover bg-center bg-no-repeat bg-gray-100" >
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="uppercase text-fixnix-lightpurple tracking-wider mb-2 block">Contact Us</span>
@@ -14,7 +14,7 @@ export default function Contact() {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <form className="contact-one__form contact-form-validated">
+            <form className=" contact-form-validated">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               <div className="text-gray-700">
               <input
@@ -43,7 +43,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="contact-form__input-box mb-6">
+              <div className=" mb-6">
                 <textarea
                   name="message"
                   placeholder="Comment"
@@ -54,7 +54,7 @@ export default function Contact() {
               <div className="text-center">
                 <button
                   type="submit"
-                  className="contact-form__btn bg-fixnix-lightpurple hover:bg-fixnix-darkpurple text-white font-semibold px-6 py-3 rounded hover:text-fixnix-lightpurple transition"
+                  className=" bg-fixnix-lightpurple hover:bg-fixnix-darkpurple text-white font-semibold px-6 py-3 rounded hover:text-fixnix-lightpurple transition"
                 >
                   Send Message
                 </button>
