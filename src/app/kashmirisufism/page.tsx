@@ -9,35 +9,35 @@ const KashmiriSlides = [
     title: "Exploring the Depths of <br/>Sufi Wisdom",
     text: "Kashmiri Sufism blends love, devotion, and spiritual insight, guiding seekers toward harmony,<br/> enlightenment, and a deeper understanding of existence.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sufi Heart, Kashmiri Spirit, Eternal Wisdom",
     title: "Discover the Essence of Sufi Mysticism",
     text: "Rooted in poetry, music, and devotion, Kashmiri Sufism embodies a timeless journey toward <br/>divine love, inner peace, and self-discovery.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Love, Devotion, Reflection, Wisdom, Truth",
     title: "Tracing the Spiritual <br/>Path of Kashmir",
     text: "Kashmiri Sufism is a legacy of spiritual depth, promoting unity, self-awareness, and enlightenment<br/> through sacred teachings and timeless traditions.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Kashmir’s Soul, Sufi’s Eternal Light",
     title: "The Mystical Heritage of<br/> Kashmiri Sufis",
     text: "Journey through the poetic, philosophical, and spiritual dimensions of Kashmiri Sufism, <br/>where divine love and wisdom shape the seeker’s path.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Ancient Teachings, Timeless Spiritual Awakening",
     title: "Unraveling the Beauty of<br/> Sufi Thought",
     text: "Understanding Kashmiri Sufism means embracing a philosophy of love, surrender, <br/>and divine connection, guiding humanity toward truth and unity.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 export default function Home() {
@@ -96,7 +96,7 @@ export default function Home() {
                                             Kashmiri Sufism is more than just a spiritual tradition; it is a way of life, a philosophy of unity, love, and knowledge. Rooted in the teachings of mystics, poets, and sages, it embodies a deep understanding of the divine, human consciousness, and the interconnectedness of all existence.
                                             </p>
                                             <p className="text-base sm:text-lg mt-5 text-gray-700">
-                                            At the Sufi Science Centre (SSC), we delve into the essence of Kashmiri Sufism, exploring its historical significance, philosophical depth, and scientific relevance in today’s world. Our goal is to bridge the wisdom of the past with the questions of the present, offering seekers a profound yet practical understanding of this rich tradition.
+                                            At the Sufi Science Center (SSC), we delve into the essence of Kashmiri Sufism, exploring its historical significance, philosophical depth, and scientific relevance in today’s world. Our goal is to bridge the wisdom of the past with the questions of the present, offering seekers a profound yet practical understanding of this rich tradition.
                                             </p>
                                           </div>
                                           
@@ -308,7 +308,7 @@ export default function Home() {
 
       <div className="max-w-5xl mx-auto mt-8 text-left">
         <h2 className="text-xl font-semibold">
-        At the Sufi Science Centre, we believe that Sufism is not confined to the past—it is a living force that must evolve, adapt, and illuminate the future.
+        At the Sufi Science Center, we believe that Sufism is not confined to the past—it is a living force that must evolve, adapt, and illuminate the future.
         </h2>
       </div>
     </section>

@@ -21,35 +21,35 @@ const gatewaysSlides = [
     title: "Opening the Gates<br/> of Perception ",
     text: "Perceptual gateways offer seekers access to hidden dimensions of truth,<br/> awareness, and spiritual insight.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Awakening Through Sacred Portals",
     title: "Discovering the Path to<br/> Inner Visiont",
     text: "Perceptual gateways expand awareness, connecting seekers to spiritual<br/> truth and higher dimensions of consciousness.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Unlocking Inner Sight ",
     title: "The Path to <br/>Spiritual Perception",
     text: "Perceptual gateways reveal hidden dimensions of existence, <br/>helping seekers find clarity and deeper understanding.  ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Keys to Mystical Vision",
     title: "Discovering the Power<br/> of Perception",
     text: "By unlocking perceptual gateways, seekers expand their spiritual<br/> awareness and connect to higher truths.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Portals to Spiritual Awareness",
     title: "Opening the Mind’s <br />Hidden Doors",
     text: " Perceptual gateways allow seekers to transcend physical limitations<br/> and access higher realms of consciousness. ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -132,7 +132,7 @@ export default function Home() {
 
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study provides a structured approach to awakening latent senses, training seekers to refine perception, deepen spiritual sensitivity, and attune to divine frequencies.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this study provides a structured approach to awakening latent senses, training seekers to refine perception, deepen spiritual sensitivity, and attune to divine frequencies.
                   </p>
                 </div>
 

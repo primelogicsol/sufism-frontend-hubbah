@@ -21,28 +21,28 @@ const MatricesSlides = [
     title: "Discovering the Core <br/>of Existence",
     text: " Foundational matrices reveal the hidden patterns of creation, guiding seekers <br/>toward the universal truth and spiritual balance.  ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Patterns of Divine Order ",
     title: "Unlocking the Mysteries<br/> of Creation",
     text: "Foundational matrices provide a map to understanding existence through<br/> spiritual codes and sacred geometric alignments.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Decoding the Sacred Patterns",
     title: " Exploring the Core<br/> of Reality",
     text: "Spiritual matrices offer insight into the architecture of<br/> existence, connecting seekers with the hidden order of life.  ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Keys to Spiritual Frameworks  ",
     title: "Mapping the Divine<br/> Blueprints ",
     text: "Foundational matrices serve as spiritual keys to understanding<br/> creation and unlocking higher states of consciousness.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Understanding Life’s Sacred Grid",
@@ -131,7 +131,7 @@ export default function Home() {
                   The Foundational Matrices serve as a structured framework for exploring the intersection of mysticism, science, and consciousness. Rooted in classical Sufi knowledge yet adapted for the modern seeker, this study unveils the hidden order of existence through mathematical, cosmological, and psychological dimensions.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured approach provides seekers with a scientific yet experiential path to understanding divine reality, soul dynamics, and cosmic harmony.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this structured approach provides seekers with a scientific yet experiential path to understanding divine reality, soul dynamics, and cosmic harmony.
                   </p>
                 </div>
 

@@ -39,7 +39,7 @@ export default function DonationForm() {
   // ---- Donation Options ----
   const donationOptions = ["$10", "$20", "$50", "$100", "Custom Amount"];
   const donationPools = [
-    "Donate to the Sufi Science Centre",
+    "Donate to the Sufi Science Center",
     "Sponsor a Sufi Scholar or Student",
     "Contribute to the Preservation of Sacred Art and Craft",
     "Sponsor Sacred Events and Gatherings",
@@ -244,37 +244,9 @@ export default function DonationForm() {
           />
         </div>
 
-        {/* Payment Method Section */}
-        <div className="mb-4">
-          <label className="block text-fixnix-lightpurple text-xl font-bold">
-            Payment Method
-          </label>
-          <div className="mt-2 space-y-2">
-            <label className="flex items-center space-x-2">
-              <input
-                type="radio"
-                name="paymentMethod"
-                value="Bank Transfer"
-                onChange={handlePaymentMethodChange}
-                className="w-4 h-4"
-              />
-              <span>Direct Bank Transfer</span>
-            </label>
-            <label className="flex items-center space-x-2">
-              <input
-                type="radio"
-                name="paymentMethod"
-                value="Paypal"
-                onChange={handlePaymentMethodChange}
-                className="w-4 h-4"
-              />
-              <span>Paypal Payment</span>
-            </label>
-          </div>
-        </div>
-
+        
         <button className="w-full bg-fixnix-lightpurple text-white p-3 rounded-lg font-semibold hover:bg-fixnix-darkpurple transition">
-          Donate Now
+          Proceed to Donate
         </button>
       </div>
     </Layout>

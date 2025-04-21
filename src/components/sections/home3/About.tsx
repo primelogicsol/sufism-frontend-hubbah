@@ -41,7 +41,7 @@ export default function About() {
                   The Next Generation Sufi Way Forward
                   </span>
                   <h2 className="font-bold mt-3 text-3xl text-fixnix-darkpurple">
-                  Welcome to the Sufi Science Centre</h2>
+                  Welcome to the Sufi Science Center</h2>
                   <h2 className="font-semibold text-2xl text-fixnix-darkpurple"> A Harmony of Knowledge and Inner Peace</h2> 
                  
                   

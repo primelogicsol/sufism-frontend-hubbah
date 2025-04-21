@@ -21,35 +21,35 @@ const geometrySlides = [
     title: "Mapping the Geometry of Consciousness",
     text: "Consciousness geometries reveal the hidden order of mind and <br/>spirit, unlocking deeper dimensions of awareness.  ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Aligning with Sacred Symmetry",
     title: "The Hidden Architecture<br/> of Awareness",
     text: "Through sacred geometry, seekers align their consciousness <br/>with the divine order of existence.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Paths of Geometric Awakening",
     title: "Understanding the Shape<br/> of Mind",
     text: "Consciousness geometries help seekers decode the sacred structures behind <br/>thought, awareness, and spiritual awakening.  ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Harmonizing the Mind’s Blueprint",
     title: "Sacred Geometry of <br/>Consciousness ",
     text: "By aligning thought with geometric patterns, seekers unlock deeper states<br/> of clarity, insight, and spiritual harmony.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Unfolding the Patterns of Awareness",
     title: "Sacred Codes of Thought<br/> and Spirit ",
     text: " Consciousness geometries map the journey toward spiritual awakening,<br/> revealing the hidden patterns of the mind.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Consciousness Geometries is an exploration of the structural, spatial, and vibrational nature of awareness. Rooted in Sufi metaphysics and contemporary quantum theories, this framework examines how consciousness interacts with dimensions, time, and non-locality through geometric and field-based models.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured approach to mapping the unseen architectures of consciousness, integrating sacred geometry, quantum mechanics, and multi-dimensional perception to uncover the hidden mechanics of awareness and reality formation.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this study presents a structured approach to mapping the unseen architectures of consciousness, integrating sacred geometry, quantum mechanics, and multi-dimensional perception to uncover the hidden mechanics of awareness and reality formation.
                   </p>
                 </div>
 

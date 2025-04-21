@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
             <div className="h-1 w-24 bg-[var(--fixnix-lightpuple)]"></div>
           </div>
           <p className="mt-4 text-lg">
-            <span className="font-medium">Sufi Science Centre: The Next Generation Sufi Way Forward</span>
+            <span className="font-medium">Sufi Science Center: The Next Generation Sufi Way Forward</span>
             <br />
                         <span className="text-gray-600">
             Last Updated: {new Date().toLocaleString('default', { month: 'long', year: 'numeric' })}
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
               1. Our Commitment to Your Privacy
             </h2>
             <p className="text-gray-700">
-              At the Sufi Science Centre, your privacy is a sacred trust. As seekers
+              At the Sufi Science Center, your privacy is a sacred trust. As seekers
               of truth and unity, we value transparency and honor your personal data
               with utmost responsibility. This Privacy Policy outlines how we collect,
               use, and protect your information.

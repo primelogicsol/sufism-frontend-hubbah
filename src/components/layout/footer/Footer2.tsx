@@ -146,7 +146,7 @@ export default function Footer2() {
             <div className="site-footer__bottom-inner">
               <p className="site-footer__bottom-text">
                 © 2025 Copyright by{" "}
-                <Link href="">Sufi Science Centre</Link>
+                <Link href="">Sufi Science Center</Link>
               </p>
             </div>
           </div>

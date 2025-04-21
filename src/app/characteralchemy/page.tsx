@@ -21,35 +21,35 @@ const alchemySlides = [
     title: "Transforming Through<br/> Inner Alchemy ",
     text: "Character alchemy helps seekers purify and transform their inner being,<br/> revealing their divine essence.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Becoming the Higher Self",
     title: "Spiritual Transformation <br/>Through Alchemy",
     text: "Character alchemy guides seekers through inner change, <br/>refining the soul and awakening divine potential.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Purification of the Soul",
     title: "Unlocking the Power <br/>of Alchemy",
     text: "By practicing character alchemy, seekers transform their <br/>inner being and awaken to spiritual truth.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Rebirth Through Inner Change",
     title: "The Sacred Art of <br/>Character Alchemy",
     text: "Through character alchemy, seekers refine their inner nature,<br/> aligning with higher spiritual truths.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Spiritual Refinement Unveiled ",
     title: "The Path of<br/> Inner Alchemy  ",
     text: " Character alchemy helps seekers dissolve the ego and<br/> awaken the hidden divinity within.  ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Character Alchemy is the science of inner transformation, refining the raw materials of the self into higher states of virtue, wisdom, and divine embodiment. Rooted in Sufi ethical philosophy and advanced spiritual psychology, this framework merges inner refinement with sacred engineering, guiding seekers through the systematic process of spiritual self-mastery
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured path for developing transcendent ethics, cultivating virtue, and embodying divine justice in action.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this study presents a structured path for developing transcendent ethics, cultivating virtue, and embodying divine justice in action.
                   </p>
                 </div>
 

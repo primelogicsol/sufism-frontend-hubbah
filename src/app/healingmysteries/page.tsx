@@ -21,28 +21,28 @@ const healingSlides = [
     title: "Sacred Paths to<br/> Wholeness ",
     text: "Healing mysteries guide seekers toward spiritual and physical<br/> restoration through sacred knowledge. ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Wisdom of Healing  ",
     title: " Unlocking the Body’s <br/>Divine Power",
     text: "Through healing mysteries, seekers awaken their inner capacity for<br/> spiritual and physical restoration.    ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Healing Through Spiritual Wisdom  ",
     title: "Restoring Harmony <br/>and Balance ",
     text: "Healing mysteries offer insight into the sacred connection<br/> between mind, body, and spirit. ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "The Path to Wholeness  ",
     title: "Unlocking Sacred <br/>Healing Codes  ",
     text: "By understanding healing mysteries, seekers find the key to<br/> restoring balance and spiritual health.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Spiritual Restoration Revealed",
@@ -131,7 +131,7 @@ export default function Home() {
                   Healing Mysteries explores the hidden sciences of health, regeneration, and spiritual well-being, integrating Prophetic medicine, bioenergetics, and interdimensional healing protocols. Rooted in Sufi healing traditions and modern scientific advancements, this framework examines the interplay between consciousness, biology, and vibrational medicine.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study merges sacred knowledge with emerging health sciences, offering seekers a deeper understanding of healing mechanisms across physical, energetic, and consciousness-based dimensions.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this structured study merges sacred knowledge with emerging health sciences, offering seekers a deeper understanding of healing mechanisms across physical, energetic, and consciousness-based dimensions.
                   </p>
                 </div>
 

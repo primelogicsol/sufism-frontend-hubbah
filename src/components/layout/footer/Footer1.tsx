@@ -20,13 +20,13 @@ export default function Footer() {
                 <div className="relative block mr-0 lg:mr-12 xl:mr-20 mt-4">
                   <div className="relative block">
                     <Link href="#">
-                      <img src="assets/images/resources/logo-4.png" alt="Sufi Science Centre Logo" className="max-w-full h-auto" />
+                      <img src="assets/images/resources/logo-4.png" alt="Sufi Science Center Logo" className="max-w-full h-auto" />
                     </Link>
                   </div>
                   <div className="relative block pt-8 md:pt-10 lg:pt-8 pb-4">
                     
                     <p className="text-base text-[var(--fixnix-white)]">
-                    A sanctuary of mystical wisdom and sacred science, the Sufi Science Centre bridges Kashmir’s spiritual legacy with evolving human consciousness,  nurturing seekers through devotion, inner transformation, and universal discovery. A U.S.-based initiative, it is a heartfelt gift to the Kashmir Sufi movement.
+                    A sanctuary of mystical wisdom and sacred science, the Sufi Science Center bridges Kashmir’s spiritual legacy with evolving human consciousness,  nurturing seekers through devotion, inner transformation, and universal discovery. A U.S.-based initiative, it is a heartfelt gift to the Kashmir Sufi movement.
                     </p>
                   </div>
                   <div className="relative block">

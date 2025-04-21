@@ -13,7 +13,7 @@ export default function ReturnsPolicy() {
             <div className="h-1 w-24 bg-[var(--fixnix-lightpuple)]"></div>
           </div>
           <p className="mt-4 text-lg">
-            <span className="font-medium">Sufi Science Centre: The Next Generation Sufi Way Forward</span>
+            <span className="font-medium">Sufi Science Center: The Next Generation Sufi Way Forward</span>
             <br />
             <span className="text-gray-600">
                 Last Updated: {new Date().toLocaleString('default', { month: 'long', year: 'numeric' })}

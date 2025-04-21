@@ -25,35 +25,35 @@ const HomeSlides = [
     title: "Transform Your Space<br/> with Spiritual Elegance",
     text: "  Bring peace and harmony to your home with handcrafted décor,<br/> inspired by Kashmiri Sufi artistry and timeless traditions.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Graceful Living, Sufi-Inspired Serenity",
     title: " Elevate Your Home with<br/> Spiritual Touch",
     text: "Explore soulful home essentials, from sacred décor to handcrafted furnishings,<br/> designed to create an atmosphere of peace and mindfulness.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Tradition, Beauty, Comfort, Harmony, Spirit",
     title: "Artisanal Homeware for<br/> Sacred Living",
     text: " Infuse your home with warmth, culture, and spiritual elegance<br/> through handcrafted Kashmiri Sufi-inspired home and living collections.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Handcrafted Beauty for Inspired Living",
     title: "Timeless Kashmiri Craft<br/> for Your Home",
     text: "Discover home essentials enriched with heritage, designed to enhance your <br/>space with beauty, authenticity, and soulful energy.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Artistry for Every Home",
     title: "Create a Sanctuary of<br/> Spiritual Comfort",
     text: " Our collection blends sacred craftsmanship with functionality, offering timeless<br/> home décor and essentials inspired by Kashmiri Sufi traditions.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 export default function Home() {
@@ -136,7 +136,7 @@ export default function Home() {
             
           </span>
                   <h2 className="font-bold mt-2 sm:mt-3 text-2xl sm:text-3xl text-fixnix-darkpurple">
-                    Welcome to the Sufi Science Centre
+                    Welcome to the Sufi Science Center
                   </h2>
                   <h2 className="font-semibold text-xl sm:text-2xl text-fixnix-darkpurple">
                     A Harmony of Knowledge and Inner Peace

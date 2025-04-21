@@ -14,35 +14,35 @@ const CollaborationSlides = [
     title: " Partner with Us for<br/> Meaningful Impact",
     text: "Join hands with us to promote Kashmiri Sufi traditions, foster education,<br/> and create lasting spiritual and cultural initiatives.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Unite, Innovate, Inspire, Grow, Transform",
     title: " Strengthening Bonds Through<br/> Shared Vision",
     text: " We welcome organizations, scholars, and institutions to collaborate in preserving Sufi<br/> wisdom, research, and global spiritual education.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Collective Efforts, Lasting Change ",
     title: "Let’s Work Together<br/> for a Purpose",
     text: " Partner with us in research, events, and cultural initiatives to promote Sufi<br/> spirituality, ethical living, and conscious learning.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Wisdom Grows When We Collaborate",
     title: "Join a Network of <br/>Inspired Thinkers",
     text: " Connect with scholars, artists, and spiritual leaders to expand the<br/> reach of Sufi science, philosophy, and ethical teachings.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Bridging Spirituality, Knowledge, and Action",
     title: "Partner with Us<br/> for Greater Good",
     text: "Explore collaboration opportunities in education, research, and cultural programs that <br/>support the growth of Kashmiri Sufi traditions worldwide.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 
@@ -111,7 +111,7 @@ export default function Home() {
                     </h2>
                   </div>
                   <p className="text-gray-700 mt-4">
-                    At the Sufi Science Centre – Kashmir Chapter, we believe in
+                    At the Sufi Science Center – Kashmir Chapter, we believe in
                     the transformative power of unity, where the heart beats as
                     one, and the soul resonates in harmony. Our path is
                     illuminated by the divine light of collaboration, for it is
@@ -197,7 +197,7 @@ export default function Home() {
                       Educational Partnerships
                     </h3>
                     <p className=" text-left">
-                    The Centre partners with universities, spiritual institutions, and scholars worldwide. We offer transformative learning rooted in Sufi wisdom, Kashmiri mysticism, and sacred traditions. Through teachings and exchanges, we deepen understanding of spiritual principles.
+                    The Center partners with universities, spiritual institutions, and scholars worldwide. We offer transformative learning rooted in Sufi wisdom, Kashmiri mysticism, and sacred traditions. Through teachings and exchanges, we deepen understanding of spiritual principles.
                     </p>
                   </div>
                 </div>
@@ -394,7 +394,7 @@ export default function Home() {
                       A Sacred Purpose
                     </h3>
                     <p className=" mt-[15px] mb-[22px] text-white">
-                      Every partnership with the Sufi Science Centre is rooted
+                      Every partnership with the Sufi Science Center is rooted
                       in a higher calling—a shared dedication to advancing the
                       timeless wisdom of Sufi science, to preserving the art and
                       culture of Kashmir, and to cultivating peace, love, and

@@ -21,35 +21,35 @@ const realitySlides = [
     title: "Exploring the Structure<br/> of Reality ",
     text: "Reality frameworks reveal the hidden design behind existence,<br/> helping seekers align with spiritual order.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Frameworks of Existence ",
     title: "Mapping the Truth of Reality ",
     text: "Reality frameworks offer seekers a guide to understanding the<br/> hidden structure of the universe and existence.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Unlocking the Codes of Reality ",
     title: "The Blueprint of<br/> Existence ",
     text: "By exploring reality frameworks, seekers uncover the hidden laws<br/> guiding existence and spiritual balance.  ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Discovering the Architecture of Being",
     title: "Reality’s Sacred Blueprint",
     text: "Reality frameworks provide the map to understanding existence,<br/> guiding seekers to align with cosmic truth.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Truth in the Structure of Life ",
     title: "Decoding the <br/>Sacred Framework",
     text: "Reality frameworks reveal the hidden structure of existence,<br/> allowing seekers to align with divine order.  ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Reality Frameworks is a deep exploration into the hidden structures governing existence, blending classical Sufi metaphysics with modern scientific paradigms. This framework examines how reality is shaped, perceived, and influenced through the interplay of quantum mechanics, holographic principles, and multidimensional fields.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study bridges spiritual wisdom with frontier sciences, offering seekers a comprehensive understanding of reality as a dynamic, interconnected system.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this structured study bridges spiritual wisdom with frontier sciences, offering seekers a comprehensive understanding of reality as a dynamic, interconnected system.
                   </p>
                 </div>
 

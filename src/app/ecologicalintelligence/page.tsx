@@ -21,35 +21,35 @@ const ecologySlides = [
     title: "Aligning with <br/>Nature’s Harmony",
     text: "Ecological intelligence reveals the sacred balance<br/> between humanity and nature, promoting spiritual and environmental harmony.  ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Ecology Unfolded",
     title: "Finding Spiritual Truth <br/>in Nature ",
     text: " Understanding the sacred patterns of nature helps seekers find <br/>harmony, peace, and a deeper connection with creation.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Living in Sacred Balance",
     title: "Nature’s Wisdom and<br/> Spiritual Growth ",
     text: "Ecological intelligence teaches how to live in harmony with<br/> the earth, guided by spiritual balance and natural rhythms.  ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Nature as a Spiritual Teacher",
     title: " Learning from the Language<br/> of Nature",
     text: "Nature’s design mirrors spiritual truths, guiding seekers to live<br/> in harmony with the rhythms of existence.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Awakening Through Nature’s Wisdom ",
     title: "Sacred Balance of<br/> Life and Spirit ",
     text: "By aligning with ecological intelligence, seekers unlock the<br/> hidden spiritual codes embedded in the natural world.  ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Ecological Intelligence is the sacred science of living in harmony with creation, integrating spiritual consciousness, environmental ethics, and divine stewardship. Rooted in Sufi cosmology, this framework explores the interconnectedness of nature, humanity, and divine order, guiding seekers toward a holistic and ethical engagement with the natural world.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study presents a structured approach to understanding ecology as a spiritual discipline, offering deep insights into divine patterns within nature, sustainability through sacred balance, and the role of humans as stewards of creation.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this study presents a structured approach to understanding ecology as a spiritual discipline, offering deep insights into divine patterns within nature, sustainability through sacred balance, and the role of humans as stewards of creation.
                   </p>
                 </div>
 

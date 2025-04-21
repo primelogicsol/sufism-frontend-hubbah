@@ -14,7 +14,7 @@ export default function Services() {
             Soul Behind Our Initiative
           </h2>
           <p className="text-gray-600 my-2 text-left-mobile">
-            The Sufi Science Centre – Kashmir Chapter was born from a deep longing to preserve, revive, and reimagine the sacred knowledge embedded in Kashmiri Sufi tradition. This space invites you to explore our identity, understand our purpose, and walk through the legacy that shapes our mission. From ancient mystics to modern thinkers, our journey is a bridge between the inner self and the outer world, between devotion and discovery.
+            The Sufi Science Center – Kashmir Chapter was born from a deep longing to preserve, revive, and reimagine the sacred knowledge embedded in Kashmiri Sufi tradition. This space invites you to explore our identity, understand our purpose, and walk through the legacy that shapes our mission. From ancient mystics to modern thinkers, our journey is a bridge between the inner self and the outer world, between devotion and discovery.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
@@ -22,7 +22,7 @@ export default function Services() {
             { 
               title: "Our Identity & Legacy", 
               href: "/heritage&identity", 
-              desc: "Dive into the cultural, spiritual, and historical essence that grounds the Sufi Science Centre, rooted deeply in the Kashmiri Sufi tradition.",
+              desc: "Dive into the cultural, spiritual, and historical essence that grounds the Sufi Science Center, rooted deeply in the Kashmiri Sufi tradition.",
               link1: "/heritage&identity", 
               link1Text: "Heritage & Identity",
               link2: "/kashmirisufilegacy",
@@ -68,13 +68,22 @@ export default function Services() {
                 {service.title}
               </h3>
               <div className="text-center mt-3">
-                <Link href={service.link1} className="text-fixnix-lightpurple hover:underline text-lg font-semibold block">
-                  {service.link1Text}
-                </Link>
-                <Link href={service.link2} className="text-fixnix-lightpurple hover:underline text-lg font-semibold block mt-1">
-                  {service.link2Text}
-                </Link>
-              </div>
+  <Link
+    href={service.link1}
+    className="text-fixnix-lightpurple hover:underline sm:text-xs lg:text-lg font-semibold flex items-center justify-center gap-2"
+  >
+    {service.link1Text}
+    <i className="fa fa-arrow-right" aria-hidden="true"></i>
+  </Link>
+  <Link
+    href={service.link2}
+    className="text-fixnix-lightpurple hover:underline sm:text-xs lg:text-lg font-semibold  mt-1 flex items-center justify-center gap-2"
+  >
+    {service.link2Text}
+    <i className="fa fa-arrow-right" aria-hidden="true"></i>
+  </Link>
+</div>
+
             </div>
           ))}
         </div>

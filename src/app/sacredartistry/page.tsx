@@ -21,35 +21,35 @@ const artistrySlides = [
     title: "Art as a Sacred Path ",
     text: "Sacred artistry reveals the spiritual power of creative expression,<br/> guiding seekers toward divine truth. ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Creativity as Spiritual Devotion ",
     title: "Expressing the Sacred<br/> Through Art  ",
     text: " Sacred artistry reflects the divine order, helping seekers align <br/>with higher truth through creativity.   ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "The Divine in Creative Form  ",
     title: "Unlocking the Power<br/> of Sacred Art",
     text: "Sacred artistry provides seekers with a path to<br/> spiritual truth through creative expression.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Spiritual Truth Through Creativity ",
     title: "Crafting the Divine ",
     text: "Sacred artistry allows seekers to express spiritual truth and<br/> align with divine creativity.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Creativity as a Sacred Act  ",
     title: "Discovering the Power <br/>of Art  ",
     text: " Through sacred artistry, seekers connect with<br/> divine truth and spiritual expression.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Sacred Artistry explores the spiritual dimensions of creative expression, where art serves as a vessel for divine harmony, metaphysical insight, and transcendent beauty. Rooted in Sufi aesthetics, geometry, and sound sciences, this framework examines how art becomes a bridge between the seen and unseen, a channel for wisdom, and a medium for spiritual refinement.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study merges artistic mastery with sacred intention, offering seekers a structured understanding of how geometry, movement, sound, and symbolic representation convey divine realities.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this study merges artistic mastery with sacred intention, offering seekers a structured understanding of how geometry, movement, sound, and symbolic representation convey divine realities.
                   </p>
                 </div>
 

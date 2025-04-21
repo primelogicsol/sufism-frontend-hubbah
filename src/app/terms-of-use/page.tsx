@@ -13,7 +13,7 @@ export default function TermsOfUse() {
             <div className="h-1 w-24 bg-[var(--fixnix-lightpuple)]"></div>
           </div>
           <p className="mt-4 text-lg">
-            <span className="font-medium">Sufi Science Centre: The Next Generation Sufi Way Forward</span>
+            <span className="font-medium">Sufi Science Center: The Next Generation Sufi Way Forward</span>
             <br />
             <span className="text-gray-600">
             Last Updated: {new Date().toLocaleString('default', { month: 'long', year: 'numeric' })}
@@ -25,7 +25,7 @@ export default function TermsOfUse() {
         <div className="bg-white shadow-md rounded-lg p-6 md:p-8 lg:p-10 mb-10">
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-[var(--fixnix-darkpurple)] mb-4">
-              1. Welcome to Sufi Science Centre
+              1. Welcome to Sufi Science Center
             </h2>
             <p className="text-gray-700">
               By accessing or using our website
@@ -74,7 +74,7 @@ export default function TermsOfUse() {
             </h2>
             <p className="text-gray-700 mb-4">
               All content including texts, graphics, videos, logos, designs, and
-              teachings is owned by <span className="font-medium">Sufi Science Centre</span> or used with
+              teachings is owned by <span className="font-medium">Sufi Science Center</span> or used with
               permission.
             </p>
             <div className="bg-gray-50 p-4 rounded-md">
@@ -128,7 +128,7 @@ export default function TermsOfUse() {
               8. Limitation of Liability
             </h2>
             <p className="text-gray-700 mb-4">
-              Sufi Science Centre is not liable for:
+              Sufi Science Center is not liable for:
             </p>
             <ul className="list-disc ml-6 text-gray-700 space-y-2">
               <li>Any indirect or consequential loss or damage</li>

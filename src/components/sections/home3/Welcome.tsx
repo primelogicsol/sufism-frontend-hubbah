@@ -27,7 +27,7 @@ export default function Welcome() {
                   <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-2">Your Journey</h2>
                 </div>
                 <p className="text-base md:text-lg font-semibold text-fixnix-darkpurple">
-                  Step into the cosmic path of the New Generation Sufi, from the sacred depths of the Himalayan peaks rises the Sufi Science Centre Kashmir, where mystic intuition meets scientific inquiry.
+                  Step into the cosmic path of the New Generation Sufi, from the sacred depths of the Himalayan peaks rises the Sufi Science Center Kashmir, where mystic intuition meets scientific inquiry.
                 </p>
                 <p className="mt-4 md:mt-6 mb-6 md:mb-9 text-sm md:text-base">
                   This journey unfolds from inner awakening to expansive consciousness through Core Learning Paths, Growth Modules, and Quantum Leadership. Explore sacred geometries of thought, submit your abstract revelations, and access a library of metaphysical tools. This is not just a path, it's your transformation into a conscious architect of divine reality and spiritual intelligence.
@@ -56,7 +56,7 @@ export default function Welcome() {
     </Link>
   </div>
 </div>
-<div className="flex flex-wrap items-center -mx-2 mt-4">
+<div className="flex flex-wrap items-center -mx-2 mt-2">
   <div className="px-2 mb-4 md:mb-0 w-full sm:w-1/2">
     <Link 
       href="/submissionportal" 
@@ -86,7 +86,7 @@ export default function Welcome() {
               <div className="relative block ml-0 md:ml-6 lg:ml-12 z-10">
                 <div className="relative block rounded-md overflow-hidden">
                   <img
-                    src="assets/images/resources/welcome-one-img-1.jpg"
+                    src="assets/images/resources/welcome.png"
                     alt=""
                     className="w-full h-auto rounded-md"
                   />

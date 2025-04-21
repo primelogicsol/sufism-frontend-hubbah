@@ -21,35 +21,35 @@ const ScienceSlides = [
     title: "Exploring the Science<br/> of Oneness",
     text: "Unity sciences reveal the sacred connection between all existence,<br/> guiding seekers toward wholeness and harmony.  ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Paths to Sacred Unity ",
     title: "Understanding the Oneness <br/>of Creation ",
     text: "Through unity sciences, seekers uncover the hidden bonds connecting all<br/> of existence and spiritual truth. ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Oneness Through Sacred Knowledge ",
     title: " Unlocking the Science<br/> of Unity ",
     text: "Unity sciences provide seekers with insight into the interconnectedness<br/> of existence and spiritual harmony.  ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Merging with the Whole ",
     title: "Spiritual Truth <br/>Through Unity",
     text: "Unity sciences guide seekers toward the realization of<br/> Oneness with creation and spiritual awakening. ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Awakening to Universal Connection ",
     title: "Discovering the Science<br/> of Unity  ",
     text: " By understanding unity sciences, seekers align with <br/>the sacred interconnectedness of existence.  ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Unity Sciences explores the principles that govern oneness, multiplicity, and divine manifestation. Rooted in Sufi metaphysics, sacred geometry, and advanced ontological studies, this framework analyzes how existence emerges from unity, unfolds into multiplicity, and ultimately returns to its singular source.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study bridges classical mystical thought with contemporary scientific models, revealing the hidden mechanics of unity, separation, and divine manifestation.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this structured study bridges classical mystical thought with contemporary scientific models, revealing the hidden mechanics of unity, separation, and divine manifestation.
                   </p>
                 </div>
 

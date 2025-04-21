@@ -9,35 +9,35 @@ const LegacySlides = [
     title: " Dr. Kumar's Path to<br/> Spiritual Awakening",
     text: "From Kashmir’s jungles to the world, Dr. Kumar’s Sufi wisdom inspires<br/> seekers to embrace love, peace, and self-awareness.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " A Journey Beyond the Self",
     title: "Dr. Kumar’s Mystic <br/>Call to Truth",
     text: "Rooted in Kashmiri Sufism, Dr. Kumar’s teachings bridge science and spirituality,<br/> guiding seekers toward inner peace and enlightenment.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Awakening Through Mystic Science",
     title: " Dr. Kumar’s Legacy<br/> of Sufi Wisdom",
     text: " Combining mysticism and science, Dr. Kumar reveals the hidden truths of<br/> existence, offering seekers a path to harmony.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Wisdom Beyond the Material World",
     title: "Dr. Kumar’s Teachings<br/> of Inner Light",
     text: " Guided by Sufi science, Dr. Kumar’s insights empower seekers to <br/>uncover life’s deeper purpose through spiritual connection.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Finding Truth Through Mystic Paths",
     title: " Dr. Kumar’s Spiritual<br/> and Scientific Fusion",
     text: "Dr. Kumar’s teachings blend Kashmiri Sufism and science, leading seekers <br/>toward enlightenment, self-awareness, and universal harmony.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 export default function Home() {
@@ -277,7 +277,7 @@ export default function Home() {
                               
                               <div className="ml-4 sm:ml-6">
                                 <h5 className="text-lg sm:text-xl md:text-[21px] font-semibold text-white transition-colors duration-500 ">
-                                A Meditation Centre 
+                                A Meditation Center 
                                 </h5>
                                 <p className="text-sm sm:text-base text-white transition-colors duration-500 ">
                                 A place for deep reflection, where seekers engage in Zikr and Muraqaba .
@@ -372,9 +372,9 @@ export default function Home() {
                     <div className="text-left">
                      
                        <h2 className="text-2xl uppercase sm:text-3xl md:text-4xl font-semibold mt-4 mb-2 leading-snug sm:leading-tight">
-                       The Birth of the Sufi Science Centre(SSC)
+                       The Birth of the Sufi Science Center(SSC)
                       </h2> 
-                      <p className="text-[16px]">To preserve and spread his teachings, the Sufi Science Centre was founded as a think tank, research hub, and spiritual sanctuary to carry forward Dr. Kumar’s vision of uniting Sufism with modern intellectual and technological advancements.</p>
+                      <p className="text-[16px]">To preserve and spread his teachings, the Sufi Science Center was founded as a think tank, research hub, and spiritual sanctuary to carry forward Dr. Kumar’s vision of uniting Sufism with modern intellectual and technological advancements.</p>
                       
                     </div>
                   </div>

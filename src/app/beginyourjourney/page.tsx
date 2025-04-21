@@ -15,35 +15,35 @@ export default function Home() {
       title: "Start Your Transformative<br/> Sufi Journey Today",
       text: " Embark on a spiritual path rooted in Kashmiri Sufism, unlocking self-awareness,<br/> inner peace, and divine connection through sacred teachings.",
       buttonText: "Read More",
-      buttonLink: "/Home",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Awaken, Explore, Reflect, Transform, Enlighten",
       title: "A Path to<br/> Inner Peace Begins",
       text: "Your journey into Kashmiri Sufi wisdom starts here—discover mindfulness,<br/> harmony, and a deeper connection to your spiritual essence.",
-      buttonText: "Explore Now",
-      buttonLink: "/Home",
+      buttonText: "Join Now",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Discover Your Soul’s True Calling",
       title: "Begin Your Journey to<br/> Sufi Wisdom",
       text: "Guided by Kashmiri Sufi traditions, embark on a path of knowledge, devotion,<br/> and self-realization, where wisdom leads to transformation.",
       buttonText: "Join Now",
-      buttonLink: "/Home",
+      buttonLink: "/membership",
     },
     {
       subTitle: " A Journey Toward Truth Begins",
       title: "Step Into the Light<br/> of Sufism",
       text: "Join the timeless journey of seekers before you, discovering the beauty of<br/> Kashmiri Sufi philosophy through reflection, learning, and devotion.",
       buttonText: "Explore",
-      buttonLink: "/Home",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Start, Seek, Grow, Evolve, Transcend",
       title: "Unlock the Secrets of <br/>Spiritual Awakening",
       text: " Take your first steps toward a journey of enlightenment, where Sufi teachings<br/> illuminate your path to self-discovery and divine love.",
       buttonText: "Join Now",
-      buttonLink: "/Join",
+      buttonLink: "/membership",
     },
   ];
   return (
@@ -92,7 +92,7 @@ export default function Home() {
                       THE UNIQUE LEGACY OF KASHMIRI SUFISM
                       </h2>
                       <p className="text-base sm:text-lg text-gray-700">
-                      Kashmir, known as Pir Waer (Valley of Saints), represents a profound convergence of spiritual traditions where Sufism developed unique characteristics. The Sufi Science Centre Kashmir embodies this rich heritage, where ancient wisdom meets contemporary science. Our approach honors Kashmir's distinctive Rishi tradition while creating bridges between traditional practices and modern understanding, preserving timeless wisdom while making it accessible to today's seekers.
+                      Kashmir, known as Pir Waer (Valley of Saints), represents a profound convergence of spiritual traditions where Sufism developed unique characteristics. The Sufi Science Center Kashmir embodies this rich heritage, where ancient wisdom meets contemporary science. Our approach honors Kashmir's distinctive Rishi tradition while creating bridges between traditional practices and modern understanding, preserving timeless wisdom while making it accessible to today's seekers.
                       </p>
                     </div>
                     <ul className="space-y-6 sm:space-y-8 lg:space-y-10">

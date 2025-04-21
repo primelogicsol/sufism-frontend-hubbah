@@ -11,35 +11,35 @@ const VolunteerSlides = [
     title: " Join Us in <br/>Preserving Sufi Wisdom",
     text: "Become a part of our mission—volunteer your time and skills to help sustain <br/>Kashmiri Sufi traditions and spiritual education.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Give Your Time, Make a Difference",
     title: " Empower Communities <br/>Through Meaningful Service",
     text: " Join hands with us to support Sufi heritage, engage in cultural initiatives,<br/> and inspire seekers on the path of wisdom.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Lend a Hand, Uplift Spirits  ",
     title: "Be a Part of <br/>Something Greater",
     text: " Your volunteer work helps spread Sufi knowledge, preserve sacred traditions,<br/> and foster a community rooted in love and enlightenment.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Together We Create Lasting Impact",
     title: "Volunteer and Serve <br/>with Purpose",
     text: "Whether in research, events, or community engagement, your efforts<br/> help keep the wisdom of Sufism alive and accessible to all.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Heartfelt Service, Spiritual Fulfillment, Growth",
     title: "Offer Your Time,<br/> Share Your Light",
     text: "Support our mission by volunteering—contribute your skills, spread awareness,<br/> and help nurture a thriving Sufi-inspired community.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 
@@ -134,7 +134,7 @@ export default function Home() {
               </div>
               <div className="relative ml-[35px]">
                 <p className="mb-[62px]">
-                At the Sufi Science Centre - Kashmir Chapter, we believe that the path to enlightenment is not just one of personal transformation, but a shared experience of collective devotion, love, and service to the divine.
+                At the Sufi Science Center - Kashmir Chapter, we believe that the path to enlightenment is not just one of personal transformation, but a shared experience of collective devotion, love, and service to the divine.
                 </p>
                 <div className="relative">
                   <img
@@ -160,10 +160,10 @@ export default function Home() {
                 
               </span>
               <h2 className="text-3xl font-bold text-fixnix-darkpurple mt-2">
-                Offer your time and talents to the Sufi Science Centre
+                Offer your time and talents to the Sufi Science Center
               </h2>
               <p className="text-gray-600 mt-3">
-                As a volunteer with the Sufi Science Centre, you step into a
+                As a volunteer with the Sufi Science Center, you step into a
                 realm of sacred work, one that touches the very essence of
                 spirituality, wisdom, and the rich cultural heritage of Kashmir.
                 Through your service, you will support the preservation of
@@ -240,7 +240,7 @@ export default function Home() {
               </h2>
               <p className="text-[var(--fixnix-white)] mt-2">
                 Becoming a volunteer is simple. Whether you are in Kashmir or
-                from a distant land, the Sufi Science Centre welcomes all who
+                from a distant land, the Sufi Science Center welcomes all who
                 feel the calling.
                 <br />
                 Let us know how you wish to contribute, and we will guide you on

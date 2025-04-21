@@ -90,35 +90,35 @@ export default function Home() {
       title: "Experience the Power of<br/> Sufi Community",
       text: " Join a vibrant community of seekers, scholars, and spiritual guides<br/> through enriching events, shared wisdom, and collective growth.",
       buttonText: "Read More",
-      buttonLink: "/Home",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Gather, Reflect, Celebrate, Inspire, Transform",
       title: "Building Connections Through<br/> Sufi Gatherings",
       text: "Engage in meaningful discussions, cultural events, and spiritual retreats that <br/>unite hearts and minds in the spirit of Kashmiri Sufism.",
-      buttonText: "Explore Now",
-      buttonLink: "/Home",
+      buttonText: "Join Now",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Unite in Spirit, Learn Together",
       title: "Join Events That <br/>Enrich & Inspire",
       text: "Explore Sufi traditions through festivals, workshops, and gatherings that celebrate <br/>wisdom, culture, and the journey of self-discovery.",
       buttonText: "Join Now",
-      buttonLink: "/Home",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Together in Faith, Growth, & Learning",
       title: "Discover, Share, & Celebrate,<br/> Spiritual Wisdom",
       text: " Be part of a thriving Sufi community where events, discussions, and<br/> experiences foster harmony, enlightenment, and personal transformation.",
-      buttonText: "Explore Now",
-      buttonLink: "/Home",
+      buttonText: "Join Now",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Celebrate Spirituality, Embrace Community, Engage",
       title: "A Gathering of <br/>Seekers & Thinkers",
       text: " Connect with like-minded individuals in immersive events that honor Kashmiri Sufi<br/> heritage, inspire dialogue, and strengthen spiritual bonds.",
       buttonText: "Join Now",
-      buttonLink: "/Join",
+      buttonLink: "/membership",
     },
   ];
   return (
@@ -138,7 +138,7 @@ export default function Home() {
                         <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                       </span>
                       <h2 className="text-2xl uppercase sm:text-3xl md:text-4xl font-semibold mt-4 mb-6 leading-snug sm:leading-tight">
-                      Sufi Science Centre Symposium 2025
+                      Sufi Science Center Symposium 2025
                       </h2>
                       <p className="text-base sm:text-lg text-gray-700">
                       
@@ -155,7 +155,7 @@ export default function Home() {
              
                 <div className="flex flex-col md:flex-row bg-gray-100  p-0 pb-[52px] mb-[110px] relative z-10 rounded-3xl">
                 <div className="absolute top-0 right-0 bg-fixnix-lightpurple text-white py-1 px-3 rounded-tr-3xl rounded-bl-xl text-sm font-medium z-20">
-                Sufi Science Centre Symposium
+                Sufi Science Center Symposium
                 </div>
                   <div className=" pt-[123px] px-10 relative ">
                     <div className="mb-[24px] ">

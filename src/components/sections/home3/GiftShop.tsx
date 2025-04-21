@@ -30,8 +30,8 @@ export default function GiftShop() {
           {/* Blog Item 1 */}
           <div className="bg-fixnix-lightpurple shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/blog-1-1.jpg" alt="" className="w-full h-64 object-cover rounded-t-xl" />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
+              <img src="assets/images/blog/artdecor.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
+              <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 ">
                 <Link href="/wall&artdecor">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
@@ -51,8 +51,8 @@ export default function GiftShop() {
           {/* Blog Item 2 */}
           <div className="bg-fixnix-lightpurple shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/blog-1-2.jpg" alt="" className="w-full h-64 object-cover rounded-t-xl" />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
+              <img src="assets/images/blog/jewelry.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
+              <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 ">
                 <Link href="/jewelry&accessories">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
@@ -72,8 +72,8 @@ export default function GiftShop() {
           {/* Blog Item 3 */}
           <div className="bg-fixnix-lightpurple shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/blog-1-3.jpg" alt="" className="w-full h-64 object-cover rounded-t-xl" />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
+              <img src="assets/images/blog/fashion.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
+              <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
                 <Link href="/fashion&apparel">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
@@ -93,8 +93,8 @@ export default function GiftShop() {
           {/* Blog Item 4 */}
           <div className="bg-fixnix-lightpurple  shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/blog-1-4.jpg" alt="" className="w-full h-64 object-cover rounded-t-xl" />
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
+              <img src="assets/images/blog/meditation.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
+              <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 ">
                 <Link href="/audiospectrum">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>

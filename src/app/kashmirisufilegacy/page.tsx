@@ -9,35 +9,35 @@ const LegacySlides = [
     title: "Echoes of Kashmir’s<br/> Sufi Masters",
     text: " Journey through the sacred traditions of Kashmiri Sufism, where timeless wisdom,<br/> devotion, and love illuminate the path of seekers.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Roots, Enduring Spiritual Legacy",
     title: "Tracing the Footsteps of<br/> Sufi Saints",
     text: "Discover the spiritual depth of Kashmiri Sufism, a legacy of divine wisdom, <br/>poetic expression, and profound devotion passed through generations.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sufi Wisdom, Kashmir’s Eternal Soul",
     title: "Unraveling the Mysticism of<br/> Kashmiri Sufis",
     text: " Explore the teachings of Kashmiri Sufi luminaries whose insights and<br/> poetry continue to inspire seekers on the path of divine truth.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Faith, Devotion, Unity, Love, Truth",
     title: " Kashmir’s Sufi Heritage: <br/>A Living Tradition",
     text: " Witness the spiritual legacy of Kashmir’s Sufis, who shaped a culture of love,<br/> tolerance, and enlightenment that transcends time.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Love, Harmony, Faith, Knowledge, Eternity",
     title: "Timeless Teachings of<br/>  Kashmiri Sufi Masters",
     text: "Step into the rich spiritual legacy of Kashmiri Sufism, where poetry,<br/> devotion, and wisdom illuminate the seeker’s path to inner peace.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 
@@ -98,7 +98,7 @@ export default function Home() {
                                     Kashmir has long been known as the land of saints and mystics—a place where the divine met the intellectual, where spirituality was never separate from wisdom, and where Sufism shaped the very essence of Kashmiri identity, culture, and ethics. The Kashmiri Sufi Legacy is not just about the past; it is a living tradition, inspiring generations of seekers, scientists, and scholars to explore the mysteries of existence.
                                     </p>
                                     <p className="text-base sm:text-lg mt-5 text-gray-700">
-                                    At the Sufi Science Centre (SSC), we honor, preserve, and evolve this rich tradition, ensuring that it continues to illuminate minds and nurture souls in the modern world. Our legacy is one of unity, enlightenment, and boundless inquiry—a philosophy that bridges spiritual insight with scientific exploration
+                                    At the Sufi Science Center (SSC), we honor, preserve, and evolve this rich tradition, ensuring that it continues to illuminate minds and nurture souls in the modern world. Our legacy is one of unity, enlightenment, and boundless inquiry—a philosophy that bridges spiritual insight with scientific exploration
                                     </p>
                                   </div>
                                   
@@ -351,7 +351,7 @@ export default function Home() {
                        Reviving the Kashmiri Sufi Legacy<br/> for a New Generation
                       </h2> 
                       <p className="text-base sm:text-lg text-gray-700">
-                      At the Sufi Science Centre (SSC), we believe that our legacy must evolve, not remain frozen in time. To honor our Sufi ancestors, we must adapt their wisdom to meet the challenges of the modern world.
+                      At the Sufi Science Center (SSC), we believe that our legacy must evolve, not remain frozen in time. To honor our Sufi ancestors, we must adapt their wisdom to meet the challenges of the modern world.
                       </p>
                     </div>
                   </div>
@@ -442,7 +442,7 @@ export default function Home() {
 
               {/* Section Text */}
               <p className="pt-[15px] sm:pt-[20px] text-left xs:text-left sm:text-left md:text-center lg:text-center text-white text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[26px] md:leading-[30px]">
-              The Kashmiri Sufi Legacy is not a thing of the past, it is a movement, a living force that continues to inspire, guide, and transform lives. Whether you are drawn to the wisdom of the mystics or the discoveries of science, this legacy belongs to you. Join us at the Sufi Science Centre, where the secrets of the saints meet the discoveries of science, and where the new generation of Kashmiri Sufis carries forward a tradition of enlightenment.
+              The Kashmiri Sufi Legacy is not a thing of the past, it is a movement, a living force that continues to inspire, guide, and transform lives. Whether you are drawn to the wisdom of the mystics or the discoveries of science, this legacy belongs to you. Join us at the Sufi Science Center, where the secrets of the saints meet the discoveries of science, and where the new generation of Kashmiri Sufis carries forward a tradition of enlightenment.
               </p>
 
               {/* Subheading */}

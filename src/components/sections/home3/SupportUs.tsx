@@ -8,14 +8,19 @@ const ConsultationSection = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Content */}
         <div>
-          <p className="text-white uppercase tracking-wide mb-2">Support Us</p>
+        <span className="relative inline-block text-[18px] leading-[16px] text-white font-semibold uppercase z-[1]">
+            SUPPORT US
+            <span className="absolute top-[6px] left-[-56px] w-[40px] h-[2px] bg-white"></span>
+           
+          </span>
           <h2 className="text-4xl font-bold leading-tight mb-4 text-white">
           Be Part of Divine Service
           </h2>
           <p className="text-gray-100 mb-6">
           Be a Vessel of Light Empower Sacred Knowledge, Community Growth, and the Continuation of Divine Service.
           </p>
-          <div className="w-[350px] space-y-6">
+          <div className="w-full max-w-md space-y-6 mx-2 md:mx-0">
+
     {/* Card 1 */}
     <Link
             href="/volunteerwithus"
@@ -55,7 +60,7 @@ const ConsultationSection = () => {
             <h3 className="text-xl font-semibold text-fixnix-lightpurple mb-2"> Collaborations
             </h3>
             <p className="text-gray-600 text-sm">
-            Partner with us across disciplines—academic, artistic, and co-create initiatives rooted in remembrance, and sacred responsibility.
+            Partner with us across disciplines academic, artistic, and co-create initiatives rooted in remembrance, and sacred responsibility.
             </p>
             </Link>
   </div>

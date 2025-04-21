@@ -50,10 +50,10 @@ export default function Funfacts() {
         ></div>
         <div className="container mx-auto px-4">
           <div className="w-full">
-            <h2 className="text-left-mobile font-bold text-3xl md:text-4xl lg:text-5xl text-white sm:text-left lg:text-center">
+            <h2 className=" font-bold text-3xl md:text-4xl lg:text-5xl text-white text-center">
               The Global Science of Awakening:
             </h2>
-            <h4 className=" font-medium text-xl md:text-2xl text-white sm:text-left lg:text-center pt-1 pb-6">
+            <h4 className=" font-medium text-xl md:text-2xl text-white text-center pt-1 pb-6">
               Tracking Conscious Expansion on the Sufi Path
             </h4>
             <div className="flex flex-wrap items-center">

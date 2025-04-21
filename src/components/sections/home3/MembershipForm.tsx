@@ -51,7 +51,7 @@ export default function MembershipForm() {
       onSubmit={handleSubmit(onSubmit)}
       className="w-full bg-white p-4 border rounded-xl space-y-6"
     >
-      <h1 className="text-2xl font-bold text-fixnix-darkpurple">Join the Sufi Science Centre</h1>
+      <h1 className="text-2xl font-bold text-fixnix-darkpurple">Join the Sufi Science Center</h1>
 
       <p className="text-sm font-semibold text-gray-600">
         Become part of a soulful movement rooted in spirituality, wisdom, sacred art, and community healing.
@@ -166,8 +166,8 @@ export default function MembershipForm() {
       {/* Consent */}
       <div className="space-y-2">
         <label className="flex text-gray-700 items-center space-x-2">
-          <input type="checkbox" {...register("consent", { required: "You must agree to the centre's principles" })} />
-          <span>I agree to uphold the principles and values of the Sufi Science Centre</span>
+          <input type="checkbox" {...register("consent", { required: "You must agree to the Center's principles" })} />
+          <span>I agree to uphold the principles and values of the Sufi Science Center</span>
         </label>
         <label className="flex  text-gray-700 items-center space-x-2">
           <input type="checkbox" {...register("communication")} />
@@ -182,7 +182,7 @@ export default function MembershipForm() {
       </button>
 
       {isSubmitSuccessful && (
-        <p className="text-green-600 text-center">Thank you for joining the Sufi Science Centre 💫</p>
+        <p className="text-green-600 text-center">Thank you for joining the Sufi Science Center 💫</p>
       )}
     </form>
   );

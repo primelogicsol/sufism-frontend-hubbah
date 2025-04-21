@@ -584,39 +584,39 @@ const MobileMenu = ({
   </li>
   <li className="flex items-center text-sm text-dark">
     <i className="fa fa-envelope text-white bg-lightpurple p-2 rounded-full mr-2"></i>
-    <Link href="mailto:needhelp@elitecons.com" className="text-white">
-      needhelp@elitecons.com
+    <Link href="mailto: info@sufisciencecenter.info" className="text-white">
+      info@sufisciencecenter.info
     </Link>
   </li>
-  <li className="flex items-center text-sm text-dark">
-    <i className="fa fa-phone-alt text-white bg-lightpurple p-2 rounded-full mr-2"></i>
-    <Link href="tel:666-888-0000" className="text-white">
-      666 888 0000
-    </Link>
-  </li>
+  
   
 </ul>
 
 
           {/* Social Media */}
-          <div className="mobile-nav__social flex items-center space-x-4">
-            <Link
-              href="#"
-              className="fab fa-twitter text-white text-lg hover:text-lightpurple"
-            ></Link>
-            <Link
-              href="#"
-              className="fab fa-facebook-square text-white text-lg hover:text-lightpurple"
-            ></Link>
-            <Link
-              href="#"
-              className="fab fa-pinterest-p text-white text-lg hover:text-lightpurple"
-            ></Link>
-            <Link
-              href="#"
-              className="fab fa-instagram text-white text-lg hover:text-lightpurple"
-            ></Link>
-          </div>
+                  <div className="mobile-nav__social flex items-center space-x-4">
+          <Link
+            href="#"
+            className="fab fa-facebook-square text-white text-lg hover:text-lightpurple"
+          ></Link>
+          <Link
+            href="#"
+            className="fab fa-linkedin text-white text-lg hover:text-lightpurple"
+          ></Link>
+          <Link
+            href="#"
+            className="fab fa-youtube text-white text-lg hover:text-lightpurple"
+          ></Link>
+          <Link
+            href="#"
+            className="fab fa-twitter text-white text-lg hover:text-lightpurple"
+          ></Link>
+          <Link
+            href="#"
+            className="fab fa-instagram text-white text-lg hover:text-lightpurple"
+          ></Link>
+        </div>
+
         </div>
       </div>
     </>

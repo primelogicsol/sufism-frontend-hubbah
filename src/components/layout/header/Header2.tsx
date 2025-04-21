@@ -122,7 +122,7 @@ const Header2: React.FC<Header2Props> = ({
                 <Link href="/">
                   <Image
                     src="/assets/images/resources/logo-3.png"
-                    alt="Sufi Science Centre Logo"
+                    alt="Sufi Science Center Logo"
                     width={110}
                     height={110}
                     className="responsive-logo  w-[110px] h-[110px] transition-all duration-300 ease-in-out
@@ -142,7 +142,7 @@ const Header2: React.FC<Header2Props> = ({
                sm:text-[23px]
                xs:text-[19px]
                2xs:text-[16px]">
-                  Sufi Science Centre
+                  Sufi Science Center
                 </span>
               </div>
               <div className="flex items-center  ml-auto">
@@ -205,7 +205,7 @@ const Header2: React.FC<Header2Props> = ({
       <Link href="/">
         <Image
           src="/assets/images/resources/logo-3.png"
-          alt="Sufi Science Centre Logo"
+          alt="Sufi Science Center Logo"
           width={55}
           height={55}
         />

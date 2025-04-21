@@ -15,35 +15,35 @@ export default function Home() {
       title: "Empowering Seekers with<br/> Sufi Wisdom Resources",
       text: " Access a wealth of teachings, guidance, and support to deepen your Sufi journey,<br/> nurture growth, and enhance spiritual understanding.",
       buttonText: "Read More",
-      buttonLink: "/Home",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Find Strength, Learn, and Flourish",
       title: "Your Path to <br/>Knowledge and Support",
       text: "Explore valuable Sufi insights, mentorship, and learning materials designed to<br/> support your personal, spiritual, and intellectual development.",
-      buttonText: "Explore Now",
-      buttonLink: "/Home",
+      buttonText: "Join Now",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Guidance for Every Step Forward",
       title: "  Supportive Resources for<br/> Lifelong Learning",
       text: "Whether you're beginning or advancing, find essential Sufi teachings, mentorship,<br/> and tools to guide your spiritual and personal growth.",
       buttonText: "Join Now",
-      buttonLink: "/Home",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Seek Knowledge, Find Guidance, Grow",
       title: "Nurturing Growth Through <br/>Wisdom and Care",
       text: "Gain access to essential resources, mentorship, and a supportive community that<br/> empowers your journey through Kashmiri Sufi teachings.",
-      buttonText: "Explore Now",
-      buttonLink: "/Home",
+      buttonText: "Join Now",
+      buttonLink: "/membership",
     },
     {
       subTitle: "Support, Learn, Thrive, Connect, Evolve",
       title: "Tools and Guidance for<br/> Your Journey",
       text: "  Discover comprehensive support, sacred texts, and interactive learning materials<br/> that strengthen your understanding and connection to Kashmiri Sufism.",
       buttonText: "Join Now",
-      buttonLink: "/Join",
+      buttonLink: "/membership",
     },
   ];
   return (
@@ -660,7 +660,7 @@ export default function Home() {
                           <p>
                           •	Resources are organized by topic, format, and experience level in our digital library<br/>
                               •	Use the personalized recommendation system based on your interests and background<br/>
-                              •	Contact resource@sufisciencecentre.org for assistance finding specific materials<br/>
+                              •	Contact resource@sufiscienceCenter.org for assistance finding specific materials<br/>
                               •	Suggest new resources that have been valuable in your own journey
                               <p className="font-bold">
                             We are committed to making these resources accessible to sincere seekers regardless of financial circumstances. If you need assistance accessing any materials or services, please contact our support team to discuss options.

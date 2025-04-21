@@ -21,35 +21,35 @@ const technologySlides = [
     title: " Unlocking the Sacred Power<br/> of Technology",
     text: "Advanced technologies bridge the gap between spiritual wisdom and modern innovation, <br/>guiding seekers toward enlightenment.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Technology as a Path to Awakening ",
     title: "Harnessing Modern Tools for<br/> Spiritual Growth",
     text: "Through advanced technologies, seekers gain new insights into ancient<br/> spiritual truths and universal order.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Innovation in Service of Spirit ",
     title: "Aligning Modern Tools with Spiritual Wisdom ",
     text: "Advanced technologies provide seekers with the means to explore spiritual truth through modern innovation.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Tech Meets Transcendence ",
     title: "Modern Solutions for<br/> Eternal Questions",
     text: "By integrating advanced technologies, seekers uncover deeper<br/> spiritual insights and universal harmony.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Tools for Spiritual Evolution ",
     title: "Expanding Consciousness<br/> Through Innovation   ",
     text: "Advanced technologies empower seekers to explore spiritual <br/>dimensions and unlock hidden truths ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -133,7 +133,7 @@ export default function Home() {
                   Advanced Technologies explores the frontiers of energy systems, vibrational science, and the deeper physics governing reality, merging Sufi metaphysical insights with cutting-edge scientific thought. This framework investigates the structure of energy, the properties of matter, and the technologies embedded within consciousness and natural law that facilitate activation, resonance, and transformation.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study merges classical wisdom with emerging paradigms, offering seekers a functional understanding of luminous energy systems, high-frequency states, and the mechanics of transcending barriers within physical and metaphysical domains.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this structured study merges classical wisdom with emerging paradigms, offering seekers a functional understanding of luminous energy systems, high-frequency states, and the mechanics of transcending barriers within physical and metaphysical domains.
                   </p>
                 </div>
 

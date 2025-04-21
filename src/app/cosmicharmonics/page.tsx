@@ -21,35 +21,35 @@ const cosmicSlides = [
     title: "Discovering the<br/> Harmony of Existence ",
     text: "Cosmic harmonics reveal the sacred vibrations of existence,<br/> guiding seekers toward unity with the universe.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Vibration of the Divine ",
     title: "Tuning into Cosmic<br/> Frequencies ",
     text: "Through cosmic harmonics, seekers align their spirit with the sacred<br/> vibrations of the universe and divine order. ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Rhythms of the Cosmos",
     title: "Finding Unity <br/>Through Vibration ",
     text: "Cosmic harmonics reveal the hidden order of existence, <br/>guiding seekers to resonate with universal truth.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "The Sound of Creation",
     title: " Tuning into the<br/> Universe’s Pulse",
     text: "By understanding cosmic harmonics, seekers discover the <br/>sacred soundscape of existence and spiritual awakening.  ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Resonating with Universal Truth",
     title: "Awakening Through Cosmic<br/> Vibration ",
     text: "Cosmic harmonics help seekers connect with the sacred rhythms of the universe,<br/> finding harmony and enlightenment.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Cosmic Harmonics explores the universal rhythms, celestial patterns, and vibrational structures that shape existence. Rooted in Sufi wisdom and advanced scientific inquiry, this framework examines how the cosmos functions as a divine symphony, where light, sound, and resonance govern creation, consciousness, and reality itself.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study reveals the hidden frequencies that align matter, energy, and consciousness, offering seekers a scientific and spiritual roadmap to navigating cosmic harmony.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this structured study reveals the hidden frequencies that align matter, energy, and consciousness, offering seekers a scientific and spiritual roadmap to navigating cosmic harmony.
                   </p>
                 </div>
 

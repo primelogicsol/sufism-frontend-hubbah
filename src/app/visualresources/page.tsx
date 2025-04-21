@@ -8,35 +8,35 @@ const MultimediaSlides = [
     title: "Explore Sufi Knowledge in<br/> Multimedia Form",
     text: "  Access a vast collection of videos, audio lectures, and<br/> visual archives that bring Kashmiri Sufi teachings to life.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sufi Teachings, Now at Your Fingertips",
     title: "A Digital Hub for<br/> Spiritual Learning",
     text: "Engage with immersive multimedia content, including documentaries, podcasts,<br/> and interactive experiences inspired by Kashmiri Sufism.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Listen, Watch, Reflect, Learn, Grow",
     title: "Unlock the Power<br/> of Visual Learning",
     text: " Explore rare Sufi manuscripts, teachings, and spiritual insights through <br/>our rich multimedia library designed for seekers worldwide.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Wisdom Preserved in Sound and Sight",
     title: "  Digital Archives of <br/>Sufi Teachings",
     text: " Discover a multimedia journey through Kashmiri Sufism,<br/> where knowledge is shared through film, music, spoken word, and imagery.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Spiritual Learning in Every Formate",
     title: "Enlightenment Through <br/>Digital Sufi Resources",
     text: " Engage with sacred Sufi wisdom through our extensive collection of digital books,<br/> recorded lectures, and audiovisual storytelling.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 export default function Home() {
@@ -148,7 +148,7 @@ export default function Home() {
                     Explore the collection, listen to the teachings, watch the
                     documentaries, and immerse yourself in the profound union of
                     Sufi spirituality and scientific exploration. The Multimedia
-                    Library at the Sufi Learning Centre is here to support your
+                    Library at the Sufi Learning Center is here to support your
                     journey of awakening and transformation.
                   </p>
                 </div>

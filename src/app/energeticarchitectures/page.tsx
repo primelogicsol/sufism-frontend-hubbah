@@ -21,35 +21,35 @@ const energeticSlides = [
     title: "Exploring the Energy<br/> of Creation",
     text: "Energetic architectures reveal the hidden structure of energy behind<br/> existence, guiding seekers toward spiritual balance.  ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Structures of Energy ",
     title: "Understanding the<br/> Architecture of Spirit",
     text: "Through energetic architectures, seekers uncover the patterns of<br/> energy shaping existence and spiritual harmony. ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Designing the Spirit’s Blueprint",
     title: "Exploring the Sacred <br/>Energy Grid",
     text: "Energetic architectures provide seekers with a map to understanding<br/> the spiritual design of existence.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Energy as Divine Structure",
     title: "Tapping Into the Power <br/>of Creation ",
     text: " Understanding energetic architectures helps seekers align with the<br/> hidden energy frameworks of existence.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "The Sacred Design of Energy",
     title: "Awakening Through Energetic<br/> Structures ",
     text: "Energetic architectures reveal the spiritual patterns behind existence,<br/> guiding seekers toward deeper truth. ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Energetic Architectures explores the hidden structures that regulate life force, consciousness, and vitality within the human body and beyond. Rooted in Sufi traditions of spiritual physiology and modern bioenergetic sciences, this framework examines how energy circulates, amplifies, and transforms through purification, nutrition, and field harmonization.Energetic Architectures explores the hidden structures that regulate life force, consciousness, and vitality within the human body and beyond. Rooted in Sufi traditions of spiritual physiology and modern bioenergetic sciences, this framework examines how energy circulates, amplifies, and transforms through purification, nutrition, and field harmonization.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this study merges ancient wisdom with scientific inquiry, offering seekers a functional model for enhancing energy flow, optimizing health, and elevating spiritual consciousness.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this study merges ancient wisdom with scientific inquiry, offering seekers a functional model for enhancing energy flow, optimizing health, and elevating spiritual consciousness.
                   </p>
                 </div>
 

@@ -13,7 +13,7 @@ export default function ShippingPolicy() {
             <div className="h-1 w-16 sm:w-24 bg-[var(--fixnix-lightpuple)]"></div>
           </div>
           <p className="mt-3 sm:mt-4 text-base sm:text-lg">
-            <span className="font-medium">Sufi Science Centre: The Next Generation Sufi Way Forward</span>
+            <span className="font-medium">Sufi Science Center: The Next Generation Sufi Way Forward</span>
             <br />
             <span className="text-gray-600">
             Last Updated: {new Date().toLocaleString('default', { month: 'long', year: 'numeric' })}

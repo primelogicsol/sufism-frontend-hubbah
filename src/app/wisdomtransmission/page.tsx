@@ -21,35 +21,35 @@ const wisdomSlides = [
     title: "Unfolding the <br/>Sacred Teachings",
     text: "Wisdom transmission connects seekers with ancient teachings,<br/> guiding them toward spiritual awakening.  ",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Knowledge from the Ancients  ",
     title: " Receiving the <br/>Gift of Wisdom ",
     text: "Through wisdom transmission, seekers receive sacred knowledge,<br/> connecting them to timeless truths.   ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Knowledge Unfolded  ",
     title: "The Flow of <br/>Eternal Truth  ",
     text: "Wisdom transmission provides seekers with the insight to<br/> align with spiritual truth and divine order.   ",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Awakening Through Sacred Teachings ",
     title: " Receiving the Light<br/> of Wisdom",
     text: "Through wisdom transmission, seekers connect with the<br/> sacred lineage of spiritual knowledge. ",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Spiritual Inheritance Unfolded  ",
     title: "Receiving the Keys <br/>of Knowledge ",
     text: " Wisdom transmission helps seekers align with the spiritual truth passed down through sacred traditions. ",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 const blogTitles = [
@@ -131,7 +131,7 @@ export default function Home() {
                   Wisdom Transmission explores the science of preserving, transferring, and embodying sacred knowledge across time, space, and consciousness. Rooted in Sufi traditions of lineage, silsila (spiritual chain), and prophetic inheritance, this framework examines how divine wisdom is safeguarded, transmitted, and actualized in individuals and communities.
                   </p>
                   <p className="text-gray-700 mt-2">
-                  At the Kashmir Sufi Science Centre, under the Sufi Science Explorer Module, this structured study merges historical preservation with metaphysical transmission, offering seekers insights into how wisdom is passed, activated, and lived through sacred tradition.
+                  At the Kashmir Sufi Science Center, under the Sufi Science Explorer Module, this structured study merges historical preservation with metaphysical transmission, offering seekers insights into how wisdom is passed, activated, and lived through sacred tradition.
                   </p>
                 </div>
 

@@ -9,35 +9,35 @@ const WorkSlides = [
     title: "Living the Teachings of <br/>Kashmiri Sufism",
     text: "Through devotion, education, and service, we bring Kashmiri Sufi wisdom to life, inspiring<br/> transformation and fostering spiritual harmony worldwide.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sacred Practices, Modern Spiritual Engagement",
     title: "Our Commitment to Sufi<br/> Teachings & Growth",
     text: "We integrate ancient Sufi practices with contemporary understanding, offering a pathway to<br/> enlightenment, self-discovery, and communal well-being.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Faith, Reflection, Knowledge, Service, Unityl",
     title: "Transforming Lives Through<br/> Sufi Traditions",
     text: "Our work blends Kashmiri Sufi wisdom with modern engagement, <br/>nurturing personal growth, spiritual depth, and social impact for all.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Serving Humanity Through Sufi Wisdom",
     title: "Sufi Practices That<br/> Inspire and Uplift",
     text: "We honor Kashmiri Sufi traditions through meaningful practices, guiding individuals in<br/> mindfulness, ethical living, and spiritual development.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sufi Knowledge, Action, and Transformation",
     title: "Bridging Tradition and Modern <br/>Spiritual Practice",
     text: "Our mission is to apply Kashmiri Sufi teachings in daily life, fostering inner peace,<br/> knowledge-sharing, and a united global community.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 export default function Home() {
@@ -89,11 +89,11 @@ export default function Home() {
                                       <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                                     </span>
                                     <h2 className="text-4xl sm:text-3xl md:text-2xl font-semibold mt-4 mb-2 leading-snug sm:leading-tight">
-                                    The Living Spirit of Sufi Science Centre
+                                    The Living Spirit of Sufi Science Center
                                     </h2>
                                     <h3 className="text-3xl sm:text-xl md:text-xl font-semibold mb-6 leading-snug sm:leading-tight uppercase">Transforming Wisdom into Action</h3>
                                     <p className="text-base sm:text-lg text-gray-700">
-                                    At the Sufi Science Centre (SSC), we don’t just study Kashmiri Sufi philosophy—we live it, apply it, and evolve it. Our work is centered on preserving, exploring, and innovating the Sufi traditions of Kashmir while integrating them with modern scientific discoveries.
+                                    At the Sufi Science Center (SSC), we don’t just study Kashmiri Sufi philosophy—we live it, apply it, and evolve it. Our work is centered on preserving, exploring, and innovating the Sufi traditions of Kashmir while integrating them with modern scientific discoveries.
                                     </p>
                                     <p className="text-base sm:text-lg mt-5 text-gray-700">
                                     We engage in research, education, digital preservation, and community-building, ensuring that the legacy of Kashmiri Sufism thrives in the 21st century. Our mission is to empower the new generation with the spiritual depth of Sufism and the intellectual rigor of science, enabling them to seek, question, and innovate.
@@ -228,7 +228,7 @@ export default function Home() {
 
               {/* Section Text */}
               <p className="pt-[15px] sm:pt-[20px] text-left xs:text-left sm:text-left md:text-center lg:text-center text-white text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[26px] md:leading-[30px]">
-              The Sufi Science Centre is not just a research hub—it is a movement, a community of seekers and innovators working towards a harmonious future where Sufi wisdom guides scientific progress
+              The Sufi Science Center is not just a research hub—it is a movement, a community of seekers and innovators working towards a harmonious future where Sufi wisdom guides scientific progress
               </p>
               <p className="pt-[15px] sm:pt-[20px] text-left xs:text-left sm:text-left md:text-center lg:text-center text-white text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[26px] md:leading-[30px]">
               •	We seek knowledge beyond boundaries.<br/>

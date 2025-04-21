@@ -11,35 +11,35 @@ const WaysSlides = [
     title: " Support Sufi Knowledge<br/> & Spiritual Growth",
     text: "Your generosity helps preserve Kashmiri Sufi traditions, fund research,<br/> and provide spiritual education to seekers worldwide.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Empower, Uplift, Sustain, Preserve, Share",
     title: " Make an Impact with<br/> Your Contribution",
     text: " Support our mission by donating, sponsoring projects, or contributing resources<br/> to keep the wisdom of Sufism alive for future generations.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: " Give from the Heart, Inspire Change  ",
     title: "Your Support Fuels<br/> Spiritual Education",
     text: " Join hands in preserving Sufi wisdom by supporting initiatives that <br/>spread knowledge, foster community, and sustain sacred teachings.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Sustaining Wisdom, One Gift at a Time",
     title: "Donate to Keep Sufi<br/> Teachings Alive",
     text: "Every contribution strengthens our work in research, learning, and community<br/> engagement—helping souls connect with timeless Sufi wisdom.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Preserve, Educate, Inspire, Give, Grow",
     title: "Support Sufi Science for<br/> Future Generations",
     text: "Be part of a movement that nurtures spiritual enlightenment, preserves traditions, <br/>and fosters a community of seekers and scholars.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 
@@ -188,7 +188,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="text-lg text-gray-700 mb-6">
-            Your contribution enables the Sufi Science Centre to sustain its mission of fostering intellectual and spiritual growth. By donating, you help fund research, educational initiatives, and outreach programs dedicated to preserving and expanding the rich legacy of Sufi knowledge.
+            Your contribution enables the Sufi Science Center to sustain its mission of fostering intellectual and spiritual growth. By donating, you help fund research, educational initiatives, and outreach programs dedicated to preserving and expanding the rich legacy of Sufi knowledge.
             </p>
             <ul className="space-y-4 mb-6">
               <li className="flex items-center">

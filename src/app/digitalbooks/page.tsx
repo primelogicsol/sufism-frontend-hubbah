@@ -12,35 +12,35 @@ const BooksSlides = [
     title: "Discover Sufi Wisdom <br/>in Digital Books",
     text: " Access an extensive collection of Sufi literature, manuscripts, and teachings <br/>in digital format, bringing centuries of wisdom to your fingertips.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Timeless Knowledge in Digital Form",
     title: "A Treasure of Sufi<br/> Literature Online",
     text: "Explore rare and contemporary Sufi texts, offering deep insights into<br/> spirituality, philosophy, and the mystical traditions of Kashmiri Sufism.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Read, Reflect, Learn, Grow, Transform",
     title: " The Gateway to Sufi<br/> Knowledge Online",
     text: "Enhance your spiritual journey with a curated selection of digital books, <br/>bridging Sufi heritage with modern understanding.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Wisdom Preserved, Digitally Accessible",
     title: " Unlock the Mystical <br/>World of Sufism",
     text: "Explore centuries of Sufi philosophy, poetry, and teachings in a vast digital<br/> library designed for seekers of truth and enlightenment.",
-    buttonText: "Explore Now",
-    buttonLink: "/Home",
+    buttonText: "Join Now",
+    buttonLink: "/membership",
   },
   {
     subTitle: "A Digital Library of Enlightenment",
     title: "Sufi Teachings at<br/> Your Fingertips",
     text: " Dive into a rich collection of sacred Sufi writings, available in<br/> digital format for convenient access and lifelong learning.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 export default function Home() {
@@ -150,7 +150,7 @@ export default function Home() {
                   <span className="absolute mr-3 top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                 </span>
                 <h2 className="text-3xl font-bold mt-2">
-                  The Digital Books of the Sufi Centre
+                  The Digital Books of the Sufi Center
                 </h2>
               </div>
               <p className="text-lg text-gray-700 mb-6">

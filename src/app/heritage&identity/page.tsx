@@ -9,35 +9,35 @@ const HeritageSlides = [
     title: " Unveiling the Essence of<br/> Kashmiri Sufism",
     text: "Explore the rich heritage of Kashmiri Sufism, where timeless wisdom meets modern<br/> understanding, preserving identity, spirituality, and cultural harmony.",
     buttonText: "Read More",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Timeless Wisdom, Eternal Connection, Now",
     title: "Honoring Kashmir’s Sufi<br/> Legacy & Spirit",
     text: "Step into the mystical past of Kashmiri Sufism, where tradition, devotion,<br/> and enlightenment shape our collective spiritual journey forward.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Ancient Teachings, Modern Spiritual Awakening",
     title: "Echoes of Sufi Wisdom<br/> in Kashmir",
     text: "Reconnect with the soul of Kashmiri Sufism, blending sacred teachings,<br/> cultural depth, and spiritual enlightenment for a harmonious future.",
     buttonText: "Join Now",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Wisdom, Peace, Identity, Sufism, Kashmir",
     title: "Preserving the Spirit of<br/> Sufi Heritage",
     text: " Discover the heart of Kashmiri Sufism, where love, devotion,<br/> and sacred traditions guide seekers on their path to enlightenment.",
     buttonText: "Explore",
-    buttonLink: "/Home",
+    buttonLink: "/membership",
   },
   {
     subTitle: "Past and Future in Harmony",
     title: "Kashmiri Sufi Heritage –<br/> A Living Legacy",
     text: "Embrace the living traditions of Kashmiri Sufism, a journey of faith,<br/> resilience, and wisdom woven into the region’s cultural fabric.",
     buttonText: "Join Now",
-    buttonLink: "/Join",
+    buttonLink: "/membership",
   },
 ];
 export default function Home() {
@@ -69,7 +69,7 @@ export default function Home() {
                   A Legacy Rooted in Wisdom, Love, and Knowledge
                   </p>
                   <p className="mt-4 md:mt-6 mb-6 md:mb-9 text-sm md:text-base pr-3">
-                  Kashmir has long been known as Pir Waer, the Valley of Saints. It is a land where Sufism flourished, shaping the spiritual, cultural, and intellectual fabric of the region. The Sufi Science Centre (SSC) is dedicated to reviving this timeless wisdom, ensuring that the teachings of our ancestors continue to guide the new generation in an age of science and technology.
+                  Kashmir has long been known as Pir Waer, the Valley of Saints. It is a land where Sufism flourished, shaping the spiritual, cultural, and intellectual fabric of the region. The Sufi Science Center (SSC) is dedicated to reviving this timeless wisdom, ensuring that the teachings of our ancestors continue to guide the new generation in an age of science and technology.
                   </p>
                   <p className="mt-1 md:mt-6 mb-6 md:mb-9 text-sm md:text-base pr-3">
                   Our heritage is a harmonious fusion of faith and reason, where Sufi mystics explored the mysteries of the universe, human consciousness, and the divine order. Today, we stand at the crossroads of ancient insight and modern discovery, ready to bridge the past with the future.
@@ -278,7 +278,7 @@ export default function Home() {
           <span className="absolute top-2 left-[-50px] w-10 sm:w-12 h-[2px] bg-fixnix-lightpurple"></span>
         </span>
         <h2 className="text-2xl md:text-3xl font-bold mt-2">
-          At the Sufi Science Centre, we are committed to:
+          At the Sufi Science Center, we are committed to:
         </h2>
       </div>
 
@@ -352,11 +352,11 @@ export default function Home() {
                               <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
                             </span>
                             <h2 className="text-4xl sm:text-3xl md:text-2xl font-bold mt-4 mb-2 leading-snug sm:leading-tight">
-                            The Soul of the Sufi Science Centre 
+                            The Soul of the Sufi Science Center 
                             </h2>
                             <h3 className="text-3xl sm:text-xl md:text-xl font-bold mb-6 leading-snug sm:leading-tight uppercase">A New Age of Kashmiri Sufism</h3>
                             <p className="text-base sm:text-lg text-gray-700">
-                            The Sufi Science Centre (SSC) is more than just an institution, it is a movement, a revolution, and a bridge between Kashmir’s spiritual heritage and the limitless frontiers of science and knowledge. Our identity is deeply rooted in the teachings of Kashmiri Sufi mystics, yet we stand firmly in the present, embracing modern advancements in science, technology, and philosophy.
+                            The Sufi Science Center (SSC) is more than just an institution, it is a movement, a revolution, and a bridge between Kashmir’s spiritual heritage and the limitless frontiers of science and knowledge. Our identity is deeply rooted in the teachings of Kashmiri Sufi mystics, yet we stand firmly in the present, embracing modern advancements in science, technology, and philosophy.
                             </p>
                             <p className="text-base sm:text-lg mt-5 text-gray-700">
                             We are the seekers, the dreamers, and the innovators, the new generation of Sufis, scholars, and scientists who carry the legacy of Mir Sayyid Ali Hamadani, Sheikh Noor-ud-Din Noorani, Lalleshwari, Momin Saeb, Soch Kraal Seab, Raheem Seab Sopori, Rahman Dar Saeb, Mahmood Gami, Rasol Mir, Naem e Saeb, Shamas Fakir, Wahab Khaar, Ahamad Batwari, Waz e Mehmood, Lasa Khan Fida, Samad Mir, Ahad Zargar, Rajab Hamid and Lala Aragami into the future. Our journey is guided by wisdom, love, and a relentless pursuit of truth.
@@ -479,7 +479,7 @@ export default function Home() {
                       What We Stand For
                       </h2>
                       <p>
-                      At Sufi Science Centre, our core identity is built upon six foundational pillars:
+                      At Sufi Science Center, our core identity is built upon six foundational pillars:
                       </p>
                       
                     </div>
@@ -620,13 +620,13 @@ export default function Home() {
             </span>
             
             <p className="text-[var(--fixnix-white)] mt-2">
-            Our heritage is alive within us. It is written in our poetry, sung in our mystic verses, and echoed in the rhythm of our traditions. As the new generation, it is our responsibility to protect it, explore it, and evolve with it. Our identity is not confined to history books or ancient texts, it is alive within us, in the way we think, explore, and dream. The Sufi Science Centre is the future of Kashmiri Sufism, where the mystical and the scientific walk hand in hand.
+            Our heritage is alive within us. It is written in our poetry, sung in our mystic verses, and echoed in the rhythm of our traditions. As the new generation, it is our responsibility to protect it, explore it, and evolve with it. Our identity is not confined to history books or ancient texts, it is alive within us, in the way we think, explore, and dream. The Sufi Science Center is the future of Kashmiri Sufism, where the mystical and the scientific walk hand in hand.
 If you feel the call, if you are curious about the unknown, if you wish to bridge the wisdom of the past with the discoveries of tomorrow, you are one of us.
 
             </p>
             
             <h2 className="mt-[10px] sm:mt-[14px] text-fixnix-white text-[16px] sm:text-[18px] md:text-[20px] leading-[25px] sm:leading-[25px] 2xl:leading-[20px] font-semibold">
-            Join the Sufi Science Centre in this journey of rediscovery—where the past illuminates the future, and wisdom meets innovation.
+            Join the Sufi Science Center in this journey of rediscovery—where the past illuminates the future, and wisdom meets innovation.
             </h2>
           </div>
           
