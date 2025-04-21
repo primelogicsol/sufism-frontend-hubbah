@@ -17,8 +17,8 @@ import Funfact from "../components/sections/home3/Funfacts";
 const features = [
   { text: "Rooted in Kashmiri Sufi Wisdom"  },
   { text: "Driven by Sacred Scientific Inquiry" },
-  { text: "Empowering Inner Growth & Learning" },
-  { text: "Uniting Consciousness, Culture & Community" },
+  { text: "Empowering  Growth & Learning" },
+  { text: "Uniting  Culture & Community" },
 ];
 const HomeSlides = [
   {
