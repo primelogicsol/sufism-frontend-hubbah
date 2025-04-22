@@ -42,25 +42,26 @@ export default function Home() {
   return (
     <Layout headerStyle={2} footerStyle={1}>
       <Banner slides={ResearchSlides}/>
-      <div className="py-16 bg-gray-100 text-left-mobile">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="relative text-left-mobile inline-block text-[16px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
+      <section className="team-top text-left-mobile">
+          <div className="container mx-auto px-4text-left-mobile">
+            <div className="text-center sm:text-left relative block mt-[-6px] mb-[49px] z-[1]">
+              {/* Section Tagline */}
+              <span className="relative inline-block text-[18px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
               Scholarly Insights
-              <span className="absolute top-[6px] left-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
-              <span className="absolute top-[6px] right-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
-            </span>
-            
-            <p className="text-gray-600 my-2 text-left-mobile">
-              At the heart of our research lies the exploration of Sufi Science,
-              which encompasses not only the metaphysical realms of existence
-              but also the tangible manifestations of the sacred in the natural
-              world. Through our studies, we engage with the eternal questions
-              of life, consciousness, and the cosmos—investigating how Sufi
-              teachings about the unity of existence, sacred geometry and energy
-              can be harmonized with modern fields like quantum physics.
-            </p>
-        </div>
+                <span className="absolute top-[6px] left-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
+                <span className="absolute top-[6px] right-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
+              </span>
+
+              {/* Section Title */}
+
+              {/* Section Text */}
+              <p className="pt-[20px] text-left-mobile text-center text-gray-600 text-sm sm:text-base md:text-md lg:text-lg leading-[1.8] sm:leading-[2] md:leading-[1.5]">
+              At the heart of our research lies the exploration of Sufi Science, which encompasses not only the metaphysical realms of existence but also the tangible manifestations of the sacred in the natural world. Through our studies, we engage with the eternal questions of life, consciousness, and the cosmos investigating how Sufi teachings about the unity of existence, sacred geometry and energy can be harmonized with modern fields like quantum physics.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -198,8 +199,7 @@ export default function Home() {
           
 
         
-        </div>
-      </div>
+       
     </Layout>
   );
 }
