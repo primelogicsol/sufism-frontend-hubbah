@@ -58,9 +58,8 @@ const blogTitles = [
 "Energy Crystallography",
 "Vibrational Science",
 "Particle Physics",
-"Symmetry Patterning",
-"Barrier Transcendence",
-"Remembrance Science"
+"Symmetry Patterning"
+
 ];
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],

@@ -303,7 +303,7 @@ export default function Home() {
                           </p>
                          
 
-                          <div className="flex items-center space-x-4 lg:-ml-20 -mb-12">
+                          <div className="flex items-center space-x-4  -mb-12">
   <a 
     href="https://maps.app.goo.gl/Z7WtC8dtsGrcLBmn8" 
     target="_blank" 
@@ -311,11 +311,11 @@ export default function Home() {
     className="flex-shrink-0"
   >
     <Image 
-      src="/assets/images/services/location.png" 
+      src="/assets/images/services/l2.png" 
       alt="Our Location" 
-      width={200} 
-      height={200} 
-      className="w-20 sm:w-28 md:w-36 lg:w-44 h-auto hover:opacity-90 transition"
+      width={50} 
+      height={50} 
+      className=" hover:opacity-90 transition"
     />
   </a>
   <div className="flex items-center space-x-2">

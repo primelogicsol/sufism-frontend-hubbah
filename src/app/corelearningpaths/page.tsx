@@ -455,7 +455,7 @@ export default function Home() {
                 </div>
                 <h3 className="feature-one__title">
                   
-                  Structured Spiritual<br/> Growth
+                  Structured <br/> Spiritual Growth
                   
                 </h3>
               </div>
@@ -472,7 +472,7 @@ export default function Home() {
                 </div>
                 <h3 className="feature-one__title">
                  
-                  Integration of Science<br/> & Spirituality
+                Merging Science<br/> Spirituality
                   
                 </h3>
               </div>

@@ -159,7 +159,7 @@ export default function Home() {
                 </div>
                   <div className=" pt-[123px] px-10 relative ">
                     <div className="mb-[24px] ">
-                    <h4 className="text-[30px] font-semibold leading-[40px]  mb-[14px]">
+                    <h4 className="text-[30px] font-semibold leading-[40px]  mb-[1px]">
                     Symposium 2025 - Themes and Topics
                       </h4>
                       
@@ -304,7 +304,7 @@ export default function Home() {
               
           </div>
         </section>
-         <div id="conference-form" className="min-h-screen bg-white -mt-28  pb-12 px-4 sm:px-6 lg:px-8">
+         <div id="conference-form" className="min-h-screen bg-white  px-4 sm:px-6 lg:px-8">
               <div className="max-w-6xl mx-auto">
                 <div className="bg-white rounded-xl shadow-xl overflow-hidden">
                   {/* Header */}
