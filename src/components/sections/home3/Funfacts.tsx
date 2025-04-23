@@ -51,7 +51,7 @@ export default function Funfacts() {
         <div className="container mx-auto px-4">
           <div className="w-full">
             <h2 className=" font-bold text-3xl md:text-4xl lg:text-5xl text-white text-center">
-              The Global Science of Awakening:
+              The Sufi Science Center
             </h2>
             <h4 className=" font-medium text-xl md:text-2xl text-white text-center pt-1 pb-6">
               Tracking Conscious Expansion on the Sufi Path

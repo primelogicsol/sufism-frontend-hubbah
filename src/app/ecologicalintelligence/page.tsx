@@ -52,14 +52,33 @@ const ecologySlides = [
     buttonLink: "/membership",
   },
 ];
-const blogTitles = [
-    "Sacred Ecology",
-    "Divine Balance",
-    "Creation Stewardship",
-    "Natural Communication",
-    "Ecosystem Mapping",
-    "Earth Resonance"
+const blogs = [
+  {
+    title: "Sacred Ecology",
+    image: "assets/images/blog/ecology.png",
+  },
+  {
+    title: "Divine Balance",
+    image: "assets/images/blog/balance.png",
+  },
+  {
+    title: "Creation Stewardship",
+    image: "assets/images/blog/stewardship.png",
+  },
+  {
+    title: "Natural Communication",
+    image: "assets/images/blog/communication.png",
+  },
+  {
+    title: "Ecosystem Mapping",
+    image: "assets/images/blog/mapping.png",
+  },
+  {
+    title: "Earth Resonance",
+    image: "assets/images/blog/resonance.png",
+  },
 ];
+
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
   slidesPerView: 1,
@@ -139,9 +158,9 @@ export default function Home() {
                 <div className="relative">
                   <div className="rounded-lg overflow-hidden w-[350px] h-[350px]  bg-fixnix-lightpurple">
                     <img
-                      src="assets/images/resources/Collaboration1.png"
+                      src="assets/images/resources/intelligence.png"
                       alt="Repair Services"
-                      className="w-[350px] h-[350px] mix-blend-multiply"
+                      className="w-[350px] h-[350px] "
                     />
                     
                   </div>
@@ -154,45 +173,46 @@ export default function Home() {
           <Features title="Why This Matters?" features={featuresData} />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  {blogTitles.map((title, index) => (
-    <div
-      key={index}
-      className="bg-white shadow-md rounded-lg overflow-hidden transition-transform transform hover:scale-105"
-    >
-      <div className="relative">
-        <img
-          src={`assets/images/blog/blog-1-${index + 1}.jpg`}
-          alt={title}
-          className="w-full h-60 object-cover"
-        />
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
-          <Link href="/details" className="text-white text-2xl">
-            View Details
-          </Link>
-        </div>
-      </div>
-      <div className="p-4">
-        
-        <h3 className="text-xl text-center font-semibold text-fixnix-darkpurple mb-3">
-          <Link
-            href="/details"
-            className="text-fixnix-darkpurple hover:text-fixnix-lightpurple"
-          >
-            {title}
-          </Link>
-        </h3>
-        <div className="flex justify-center">
-        <Link
-         href="/details"
-         className="inline-block bg-fixnix-lightpurple text-white hover:bg-fixnix-darkpurple px-2 py-1 rounded-md"
-         >
-         Unveil Insights
-         </Link>
-        </div>
-
+        {blogs.map((blog, index) => (
+  <div
+    key={index}
+    className="bg-white shadow-md rounded-lg overflow-hidden transition-transform transform hover:scale-105"
+  >
+    <div className="relative">
+      <Image
+  src={`/${blog.image}`}
+  alt={blog.title}
+  width={400}
+  height={240}
+  className="w-full h-60 object-cover"
+/>
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
+        <Link href="/details" className="text-white text-2xl">
+          View Details
+        </Link>
       </div>
     </div>
-  ))}
+    <div className="p-4">
+      <h3 className="text-xl text-center font-semibold text-fixnix-darkpurple mb-3">
+        <Link
+          href="/details"
+          className="text-fixnix-darkpurple hover:text-fixnix-lightpurple"
+        >
+          {blog.title}
+        </Link>
+      </h3>
+      <div className="flex justify-center">
+        <Link
+          href="/details"
+          className="inline-block bg-fixnix-lightpurple text-white hover:bg-fixnix-darkpurple px-2 py-1 rounded-md"
+        >
+          Unveil Insights
+        </Link>
+      </div>
+    </div>
+  </div>
+))}
+
 </div>
 
           

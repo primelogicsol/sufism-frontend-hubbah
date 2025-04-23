@@ -88,7 +88,7 @@ export default function Welcome() {
                   <img
                     src="assets/images/resources/welcome.png"
                     alt=""
-                    className="w-full h-auto rounded-md"
+                    className="w-full h-auto rounded-2xl"
                   />
                  
                 </div>

@@ -228,13 +228,12 @@ export default function Home() {
                         <div className="relative">
                           <div className="rounded-lg overflow-hidden relative group">
                             <Image
-                              src="/assets/images/services/bargah.png"
-                              alt="Core services"
-                              layout="responsive"
-                              width={500}
-                              height={400}
-                              className="w-full transition-transform duration-500 group-hover:scale-105"
-                            />
+    src="/assets/images/services/bargah1.png"
+    alt="Core services"
+    width={500}
+    height={400}
+    className="w-full transition-transform duration-500 group-hover:scale-105"
+  />
                             <div className="absolute inset-0 bg-fixnix-lightpurple opacity-0 group-hover:opacity-80 transition-opacity duration-700"></div>
                           </div>
                         </div>

@@ -24,25 +24,25 @@ export default function Services() {
               href: "/heritage&identity", 
               desc: "Dive into the cultural, spiritual, and historical essence that grounds the Sufi Science Center, rooted deeply in the Kashmiri Sufi tradition.",
               link1: "/heritage&identity", 
-              link1Text: "Heritage & Identity",
+              link1Text: "Our Heritage",
               link2: "/kashmirisufilegacy",
-              link2Text: "Kashmiri Sufi Legacy"
+              link2Text: "Sufi Legacy "
             },
             { 
               title: "Vision & Purpose", 
               href: "/purpose&direction", 
               desc: "Understand the mission that guides us and the real-world practices through which SSC brings that vision to life.",
               link1: "/purpose&direction",
-              link1Text: "Purpose & Direction",
+              link1Text: "Our Purpose",
               link2: "/work&practices",
-              link2Text: "Our Work & Practices"
+              link2Text: "Our Work "
             },
             { 
               title: "Sufism & Leadership", 
               href: "/ourfounder", 
               desc: "Explore the philosophy of Kashmiri Sufism and meet the visionary behind the movement.",
               link1: "/exploringkashmirisufism",
-              link1Text: "Exploring Kashmiri Sufism",
+              link1Text: "Kashmiri Sufism",
               link2: "/ourfounder",
               link2Text: "Our Founder"
             }
@@ -73,14 +73,15 @@ export default function Services() {
     className="text-fixnix-lightpurple hover:underline sm:text-xs lg:text-lg font-semibold flex items-center justify-center gap-2"
   >
     {service.link1Text}
-    <i className="fa fa-arrow-right" aria-hidden="true"></i>
+    <img src="/assets/images/resources/learnmore.jpg" />
   </Link>
   <Link
     href={service.link2}
     className="text-fixnix-lightpurple hover:underline sm:text-xs lg:text-lg font-semibold  mt-1 flex items-center justify-center gap-2"
   >
     {service.link2Text}
-    <i className="fa fa-arrow-right" aria-hidden="true"></i>
+    {/* <i className="fa fa-arrow-right" aria-hidden="true"></i> */}
+    <img src="/assets/images/resources/learnmore.jpg" />
   </Link>
 </div>
 

@@ -68,7 +68,7 @@ export default function Home() {
                   <div className="relative">
                     <div className="rounded-lg overflow-hidden relative group">
                       <Image
-                        src="/assets/images/services/growth&development.png"
+                        src="/assets/images/services/growth.png"
                         alt="Core services"
                         layout="responsive"
                         width={500}

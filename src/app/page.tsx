@@ -116,7 +116,7 @@ export default function Home() {
                     alt="" 
                     className="w-full rounded-lg transition-all duration-500 delay-200 group-hover:scale-110" 
                   />
-                  <div className="absolute bottom-0 left-0 right-0 lg:right-40 bg-fixnix-lightpurple p-6 sm:p-8 md:p-10 lg:p-12 rounded-bl-lg rounded-tr-lg z-10">
+                  <div className="absolute bottom-0 left-0 right-0  bg-fixnix-lightpurple p-6 sm:p-8 md:p-10 lg:p-12 rounded-bl-lg rounded-tr-lg z-10">
                     <p className="text-base sm:text-lg font-semibold text-white uppercase pb-2 sm:pb-4">Our goal :</p>
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white leading-tight sm:leading-normal md:leading-10">
                       "Grow your mind. Fuel your soul.
