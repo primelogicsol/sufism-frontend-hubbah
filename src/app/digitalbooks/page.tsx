@@ -118,18 +118,26 @@ export default function Home() {
                 <ul className="space-y-2">
                   <li >
                     <Link
-                      href="/scholarlyinsights"
+                      href="/scholarlydialogs"
                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
                     >
-                      Scholarly Insights
+                      Dialog Series
                     </Link>
                   </li>
                   <li className="font-bold">
                     <Link
-                      href="/visualresources"
+                      href="/hardtalk"
                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
                     >
-                      Visual Resources
+                      Hard Talk
+                    </Link>
+                  </li>
+                  <li className="font-bold">
+                    <Link
+                      href="/sacredprofessions"
+                      className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                    >
+                      Sacred Professions
                     </Link>
                   </li>
                   <li className="font-bold">

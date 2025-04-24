@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Banner from "@/components/sections/home3/Banner";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
@@ -308,110 +308,107 @@ export default function Home() {
         {/*Contact Two  End*/}
 
         {/*Contact Page Two Start*/}
-        <section className="contact-page-two text-left-mobile py-28">
-          <div className="container mx-auto">
-            <div className="flex flex-wrap">
-              {/* Left Side - Contact Form */}
-              <div className="w-full lg:w-1/2">
-                <div className="contact-page-two__left bg-fixnix-primary p-10 rounded-lg">
-                  <form
-                    action="assets/inc/sendemail.php"
-                    className="contact-page-two__form contact-form-validated"
-                  >
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                      <div className="contact-page-two__form-input-box">
-                        <input
-                          type="text"
-                          placeholder="Name"
-                          name="name"
-                          className="w-full h-14 border-none bg-fixnix-white rounded-md px-5 text-fixnix-gray text-lg"
-                        />
-                      </div>
-                      <div className="contact-page-two__form-input-box">
-                        <input
-                          type="email"
-                          placeholder="Email"
-                          name="email"
-                          className="w-full h-14 border-none bg-fixnix-white rounded-md px-5 text-fixnix-gray text-lg"
-                        />
-                      </div>
-                      <div className="contact-page-two__form-input-box">
-                        <input
-                          type="text"
-                          placeholder="Subject"
-                          name="Subject"
-                          className="w-full h-14 border-none bg-fixnix-white rounded-md px-5 text-fixnix-gray text-lg"
-                        />
-                      </div>
-                      <div className="contact-page-two__form-input-box">
-                        <input
-                          type="text"
-                          placeholder="Pick a date"
-                          name="date"
-                          id="datepicker"
-                          className="w-full h-14 border-none bg-fixnix-white rounded-md px-5 text-fixnix-gray text-lg"
-                        />
-                      </div>
-                      <div className="contact-page-two__form-input-box col-span-2">
-                        <div className="select-box">
-                          <select className="w-full h-14 border-none bg-fixnix-white rounded-md px-5 text-fixnix-gray text-lg">
-                            <option>Select Services</option>
-                            <option value="1">Assist with Spiritual Programs</option>
-                            <option value="2">Support Craft and Culture Preservation</option>
-                            <option value="3">Fundraising and Event Organization</option>
-                            <option value="4">Outreach and Community Engagement</option>
-                            <option value="5">Help with Digital and Media</option>
-                            <option value="6">Create Sacred Art and Handicrafts</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="mt-5">
-                      <div className="contact-page-two__form-input-box">
-                        <textarea
-                          name="message"
-                          placeholder="Comment"
-                          className="w-full h-52 bg-fixnix-white rounded-md p-5 text-fixnix-gray text-lg"
-                        ></textarea>
-                      </div>
-                      <div className="contact-page-two__btn-box">
-                        <Link
-                          href=""
-                          className=" bg-fixnix-lightpurple px-8 py-3 my-4 rounded-lg text-white hover:bg-fixnix-darkpurple hover:text-white"
-                        >
-                          Send Message
-                        </Link>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+        <section className=" text-left-mobile py-20 sm:py-24 md:py-28">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col lg:flex-row lg:space-x-28">
+      {/* Left Side - Contact Form */}
+      <div className="w-full lg:w-1/2">
+        <div className="bg-fixnix-primary p-6 sm:p-8 lg:p-10 rounded-lg">
+          <form
+            action="assets/inc/sendemail.php"
+            className="contact-form-validated"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  name="name"
+                  className="w-full h-14 bg-fixnix-white border rounded-md px-5 text-fixnix-gray text-base md:text-lg"
+                />
               </div>
-
-              {/* Right Side - Contact Info */}
-              <div className="w-full lg:w-1/2 mt-6 lg:mt-0 lg:pl-8">
-                <div className="contact-page-two__right">
-                  <div className="section-title text-left">
-                    <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-semibold uppercase z-[1]">
-                      Begin Your Journey
-                      <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
-                    </span>
-                    <h2 className=" text-3xl font-bold mt-3">Book A Service</h2>
-                  </div>
-                  <p className=" text-xl font-semibold text-fixnix-darkpurple my-5">
-                    Together, we create a sacred community united by the shared
-                    vision of bringing light and love to the world.
-                  </p>
-                  <p className="border-y border-gray-300 py-6 mb-5">
-                    In the spirit of service, you will not only contribute to
-                    the mission but also receive the blessings of wisdom,
-                    guidance, and divine insight through your actions and
-                    devotion.
-                  </p>
-                </div>
+              <div>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  className="w-full h-14 bg-fixnix-white border rounded-md px-5 text-fixnix-gray text-base md:text-lg"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  name="Subject"
+                  className="w-full h-14 bg-fixnix-white border rounded-md px-5 text-fixnix-gray text-base md:text-lg"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Pick a date"
+                  name="date"
+                  id="datepicker"
+                  className="w-full h-14 bg-fixnix-white border rounded-md px-5 text-fixnix-gray text-base md:text-lg"
+                />
+              </div>
+              <div className="col-span-1 md:col-span-2">
+                <select className="w-full h-14 bg-fixnix-white border rounded-md px-5 text-fixnix-gray text-base md:text-lg">
+                  <option>Select Services</option>
+                  <option value="1">Assist with Spiritual Programs</option>
+                  <option value="2">Support Craft and Culture Preservation</option>
+                  <option value="3">Fundraising and Event Organization</option>
+                  <option value="4">Outreach and Community Engagement</option>
+                  <option value="5">Help with Digital and Media</option>
+                  <option value="6">Create Sacred Art and Handicrafts</option>
+                </select>
               </div>
             </div>
+            <div className="mt-5">
+              <textarea
+                name="message"
+                placeholder="Comment"
+                className="w-full h-52 bg-fixnix-white border rounded-md p-5 text-fixnix-gray text-base md:text-lg"
+              ></textarea>
+              <div>
+                <Link
+                  href=""
+                  className="inline-block bg-fixnix-lightpurple px-8 py-3 my-4 rounded-lg text-white hover:bg-fixnix-darkpurple hover:text-white transition duration-300"
+                >
+                  Send Message
+                </Link>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      {/* Right Side - Contact Info */}
+      <div className="w-full lg:w-1/2 mt-10 lg:mt-0">
+        <div>
+          <div className="text-left">
+            <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-semibold uppercase z-[1]">
+              Begin Your Journey
+              <span className="absolute top-[10px] left-[-40px] sm:left-[-50px] w-[30px] sm:w-[35px] md:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-bold mt-3">Book A Service</h2>
           </div>
-        </section>
+          <p className="text-lg sm:text-xl font-semibold text-fixnix-darkpurple my-4 sm:my-5">
+            Together, we create a sacred community united by the shared
+            vision of bringing light and love to the world.
+          </p>
+          <p className="border-y border-gray-300 py-5 sm:py-6 mb-5">
+            In the spirit of service, you will not only contribute to
+            the mission but also receive the blessings of wisdom,
+            guidance, and divine insight through your actions and
+            devotion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         {/*Contact Page Two End*/}
       </Layout>

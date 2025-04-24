@@ -343,18 +343,26 @@ export default function StickyHeader() {
             <ul className="bg-white absolute z-50 mt-0 pt-4 px-2 w-72 rounded-b-md max-h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-fixnix-darkpurple scrollbar-track-fixnix-lightpuple hidden group-hover:block">
               <li className="mb-2">
                 <Link
-                  href="/scholarlyinsights"
+                  href="/scholarlydialogs"
                   className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
                 >
-                  Scholarly Insights
+                  Dialog Series
                 </Link>
               </li>
               <li className="mb-2">
                 <Link
-                  href="/visualresources"
+                  href="/hardtalk"
                   className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
                 >
-                  Visual Resources
+                  Hard Talk Series
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  href="/sacredprofessions"
+                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+                >
+                  Sufi Professions
                 </Link>
               </li>
               <li className="mb-2">
@@ -362,17 +370,10 @@ export default function StickyHeader() {
                   href="/digitalbooks"
                   className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
                 >
-                  Digital Books 
+                  Mystic Dashboard 
                 </Link>
               </li>
-              <li className="mb-2">
-                <Link
-                  href="/audiospectrums"
-                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
-                >
-                  Audio Spectrum
-                </Link>
-              </li>
+              
             </ul>
           </li>
 
@@ -424,6 +425,22 @@ export default function StickyHeader() {
                   className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
                 >
                   Wellness & Meditation
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  href="/digitalbooks"
+                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+                >
+                  Digital Books 
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  href="/audiospectrums"
+                  className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
+                >
+                  Audio Spectrum
                 </Link>
               </li>
             

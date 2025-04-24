@@ -399,18 +399,26 @@ const MobileMenu = ({
                 >
                   <li>
                     <Link
-                      href="/scholarlyinsights"
+                      href="/scholarlydialogs"
                       className="text-white text-sm font-medium"
                     >
-                      Scholarly Insights
+                       Dialog Series
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/visualresources"
+                      href="/hardtalk"
                       className="text-white text-sm font-medium"
                     >
-                      Visual Resources
+                      Hard Talk Series
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/sacredprofessions"
+                      className="text-white text-sm font-medium"
+                    >
+                      Sufi Professions
                     </Link>
                   </li>
                   <li>
@@ -418,17 +426,10 @@ const MobileMenu = ({
                       href="/digitalbooks"
                       className="text-white text-sm font-medium"
                     >
-                      Digital Books
+                      Mystic Dashboard
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/audiospectrums"
-                      className="text-white text-sm font-medium"
-                    >
-                      Audio Spectrum
-                    </Link>
-                  </li>
+                  
                 </ul>
                 <button
                   className={`absolute right-2 top-1 mt-2 transform -translate-y-1/2 text-white transition-transform duration-300 ${
@@ -493,6 +494,22 @@ const MobileMenu = ({
                       className="text-white text-sm font-medium"
                     >
                       Wellness & Medication
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/digitalbooks"
+                      className="text-white text-sm font-medium"
+                    >
+                      Digital Books
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/audiospectrums"
+                      className="text-white text-sm font-medium"
+                    >
+                      Audio Spectrum
                     </Link>
                   </li>
                   

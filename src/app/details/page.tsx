@@ -162,7 +162,7 @@ export default function Home() {
                     </div>
                     
                     <h3 className="text-2xl font-semibold leading-6 mt-14 mb-6">
-                    Scholarly Insights from Dr. Ghulam Mohammad Kumar 
+                    Scholarly Dialogs from Dr. Ghulam Mohammad Kumar 
                     </h3>
                     
                     <div className="relative block bg-[var(--fixnix-primary)] py-6 px-10 mt-8 mb-6 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1.5 before:bg-[var(--fixnix-lightpuple)] before:rounded-md before:content-['']">

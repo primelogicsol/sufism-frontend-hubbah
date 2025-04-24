@@ -32,7 +32,7 @@ export default function Blog() {
             <div className="relative group">
               <img src="assets/images/blog/scholarlyinsights.png" alt="" className="w-full h-64 object-cover rounded-t-xl " />
               <div className="absolute inset-0 flex items-center justify-center  bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700">
-                <Link href="/scholarlyinsights">
+                <Link href="/scholarlydialogs">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
               </div>
@@ -40,7 +40,7 @@ export default function Blog() {
             <div className="px-4 py-3 ">
              
               <h3 className="text-xl font-semibold mt-2 text-fixnix-darkpurple">
-                <Link href="/scholarlyinsights" className="text-white">Scholarly Insights</Link>
+                <Link href="/scholarlydialogs" className="text-white">Dialog Series</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
                 Dive into timeless commentaries, Sufi manuscripts, and contemporary reflections merging  wisdom with modern inquiry.
@@ -53,7 +53,7 @@ export default function Blog() {
             <div className="relative group">
               <img src="assets/images/blog/visualresources.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
               <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 ">
-                <Link href="/visualresources">
+                <Link href="/hardtalk">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
               </div>
@@ -61,7 +61,7 @@ export default function Blog() {
             <div className="px-4 py-3 ">
               
               <h3 className="text-xl font-semibold mt-2 text-gray-800">
-                <Link href="/visualresources" className="text-white" >Visual Resources</Link>
+                <Link href="/hardtalk" className="text-white" >Hard Talk</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
                 Explore sacred diagrams, cosmic maps, and interactive infographics that visualize mystical concepts in scientifically resonant design.
