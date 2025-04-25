@@ -200,7 +200,7 @@ Are you prepared to face the raw, unapologetic conversations that redefine spiri
       </div>
       <div className="px-4 py-3">
         <h3 className="text-xl font-semibold mt-2 text-white">
-          <Link href="{card.link}" className="text-white">Hard Talk {index + 1}</Link>
+          <Link href="/hardtalkdetails" className="text-white">Hard Talk {index + 1}</Link>
         </h3>
         <p className="text-sm text-gray-100 mt-2 italic">"{card.quote}"</p>
       </div>
