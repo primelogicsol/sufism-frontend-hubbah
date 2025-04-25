@@ -22,28 +22,7 @@ export default function Home() {
                     
                   </div>
                   <div className="relative block max-w-[630px] px-4 mx-auto mt-24">
-                    {/* <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage of Lorem Ipsum, you need to be sure there
-                      isn't anything embarrassing hidden in the middle of text.
-                      All the Lorem Ipsum generators on the Internet tend to
-                      repeat predefined chunks as necessary,{" "}
-                    </p>
-                    <p className="mt-7 mb-6">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters,
-                    </p>
-                    <p className="font-bold text-[var(--fixnix-darkpurple)] italic">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore fugiat nulla pariatur. Excepteur sint
-                      occaecat cupidatat non proident, sunt in culpa qui officia
-                      deserunt mollit anim id est laborum.{" "}
-                    </p> */}
+                    
                     <h3 className="text-2xl font-semibold leading-6 mt-14 mb-6">
                     Prophetic Sayings 
                     </h3>

@@ -399,7 +399,7 @@ const MobileMenu = ({
                 >
                   <li>
                     <Link
-                      href="/scholarlydialogs"
+                      href="/dialogseries"
                       className="text-white text-sm font-medium"
                     >
                        Dialog Series

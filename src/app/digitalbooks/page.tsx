@@ -118,7 +118,7 @@ export default function Home() {
                 <ul className="space-y-2">
                   <li >
                     <Link
-                      href="/scholarlydialogs"
+                      href="/dialogseries"
                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
                     >
                       Dialog Series
