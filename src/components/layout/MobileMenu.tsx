@@ -68,7 +68,7 @@ const MobileMenu = ({
             </Link>
           </div>
 
-          <div className="mobile-nav__container">
+          <div className="">
             <ul className="space-y-4 main-menu__list">
               {/* Home menu */}
               <li

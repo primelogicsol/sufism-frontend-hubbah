@@ -96,8 +96,8 @@ export default function Home() {
       <Layout headerStyle={2} footerStyle={1}>
         <Banner slides={CollaborationSlides}/>
         {/*Services Two Start*/}
-        <section className="services-two">
-          <section className="relative pb-20 bg-cover bg-center">
+        
+          <section className="relative py-20 bg-cover bg-center">
             <div className="container mx-auto px-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-56 mb-11 items-center">
                 {/* Left Column */}
@@ -149,145 +149,118 @@ export default function Home() {
             </div>
 
             {/* Counter Section */}
-          </section>
-
-          
-          <div className="container">
-          <div className="text-left mb-12">
-              <span className="relative text-left-mobile inline-block text-[16px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
-              Our Collaborative Endeavours
-                <span className="absolute top-[6px] left-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
-                
-              </span>
-              <h2 className="section-title__title">
-                Empower, Preserve, Transform.
-              </h2>
-              <p className="section-title__text">
-                We collaborate to empower artisans, preserve cultural heritage,
-                foster educational partnerships, <br />
-                and promote spiritual growth and community well-being in
-                Kashmir.
-              </p>
-            </div>
-            <div className="row">
-              {/*Services Two Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="100ms"
-              >
-                <div className="services-two__single">
-                  <div className="services-two__single-inner">
-                    <div className="services-two__icon">
-                      <span className="icon-phone"></span>
-                    </div>
-                    <h3 className="services-two__title">Artisan Empowerment</h3>
-                    <p className="text-left">
-                    We collaborate with artisans, spiritual mentors, and craftspeople to preserve Kashmir’s traditions. Each woven thread and carved detail reflects devotion and timeless wisdom. Together, we sustain heritage through craftsmanship infused with spiritual significance.
-                  
-                    </p>
-                  </div>
+  </section>
+                <section className="container py-16">
+        <div className="text-left mb-12">
+        <span className="relative inline-block text-sm sm:text-base md:text-lg text-fixnix-lightpurple font-semibold uppercase z-[1]">
+        Our Collaborative Endeavours
+                      <span className="absolute top-[10px] left-[-50px] w-[35px] sm:w-[45px] h-[2px] bg-fixnix-lightpurple"></span>
+                    </span>
+          <h2 className="text-3xl font-bold mt-4">
+            Empower, Preserve, Transform.
+          </h2>
+          <p className="mt-4 text-left">
+            We collaborate to empower artisans, preserve cultural heritage, foster educational partnerships, <br />
+            and promote spiritual growth and community well-being in Kashmir.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+                    {/* Service 1 */}
+                    <div className="wow fadeInUp" data-wow-delay="100ms">
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+              <div className="flex flex-col items-center">
+                <div className="bg-fixnix-lightpurple p-4 rounded-full mb-4 transition-transform transform hover:scale-110">
+                  <span className="icon-phone text-white text-2xl"></span>
                 </div>
+                <h3 className="text-2xl font-semibold text-center mb-4">Artisan Empowerment</h3>
+                <p className="text-left text-gray-700">
+                  We collaborate with artisans, spiritual mentors, and craftspeople to preserve Kashmir’s traditions. Each woven thread and carved detail reflects devotion and timeless wisdom. Together, we sustain heritage through craftsmanship infused with spiritual significance.
+                </p>
               </div>
-              {/*Services Two Single End*/}
-              {/*Services Two Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div className="services-two__single">
-                  <div className="services-two__single-inner">
-                    <div className="services-two__icon">
-                      <span className="icon-tap"></span>
-                    </div>
-                    <h3 className="services-two__title">
-                      Educational Partnerships
-                    </h3>
-                    <p className=" text-left">
-                    The Center partners with universities, spiritual institutions, and scholars worldwide. We offer transformative learning rooted in Sufi wisdom, Kashmiri mysticism, and sacred traditions. Through teachings and exchanges, we deepen understanding of spiritual principles.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Services Two Single End*/}
-              {/*Services Two Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div className="services-two__single">
-                  <div className="services-two__single-inner">
-                    <div className="services-two__icon">
-                      <span className="icon-laptop"></span>
-                    </div>
-                    <h3 className="services-two__title">
-                      Cultural Preservation
-                    </h3>
-                    <p className="text-left">
-                    We work with museums, cultural organizations, and heritage foundations to protect Kashmir’s sacred arts. From Pashmina weaving to spiritual calligraphy, we ensure their legacy endures. Our collaborations safeguard these treasures for future generations.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Services Two Single End*/}
-              {/*Services Two Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
-              >
-                <div className="services-two__single">
-                  <div className="services-two__single-inner">
-                    <div className="services-two__icon">
-                      <span className="icon-computer"></span>
-                    </div>
-                    <h3 className="services-two__title">Spiritual Retreats</h3>
-                    <p className="text-left">
-                    We create transformative spaces with Sufi orders, retreats, and healing sanctuaries. Through meditation, devotion, and divine love, seekers connect with spirituality. These gatherings offer sacred environments for reflection and collective enlightenment.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Services Two Single End*/}
-              {/*Services Two Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="500ms"
-              >
-                <div className="services-two__single">
-                  <div className="services-two__single-inner">
-                    <div className="services-two__icon">
-                      <span className="icon-camera"></span>
-                    </div>
-                    <h3 className="services-two__title">Social Initiatives </h3>
-                    <p className="text-left">
-                    We engage in ethical commerce, environmental sustainability, and humanitarian outreach in Kashmir. Our initiatives address social challenges while preserving cultural values. By fostering dialogue, we build bridges of mutual respect and understanding.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Services Two Single End*/}
-              {/*Services Two Single Start*/}
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="600ms"
-              >
-                <div className="services-two__single">
-                  <div className="services-two__single-inner">
-                    <div className="services-two__icon">
-                      <span className="icon-smartwatch"></span>
-                    </div>
-                    <h3 className="services-two__title">
-                      Community Empowerment
-                    </h3>
-                    <p className="text-left">
-                    We support sustainable development and spiritual enrichment for Kashmiri communities. By reviving ancestral knowledge and fostering resilience, we empower families. Our holistic approach integrates economic stability with spiritual well-being.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Services Two Single End*/}
             </div>
           </div>
-        </section>
+
+
+                    {/* Service 2 */}
+              {/* Service 2 */}
+          <div className="wow fadeInUp" data-wow-delay="200ms">
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+              <div className="flex flex-col items-center">
+                <div className="bg-fixnix-lightpurple p-4 rounded-full mb-4 transition-transform transform hover:scale-110">
+                  <span className="icon-tap text-white text-2xl"></span>
+                </div>
+                <h3 className="text-2xl font-semibold text-center mb-4">Educational Partnerships</h3>
+                <p className="text-left text-gray-700">
+                  The Center partners with universities, spiritual institutions, and scholars worldwide. We offer transformative learning rooted in Sufi wisdom, Kashmiri mysticism, and sacred traditions. Through teachings and exchanges, we deepen understanding of spiritual principles.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 3 */}
+          <div className="wow fadeInUp" data-wow-delay="300ms">
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+              <div className="flex flex-col items-center">
+                <div className="bg-fixnix-lightpurple p-4 rounded-full mb-4 transition-transform transform hover:scale-110">
+                  <span className="icon-laptop text-white text-2xl"></span>
+                </div>
+                <h3 className="text-2xl font-semibold text-center mb-4">Cultural Preservation</h3>
+                <p className="text-left text-gray-700">
+                  We work with museums, cultural organizations, and heritage foundations to protect Kashmir’s sacred arts. From Pashmina weaving to spiritual calligraphy, we ensure their legacy endures. Our collaborations safeguard these treasures for future generations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 4 */}
+          <div className="wow fadeInUp" data-wow-delay="400ms">
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+              <div className="flex flex-col items-center">
+                <div className="bg-fixnix-lightpurple p-4 rounded-full mb-4 transition-transform transform hover:scale-110">
+                  <span className="icon-computer text-white text-2xl"></span>
+                </div>
+                <h3 className="text-2xl font-semibold text-center mb-4">Spiritual Retreats</h3>
+                <p className="text-left text-gray-700">
+                  We create transformative spaces with Sufi orders, retreats, and healing sanctuaries. Through meditation, devotion, and divine love, seekers connect with spirituality. These gatherings offer sacred environments for reflection and collective enlightenment.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 5 */}
+          <div className="wow fadeInUp" data-wow-delay="500ms">
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+              <div className="flex flex-col items-center">
+                <div className="bg-fixnix-lightpurple p-4 rounded-full mb-4 transition-transform transform hover:scale-110">
+                  <span className="icon-camera text-white text-2xl"></span>
+                </div>
+                <h3 className="text-2xl font-semibold text-center mb-4">Social Initiatives</h3>
+                <p className="text-left text-gray-700">
+                  We engage in ethical commerce, environmental sustainability, and humanitarian outreach in Kashmir. Our initiatives address social challenges while preserving cultural values. By fostering dialogue, we build bridges of mutual respect and understanding.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Service 6 */}
+          <div className="wow fadeInUp" data-wow-delay="600ms">
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl">
+              <div className="flex flex-col items-center">
+                <div className="bg-fixnix-lightpurple p-4 rounded-full mb-4 transition-transform transform hover:scale-110">
+                  <span className="icon-smartwatch text-white text-2xl"></span>
+                </div>
+                <h3 className="text-2xl font-semibold text-center mb-4">Community Empowerment</h3>
+                <p className="text-left text-gray-700">
+                  We support sustainable development and spiritual enrichment for Kashmiri communities. By reviving ancestral knowledge and fostering resilience, we empower families. Our holistic approach integrates economic stability with spiritual well-being.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
         {/*Services Two End*/}
 
         {/*Newsletter One Start*/}

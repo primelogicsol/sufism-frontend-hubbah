@@ -219,20 +219,21 @@ export default function Home() {
                   <div className="relative block  px-5 ">
                     
                     
-                    <div className="blog-details__social-list">
-                      <span>Share This :</span>
-                      <div className="blog-details__social">
-                        <Link href="#">
-                          <i className="fab fa-facebook-f"></i>
-                        </Link>
-                        <Link href="#">
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-                        <Link href="#">
-                          <i className="fab fa-instagram"></i>
-                        </Link>
-                      </div>
-                    </div>
+                  <div className="flex items-center">
+  <span className="text-fixnix-darkpurple text-2xl mr-5 font-semibold font-two">Share This :</span>
+  <div className="relative flex items-center space-x-2">
+    <Link href="#" className="relative h-10 w-10 flex items-center justify-center text-white bg-fixnix-lightpurple text-lg rounded-full overflow-hidden transition-all duration-500 ease-in-out hover:text-white">
+      <i className="fab fa-facebook-f"></i>
+    </Link>
+    <Link href="#" className="relative h-10 w-10 flex items-center justify-center text-white bg-fixnix-lightpurple text-lg rounded-full overflow-hidden transition-all duration-500 ease-in-out hover:text-white">
+      <i className="fab fa-twitter"></i>
+    </Link>
+    <Link href="#" className="relative h-10 w-10 flex items-center justify-center text-white bg-fixnix-lightpurple text-lg rounded-full overflow-hidden transition-all duration-500 ease-in-out hover:text-white">
+      <i className="fab fa-instagram"></i>
+    </Link>
+  </div>
+</div>
+
                   </div>
                 </div>
               </div>
