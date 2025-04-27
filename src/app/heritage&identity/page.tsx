@@ -77,14 +77,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="w-full lg:w-1/2 pl-0 lg:pl-12 relative">
-                <div className="relative block rounded-lg overflow-hidden">
-                  <img
-                    src="/assets/images/services/heritage.png"
-                    alt=""
-                    className="w-full h-[500px] rounded-lg"
-                  />
-                 
-                </div>
+              <div className="relative block rounded-lg overflow-hidden">
+              <Image
+                src="/assets/images/services/heritage.png"
+                alt="Heritage"
+                width={800}
+                height={500}
+                className="w-full h-[500px] rounded-lg object-cover"
+              />
+</div>
               </div>
             </div>
           </div>

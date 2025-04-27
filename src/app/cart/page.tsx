@@ -1,4 +1,5 @@
 import Layout from "../../components/layout/Layout";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -23,11 +24,13 @@ export default function Home() {
                   <tr key={index} className="border-b border-gray-300">
                     <td className="flex items-center py-8 space-x-9">
                       <div className="w-[120px] border border-gray-300 overflow-hidden">
-                        <img
-                          src={`assets/images/shop/cart-page-img-${item}.jpg`}
-                          className="w-full"
-                          alt="Product Image"
-                        />
+                      <Image
+                      src={`/assets/images/shop/cart-page-img-${item}.jpg`}
+                      alt="Product Image"
+                      width={500} // Adjust based on your design requirements
+                      height={300} // Adjust this height to fit your layout
+                      className="w-full"
+                    />
                       </div>
                       <h3 className="text-[20px] font-bold text-fixnix-darkpurple">
                         <Link

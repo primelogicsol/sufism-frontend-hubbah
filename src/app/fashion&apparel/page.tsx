@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Banner from "@/components/sections/home3/Banner";
 const FashionSlides = [
@@ -173,12 +174,15 @@ export default function Home() {
                     style={{ boxShadow: "fixnix-lightpurple" }} // Light purple shadow
                   >
                     <div className="overflow-hidden rounded-lg">
-                      <img
-                        src={`/assets/images/shop/produc${i + 1}.jpg`}
-                        alt="Product"
-                        className="w-full h-48 object-cover hover:scale-125"
-                      />
-                    </div>
+                    <Image
+                      src={`/assets/images/shop/produc${i + 1}.jpg`}
+                      alt="Product"
+                      width={400}
+                      height={300}
+                      className="w-full h-48 object-cover hover:scale-125"
+                    />
+                  </div>
+
                     <div className="mt-4 text-center">
                       <div className="text-yellow-500">
                         {[...Array(5)].map((_, j) => (

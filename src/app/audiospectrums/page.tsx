@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Banner from "@/components/sections/home3/Banner";
 
@@ -175,14 +176,19 @@ export default function Home() {
     <div
       key={i}
       className="border shadow-light-purple rounded-lg p-4"
-      style={{ boxShadow: "fixnix-lightpurple" }} // Light purple shadow
+      style={{ boxShadow: "fixnix-lightpurple" }} 
     >
       <div className="overflow-hidden rounded-lg">
-        <img
-          src={`/assets/images/shop/music1.png`}
+      
+
+        <Image
+          src="/assets/images/shop/music1.png"
           alt="Product"
-          className="w-full h-48 object-cover hover:scale-125"
+          width={500}  // you can adjust width/height based on your design
+          height={192} // 48 x 4 = 192px (Tailwind h-48 ≈ 12rem ≈ 192px)
+          className="w-full h-48 object-cover hover:scale-125 transition-transform duration-300"
         />
+
       </div>
       <div className="mt-4 text-center">
         <div className="text-yellow-500">

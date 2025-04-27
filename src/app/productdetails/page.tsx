@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
 
@@ -22,11 +23,13 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <img
-                className="w-full rounded-lg"
-                src="/assets/images/shop/product-details-img-1.jpg"
-                alt="Product"
-              />
+            <Image
+            src="/assets/images/shop/product-details-img-1.jpg"
+            alt="Product"
+            width={600}
+            height={600}
+            className="w-full rounded-lg object-cover"
+          />
             </div>
             <div>
               <h3 className="text-2xl font-bold">
@@ -109,10 +112,12 @@ export default function Home() {
           {[1, 2].map((review, index) => (
             <div key={index} className="mt-6 p-4 border rounded-lg">
               <div className="flex items-center space-x-4">
-                <img
+                <Image
                   src={`/assets/images/shop/review-1-${review}.jpg`}
                   alt="Reviewer"
-                  className="w-12 h-12 rounded-full"
+                  width={48}
+                  height={48}
+                  className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
                   <h4 className="font-medium">

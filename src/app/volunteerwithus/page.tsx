@@ -1,6 +1,7 @@
 "use client"
 import Banner from "@/components/sections/home3/Banner";
 import Layout from "../../components/layout/Layout";
+import Image from "next/image";
 import Link from "next/link";
 
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -137,13 +138,14 @@ export default function Home() {
                 At the Sufi Science Center - Kashmir Chapter, we believe that the path to enlightenment is not just one of personal transformation, but a shared experience of collective devotion, love, and service to the divine.
                 </p>
                 <div className="relative">
-                  <img
-                    className="w-[500px] h-[500px] rounded-[var(--fixnix-bdr-radius)]"
-                    src="assets/images/resources/Volunteer.png"
-                    alt=""
-
-                  />
-                </div>
+                <Image
+                  src="/assets/images/resources/Volunteer.png"
+                  alt="Volunteer"
+                  width={500}
+                  height={500}
+                  className="w-[500px] h-[500px] rounded-[var(--fixnix-bdr-radius)] object-cover"
+                />
+              </div>
               </div>
             </div>
           </div>

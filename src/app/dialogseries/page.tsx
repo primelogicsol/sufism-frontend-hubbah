@@ -172,14 +172,14 @@ export default function Home() {
           className="w-full h-64 object-cover rounded-t-xl"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
-          <Link href="{card.link}">
+          <Link href="/dialogsdetails">
             <i className="fa fa-plus text-white text-2xl"></i>
           </Link>
         </div>
       </div>
       <div className="px-4 py-3">
         <h3 className="text-xl font-semibold mt-2 text-white">
-          <Link href="{card.link}" className="text-white">{card.title}</Link>
+          <Link href="/dialogsdetails" className="text-white">{card.title}</Link>
         </h3>
         <p className="text-sm text-gray-100 mt-2 italic">"{card.quote}"</p>
       </div>

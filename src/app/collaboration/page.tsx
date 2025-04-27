@@ -3,6 +3,7 @@ import CounterUp from "../../components/elements/CounterUp";
 import Layout from "../../components/layout/Layout";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { useState } from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
@@ -131,11 +132,16 @@ export default function Home() {
                 {/* Right Column */}
                 <div className="relative">
                   <div className="rounded-lg overflow-hidden w-[425px] h-[500px]  bg-fixnix-lightpurple">
-                    <img
-                      src="assets/images/resources/Collaboration.png"
+                 
+
+                    <Image
+                      src="/assets/images/resources/Collaboration.png"
                       alt="Repair Services"
-                      className="w-[425px] h-[500px] mix-blend-multiply"
+                      width={425}  // Adjust width as per design requirements
+                      height={500} // Adjust height as per design requirements
+                      className="mix-blend-multiply"
                     />
+
                     
                   </div>
                 </div>
@@ -353,11 +359,21 @@ export default function Home() {
         </section>
 
         <section className=" text-left-mobile relative block py-[120px] pb-[90px] bg-fixnix-primary z-10">
-          <div className="absolute top-[10px] left-0 services-one-shape-1">
-            <img src="assets/images/shapes/services-one-shape-1.png" alt="" />
+        <div className="absolute top-[10px] left-0 services-one-shape-1">
+            <Image 
+              src="/assets/images/shapes/services-one-shape-1.png" 
+              alt="Shape 1" 
+              width={500} 
+              height={500} 
+            />
           </div>
           <div className="absolute top-[65px] right-0 services-one-shape-2">
-            <img src="assets/images/shapes/services-one-shape-2.png" alt="" />
+            <Image 
+              src="/assets/images/shapes/services-one-shape-2.png" 
+              alt="Shape 2" 
+              width={500} 
+              height={500} 
+            />
           </div>
           <div className="container">
             <div className=" text-center mb-[49px]">
@@ -385,10 +401,7 @@ export default function Home() {
                 data-wow-delay="100ms"
               >
                 <div className=" relative block bg-fixnix-lightpurple shadow-light-purple mb-[30px] z-[2] transition-transform duration-[500ms] hover:-translate-y-[10px] group hover:bg-fixnix-darkpurple">
-                  {/* <div className=" relative block overflow-hidden bg-fixnix-lightpurple rounded-tl-[5px] rounded-tr-[5px] z-[1]">
-            <img src="assets/images/services/services-1-1.jpg" alt="" className="w-full rounded-tl-[5px] rounded-tr-[5px] transition-all ease-in-out duration-[500ms]"/>
-            <div className="absolute top-[-100%] bottom-[100%] left-0 right-0 bg-fixnix-lightpurple rounded-tl-[5px] rounded-tr-[5px] mix-blend-multiply transition-all ease-in-out duration-[600ms] z-[1]"></div>
-          </div> */}
+                
                   <div className=" p-[22px] pb-[30px]">
                     <h3 className=" text-[24px] text-white transition-all duration-[500ms]  font-semibold leading-[34px]">
                       A Sacred Purpose
@@ -410,10 +423,7 @@ export default function Home() {
                 data-wow-delay="200ms"
               >
                 <div className="relative block bg-fixnix-lightpurple shadow-light-purple mb-[30px] z-[2] transition-transform duration-[500ms] hover:-translate-y-[10px] group hover:bg-fixnix-darkpurple">
-                  {/* <div className="relative block overflow-hidden bg-fixnix-lightpurple rounded-tl-[5px] rounded-tr-[5px] z-[1]">
-            <img src="assets/images/services/services-1-2.jpg" alt="" className="w-full rounded-tl-[5px] rounded-tr-[5px] transition-all ease-in-out duration-[500ms]"/>
-            <div className="absolute top-[-100%] bottom-[100%] left-0 right-0 bg-fixnix-lightpurple rounded-tl-[5px] rounded-tr-[5px] mix-blend-multiply transition-all ease-in-out duration-[600ms] z-[1]"></div>
-          </div> */}
+                 
                   <div className=" p-[22px] pb-[30px]">
                     <h3 className=" text-[24px] text-white transition-all duration-[500ms] font-semibold leading-[34px]">
                       Platform for Transformation
@@ -435,10 +445,7 @@ export default function Home() {
                 data-wow-delay="300ms"
               >
                 <div className="relative block bg-fixnix-lightpurple shadow-light-purple mb-[30px] z-[2] transition-transform duration-[500ms] hover:-translate-y-[10px] group hover:bg-fixnix-darkpurple">
-                  {/* <div className=" relative block overflow-hidden bg-fixnix-lightpurple rounded-tl-[5px] rounded-tr-[5px] z-[1]">
-            <img src="assets/images/services/services-1-3.jpg" alt="" className="w-full rounded-tl-[5px] rounded-tr-[5px] transition-all ease-in-out duration-[500ms]"/>
-            <div className="absolute top-[-100%] bottom-[100%] left-0 right-0 bg-fixnix-lightpurple rounded-tl-[5px] rounded-tr-[5px] mix-blend-multiply transition-all ease-in-out duration-[600ms] z-[1]"></div>
-          </div> */}
+                 
                   <div className="p-[22px] pb-[30px]">
                     <h3 className=" text-[24px] text-white transition-all duration-[500ms]  font-semibold leading-[34px]">
                       Legacy of Enlightenment

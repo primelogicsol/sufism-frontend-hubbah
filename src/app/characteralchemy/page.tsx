@@ -157,11 +157,13 @@ export default function Home() {
                 {/* Right Column */}
                 <div className="relative">
                   <div className="rounded-lg overflow-hidden w-[350px] h-[350px]  bg-fixnix-lightpurple">
-                    <img
-                      src="assets/images/resources/alchemy.png"
-                      alt="Repair Services"
-                      className="w-[350px] h-[350px] "
-                    />
+                  <Image
+                  src="/assets/images/resources/alchemy.png"
+                  alt="Repair Services"
+                  width={350}  // Adjust width as per design requirements
+                  height={350} // Adjust height as per design requirements
+                  className="w-[350px] h-[350px]"
+                />
                     
                   </div>
                 </div>

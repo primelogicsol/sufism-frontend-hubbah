@@ -2,6 +2,7 @@
 import ModalVideo from "react-modal-video";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Banner from "@/components/sections/home3/Banner";
 import { useState } from "react";
@@ -66,12 +67,13 @@ export default function Home() {
                   data-wow-delay="100ms"
                   data-wow-duration="2500ms"
                 >
-                  <img
-  src="assets/images/resources/about-1-1.jpg"
-  alt=""
-  className="h-[600px] w-auto"
-/>
-
+                  <Image
+                src="/images/resources/about-1-1.jpg"
+                alt=""
+                width={600}
+                height={600}
+                className="w-auto h-[600px]"
+              />
                   <div className="about-one__our-goal">
                     <p className="about-one__our-goal-sub-title">
                       Words of Rumi:

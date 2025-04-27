@@ -2,6 +2,7 @@
 import ModalVideo from "react-modal-video";
 import { useState } from "react";
 import Link from "next/link";
+import Image from 'next/image';
 import Layout from "../../components/layout/Layout";
 import Banner from "../../components/sections/home3/Banner";
 import Welcome from "../../components/sections/home3/Welcome";
@@ -185,9 +186,11 @@ export default function Home() {
       style={{ boxShadow: "fixnix-lightpurple" }} // Light purple shadow
     >
       <div className="overflow-hidden rounded-lg">
-        <img
-          src={`/assets/images/shop/music1.png`}
+        <Image
+          src="/assets/images/shop/music1.png"
           alt="Product"
+          width={500} // you can adjust the width
+          height={200} // you can adjust the height
           className="w-full h-48 object-cover hover:scale-125"
         />
       </div>
