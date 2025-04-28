@@ -144,7 +144,7 @@ export default function Home() {
                   Transform your administrative environment with this daily ritual:
                 </p>
                 <div className="mt-8 p-8 bg-white rounded-xl shadow-md border-l-4 border-fixnix-lightpurple">
-                  <p className="text-center font-bold text-xl mb-4 text-fixnix-darkpurple">Each Morning:</p>
+                  <p className="text-left font-bold text-xl mb-4 text-fixnix-darkpurple">Each Morning:</p>
                   <ol className="list-decimal list-inside space-y-4 text-lg">
                     <li>Touch your desk lightly with your hand.</li>
                     <li>
@@ -152,7 +152,7 @@ export default function Home() {
                       <span className="mt-2 block text-center italic text-fixnix-lightpurple">"Ya Wakeel, today I act only as Your appointed trustee. Shield me from ego."</span>
                     </li>
                     <li>
-                      <p>Before signing any major decision:</p>
+                      Before signing any major decision:
                       <ul className="list-disc list-inside ml-6 mt-2">
                         <li>Breathe.</li>
                         <li>Recite silently: "Allah is witness over all things."</li>
