@@ -108,7 +108,7 @@ export default function Home() {
       <Banner slides={ResearchSlides}/>
       <section className="team-top text-left-mobile">
           <div className="container mx-auto px-4 text-left-mobile">
-            <div className="text-center sm:text-left relative block mt-[-6px] mb-[49px] z-[1]">
+            <div className="text-center sm:text-left relative block mt-[40px] mb-[49px] z-[1]">
               {/* Section Tagline */}
               <span className="relative inline-block text-[18px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
               Sufi profession 
@@ -216,14 +216,14 @@ export default function Home() {
                         className="w-full h-64 object-cover rounded-t-xl"
                       />
                       <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
-                        <Link href="{card.link}">
+                        <Link href="/professionsdetails">
                           <i className="fa fa-plus text-white text-2xl"></i>
                         </Link>
                       </div>
                     </div>
                     <div className="px-4 py-3">
                       <h3 className="text-xl font-semibold mt-2 text-white">
-                        <Link href="{card.link}" className="text-white">{card.title}</Link>
+                        <Link href="/professionsdetails" className="text-white">{card.title}</Link>
                       </h3>
                       <p className="text-sm text-gray-100 mt-2 italic">"{card.quote}"</p>
                     </div>

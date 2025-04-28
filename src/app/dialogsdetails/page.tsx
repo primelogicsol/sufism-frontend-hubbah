@@ -110,7 +110,7 @@ export default function Home() {
 
               <section className="bg-white rounded-2xl shadow-md p-10 border-t-8 border-fixnix-lightpurple">
                 <h2 className="text-2xl font-bold flex items-center gap-3 mb-6">
-                  <span className="text-fixnix-lightpurple p-2 bg-purple-50 rounded-full">🧬</span>
+                 
                   <span>4. ISLAMIC TRADITION: A Path, Not a Sect</span>
                 </h2>
                 <p className="mt-4 leading-relaxed text-lg">

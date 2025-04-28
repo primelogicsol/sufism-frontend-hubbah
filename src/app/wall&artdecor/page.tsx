@@ -47,7 +47,7 @@ export default function Home() {
       {/* Page Title */}
       <section className="team-top text-left-mobile">
         <div className="container mx-auto px-4">
-          <div className="text-center sm:text-left relative block mt-[-6px] mb-[10px] z-[1]">
+          <div className="text-center sm:text-left relative block mt-[40px] mb-[10px] z-[1]">
             {/* Section Tagline */}
             <span className="relative inline-block text-[18px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
               Art & Wall Decor

@@ -57,7 +57,7 @@ export default function Home() {
         
         <section className="team-top text-left-mobile">
           <div className="container mx-auto px-4text-left-mobile">
-            <div className="text-center sm:text-left relative block mt-[-6px] mb-[49px] z-[1]">
+            <div className="text-center sm:text-left relative block mt-[40px] mb-[49px] z-[1]">
               {/* Section Tagline */}
               <span className="relative inline-block text-[18px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
                 Our Books Collection

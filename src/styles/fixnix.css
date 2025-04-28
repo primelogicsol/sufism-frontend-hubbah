@@ -2382,7 +2382,7 @@ ul {
 /*--------------------------------------------------------------
 # About One
 --------------------------------------------------------------*/
-.about-one {
+/* .about-one {
   position: relative;
   display: block;
   padding: 120px 0 120px;
@@ -2610,7 +2610,7 @@ ul {
 
 .about-one__points li:hover .about-one__points-subtitle {
   color: var(--fixnix-white);
-}
+} */
 
 /*--------------------------------------------------------------
 ## Error Page

@@ -51,116 +51,85 @@ export default function Home() {
     <Layout headerStyle={2} footerStyle={1}>
        <Banner slides={WaysSlides}/>
 
-      <section className="about-one">
-        <div
-          className="about-one__bg float-bob-y"
-          style={{
-            backgroundImage:
-              "url(assets/images/backgrounds/about-one-bg-img-1.jpg)",          }}
-        ></div>
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-6 col-lg-6">
-              <div className="about-one__left">
-                <div
-                  className="about-one__img wow slideInLeft"
-                  data-wow-delay="100ms"
-                  data-wow-duration="2500ms"
-                >
-                  <Image
-                src="/images/resources/about-1-1.jpg"
-                alt=""
-                width={600}
-                height={600}
-                className="w-auto h-[600px]"
-              />
-                  <div className="about-one__our-goal">
-                    <p className="about-one__our-goal-sub-title">
-                      Words of Rumi:
-                    </p>
-                    <h3 className="about-one__our-goal-title">
-                      "When you let go of what you are, you become what you
-                      might be."
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6 col-lg-6">
-              <div className="about-one__right">
-                <div className="section-title text-left">
-                  <span className="section-title__tagline">Ways to Give </span>
-                  
-                </div>
-                
-                <ul className="about-one__points list-unstyled">
-                  <li>
-                    <div className="about-one__points-single">
-                      <div className="about-one__points-icon">
-                        <span className="icon-repair"></span>
-                      </div>
-                      <div className="about-one__points-text">
-                        <h3 className="about-one__points-title">
-                        Donate to SSC
-                        </h3>
-                        <p className="about-one__points-subtitle">
-                        Empower knowledge, nurture spiritual wisdom.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="about-one__points-single">
-                      <div className="about-one__points-icon">
-                        <span className="icon-phone"></span>
-                      </div>
-                      <div className="about-one__points-text">
-                        <h3 className="about-one__points-title">
-                        Sponsor a Sufi Scholar
-                        </h3>
-                        <p className="about-one__points-subtitle">
-                        Support learning, illuminate future paths
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="about-one__points-single">
-                      <div className="about-one__points-icon">
-                        <span className="icon-repair"></span>
-                      </div>
-                      <div className="about-one__points-text">
-                        <h3 className="about-one__points-title">
-                        Preserve Sacred Sufi Art
-                        </h3>
-                        <p className="about-one__points-subtitle">
-                        Safeguard heritage, sustain artistic traditions.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="about-one__points-single">
-                      <div className="about-one__points-icon">
-                        <span className="icon-repair"></span>
-                      </div>
-                      <div className="about-one__points-text">
-                        <h3 className="about-one__points-title">
-                        Sponsor Sacred Sufi Events
-                        </h3>
-                        <p className="about-one__points-subtitle">
-                        Celebrate spirituality, foster divine connections.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+
+       <section className="relative block py-20 md:py-28 lg:py-32 overflow-hidden z-10">
+  <div
+    className="absolute inset-0 bg-no-repeat bg-center bg-cover -z-10 animate-float-bob-y"
+    style={{
+      backgroundImage: "url(assets/images/backgrounds/about-one-bg-img-1.jpg)",
+    }}
+  ></div>
+
+  <div className="container mx-auto px-4 ">
+    <div className="flex flex-wrap -mx-4 items-center">
+      
+      {/* Left Image and Rumi Quote */}
+      <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
+        <div className="relative block">
+          <div
+            className="relative overflow-hidden rounded-lg z-10 group wow animate-slideInLeft"
+            data-wow-delay="100ms"
+            data-wow-duration="2500ms"
+          >
+            <Image
+              src="/images/resources/about-1-1.jpg"
+              alt="About Image"
+              width={600}
+              height={600}
+              className="w-full h-auto max-h-[600px] object-cover rounded-lg transition-all duration-500 delay-100 group-hover:scale-105"
+            />
+            <div className="absolute bottom-0 left-0 right-0 md:right-[168px] bg-[color:var(--fixnix-lightpuple)] p-6 sm:p-8 md:p-12 rounded-bl-lg rounded-tr-lg z-[3]">
+              <p className="text-base md:text-lg font-semibold text-white pb-2 uppercase">
+                Words of Rumi:
+              </p>
+              <h3 className="text-xl md:text-3xl font-semibold text-white leading-snug md:leading-10">
+                "When you let go of what you are, you become what you might be."
+              </h3>
             </div>
           </div>
         </div>
-      </section>
-    
+      </div>
+
+      
+      <div className="w-full lg:w-1/2 px-4">
+        <div className="relative block  ">
+          <div className="pl-12"><span className="relative inline-block text-[16px] sm:text-[18px] leading-5 text-fixnix-lightpurple font-semibold uppercase z-[1] mb-4">
+            Ways to Give
+            <span className="absolute top-[6px] left-[-48px] sm:left-[-56px] w-[32px] sm:w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
+          </span></div>
+          
+
+          <ul className="relative block mt-8 sm:mt-11 mb-8 sm:mb-11 list-none">
+            {[
+              { title: "Donate to SSC", text: "Empower knowledge, nurture spiritual wisdom.", icon: "icon-repair" },
+              { title: "Sponsor a Sufi Scholar", text: "Support learning, illuminate future paths", icon: "icon-phone" },
+              { title: "Preserve Sacred Sufi Art", text: "Safeguard heritage, sustain artistic traditions.", icon: "icon-repair" },
+              { title: "Sponsor Sacred Sufi Events", text: "Celebrate spirituality, foster divine connections.", icon: "icon-repair" },
+            ].map((item, index) => (
+              <li key={index} className="relative block bg-white shadow-lg rounded-l-full z-10 mb-4 group overflow-hidden">
+                <div className="flex items-center p-4 sm:p-6 rounded-l-full transition-all duration-500 group-hover:bg-[color:var(--fixnix-lightpuple)]">
+                  <div className="flex items-center justify-center w-12 h-12 sm:w-15 sm:h-15 bg-[color:var(--fixnix-lightpuple)] rounded-full text-2xl sm:text-3xl text-white transition-all duration-500 group-hover:bg-white group-hover:text-[color:var(--fixnix-lightpuple)] group-hover:scale-90">
+                    <span className={item.icon}></span>
+                  </div>
+                  <div className="ml-4 sm:ml-6">
+                    <h3 className="text-lg sm:text-2xl font-semibold leading-tight text-[color:var(--fixnix-darkpurple)] group-hover:text-white">
+                      {item.title}
+                    </h3>
+                    <p className="text-sm sm:text-lg text-gray-500 pt-1 sm:pt-2 group-hover:text-white">
+                      {item.text}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
       
       <section className="py-20 bg-gray-100">
         <div className="container mx-auto px-6 flex flex-wrap items-center">
