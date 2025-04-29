@@ -1,8 +1,10 @@
+"use client";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import Image from "next/image";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import ProductCard from "@/components/sections/home3/ProductCard";
 import Banner from "@/components/sections/home3/Banner";
+import { useState } from "react";
+import Breadcrumb from "@/components/sections/home3/Breadcrumb";
 
 const MusicSlides = [
   {
@@ -42,13 +44,68 @@ const MusicSlides = [
   },
 ];
 
+const sampleProducts = Array.from({ length: 36 }, (_, i) => ({
+  id: i + 1,
+  title: `Product ${i + 1}`,
+  image: `/assets/images/shop/product1.jpg`,
+  description: "Handcrafted Sufi-inspired décor blending tradition and spirituality.",
+  price: (i + 1) * 10 + 20,
+  oldPrice: i % 2 === 0 ? (i + 1) * 10 + 30 : null,
+  rating: 4 + (i % 2),
+  tags: ["Handmade", "Spiritual", "Kashmir"],
+  isWished: false,
+}));
+
 export default function Home() {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [productsPerPage, setProductsPerPage] = useState(12);
+  const [sortOption, setSortOption] = useState<string>("newest");
+
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+
+  const totalPages = Math.ceil(sampleProducts.length / productsPerPage);
+
+  const handlePageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    setSortOption(e.target.value);
+  };
+
+  // Sorting logic based on selected option
+  const sortedProducts = [...sampleProducts];
+  switch (sortOption) {
+    case "newest":
+      sortedProducts.sort((a, b) => b.id - a.id);
+      break;
+    case "low-to-high":
+      sortedProducts.sort((a, b) => a.price - b.price);
+      break;
+    case "high-to-low":
+      sortedProducts.sort((a, b) => b.price - a.price);
+      break;
+    case "bestselling":
+      sortedProducts.sort((a, b) => b.id - a.id); // Placeholder
+      break;
+    case "top-rated":
+      sortedProducts.sort((a, b) => b.rating - a.rating);
+      break;
+    default:
+      break;
+  }
+
+  const currentProducts = sortedProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+
+
   return (
     <Layout headerStyle={2} footerStyle={1}>
       <Banner slides={MusicSlides}/>
       {/* Page Title */}
       <section className="team-top text-left-mobile">
         <div className="container mx-auto px-4">
+          <Breadcrumb/>
           <div className="text-center sm:text-left relative block mt-[40px] mb-[10px] z-[1]">
             {/* Section Tagline */}
             <span className="relative inline-block text-[18px] leading-[16px] text-fixnix-lightpurple font-semibold uppercase z-[1]">
@@ -80,77 +137,72 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {/* Sidebar */}
             <div className="md:col-span-1 space-y-6">
-              <div className="p-4 border rounded-lg  bg-fixnix-lightpurple shadow-sm relative">
+              <div className="p-4 border rounded-lg bg-gray-100 shadow-sm">
                 <input
                   type="text"
-                  placeholder="Search"
-                  className="w-full p-2 pr-10  border rounded-lg bg-fixnix-lightpurple "
+                  placeholder="Search products..."
+                  className="w-full p-2 border rounded mb-4"
                 />
-                <i className="fa fa-search absolute right-8 top-1/2 transform -translate-y-1/2 text-gray-100"></i>
-              </div>
 
-              <div className="p-4 border rounded-lg bg-gray-100 shadow-sm">
-                <h3 className="font-semibold mb-2">Price</h3>
-                <div className="flex items-center space-x-2">
-                  <input
-                    type="text"
-                    className="w-16 p-1 border rounded-lg text-center"
-                  />
-                  <span>-</span>
-                  <input
-                    type="text"
-                    className="w-16 p-1 border rounded-lg text-center"
-                  />
-                  <button className="px-3 py-1 bg-fixnix-lightpurple text-white rounded-lg">
-                    Go
-                  </button>
-                </div>
-              </div>
-              <div className="p-4 border rounded-lg bg-gray-100 shadow-sm">
                 <h3 className="font-semibold mb-2">Categories</h3>
                 <ul className="space-y-2">
-                  <li>
+                <li >
                     <Link
-                      href="/scholarlydialogs"
-                      className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                      href="/jewelry&accessories"
+                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                      
                     >
-                      Scholarly Dialogs
+                      Jewelry & Accessories
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/hardtalk"
-                      className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
-                    >
-                      Hard Talk
+                  <li >
+                    <Link href="/wall&artdecor"
+                    className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                    
+
+                    >Art & Wall Decor
+                    
                     </Link>
                   </li>
-                  <li>
+                  <li >
                     <Link
-                      href="/sacredprofessions"
-                      className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                      href="/home&living"
+                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                     
                     >
-                      Sacred Professions
+                      Home & Living
                     </Link>
                   </li>
-                  
-                  <li>
+                  <li >
+                    <Link
+                      href="/fashion&apparel"
+                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                     
+                    >
+                      Fashion & Apparel
+                    </Link>
+                  </li>
+                  <li >
+                    <Link
+                      href="/wellness&meditation"
+                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                     
+                    >
+                      Wellness & Meditation
+                    </Link>
+                  </li>
+                  <li >
                     <Link
                       href="/digitalbooks"
-                      className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
                     >
-                      {" "}
                       Digital Books
                     </Link>
                   </li>
-
-                
-
-                  
-                  <li className="font-bold">
+                  <li className="font-bold hover:text-fixnix-darkpurple">
                     <Link
                       href="/audiospectrums"
-                      className=" hover:text-fixnix-darkpurple"
+                     
                     >
                       Audio Spectrum
                     </Link>
@@ -158,66 +210,56 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            {/* Products */}
+
+            {/* Product Grid */}
             <div className="md:col-span-3">
               <div className="flex flex-col md:flex-row justify-between items-center mb-4 space-y-2 md:space-y-0">
-                <p>Showing 1–9 of 12 results</p>
-                <select className="p-2 border bg-gray-100 rounded-lg">
-                  <option className="hover:bg-fixnix-lightpurple">
-                    Sort by popular
-                  </option>
-                  <option>Sort by Price</option>
-                  <option>Sort by Ratings</option>
-                </select>
+                <p>
+                  Showing {indexOfFirstProduct + 1}–{indexOfLastProduct > sampleProducts.length ? sampleProducts.length : indexOfLastProduct} of {sampleProducts.length} results
+                </p>
+                <div className="flex items-center space-x-4">
+                  <select
+                    className="p-2 border bg-gray-100 rounded-lg"
+                    value={productsPerPage}
+                    onChange={(e) => setProductsPerPage(Number(e.target.value))}
+                  >
+                    <option value={12}>Show 12</option>
+                    <option value={24}>Show 24</option>
+                    <option value={48}>Show 48</option>
+                  </select>
+
+                  {/* Sorting Options */}
+                  <select
+                    className="p-2 border bg-gray-100 rounded-lg"
+                    value={sortOption}
+                    onChange={handleSortChange}
+                  >
+                    <option value="newest">Newest First</option>
+                    <option value="low-to-high">Price: Low to High</option>
+                    <option value="high-to-low">Price: High to Low</option>
+                    <option value="bestselling">Bestselling</option>
+                    <option value="top-rated">Top Rated</option>
+                  </select>
+                </div>
               </div>
-              <div className="grid grid-cols-1 shadow-sm sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  {/* Product Card */}
-  {[...Array(9)].map((_, i) => (
-    <div
-      key={i}
-      className="border shadow-light-purple rounded-lg p-4"
-      style={{ boxShadow: "fixnix-lightpurple" }} 
-    >
-      <div className="overflow-hidden rounded-lg">
-      
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {currentProducts.map((product) => (
+                  <ProductCard key={product.id} product={product} />
+                ))}
+              </div>
 
-        <Image
-          src="/assets/images/shop/music1.png"
-          alt="Product"
-          width={500}  // you can adjust width/height based on your design
-          height={192} // 48 x 4 = 192px (Tailwind h-48 ≈ 12rem ≈ 192px)
-          className="w-full h-48 object-cover hover:scale-125 transition-transform duration-300"
-        />
-
-      </div>
-      <div className="mt-4 text-center">
-        <div className="text-yellow-500">
-          {[...Array(5)].map((_, j) => (
-            <i key={j} className="fa fa-star"></i>
-          ))}
-        </div>
-        <h4 className="mt-2 font-bold text-lg">
-          <Link href="product-details" className="text-fixnix-darkpurple">
-            Product {i + 1}
-          </Link>
-        </h4>
-        
-        <p className="text-md font-bold text-fixnix-darkpurple text-left">Format:<span className="text-gray-600 font-normal"> Digital MP3 / WAV</span></p>
-        <p className="text-md font-bold text-fixnix-darkpurple text-left"> Duration:<span className="text-gray-600 font-normal">Approx. 60 min</span> </p>
-        
-        <p className="text-xl font-bold text-fixnix-darkpurple">${(i + 1) * 10 + 20}.00</p>
-        <div className="mt-3">
-          <Link
-            href="/productdetails"
-            className="bg-fixnix-lightpurple hover:bg-fixnix-darkpurple text-white px-4 py-2 rounded-lg"
-          >
-            View Details
-          </Link>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
+              {/* Pagination Controls */}
+              <div className="flex justify-center mt-8 space-x-2">
+                {Array.from({ length: totalPages }, (_, i) => (
+                  <button
+                    key={i}
+                    className={`px-3 py-1 border rounded ${currentPage === i + 1 ? "bg-fixnix-lightpurple text-white" : "bg-white text-gray-700"}`}
+                    onClick={() => handlePageChange(i + 1)}
+                  >
+                    {i + 1}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>

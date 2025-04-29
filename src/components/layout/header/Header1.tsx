@@ -43,27 +43,7 @@ const Header1: React.FC<Header1Props> = ({
                 </Link>
                 <Menu />
               </div>
-              {/* <div className="main-menu__right">
-                <div className="main-menu__search-cart-call-box">
-                  <div className="main-menu__search-cart-box">
-                    <div className="main-menu__search-box">
-                      <Link href="#" className="main-menu__search search-toggler icon-search-interface-symbol" onClick={handlePopup}></Link>
-                    </div>
-                    <div className="main-menu__cart-box">
-                      <Link href="cart" className="main-menu__cart fas fa-shopping-cart"></Link>
-                    </div>
-                  </div>
-                  <div className="main-menu__call">
-                    <div className="main-menu__call-icon">
-                      <i className="fas fa-phone"></i>
-                    </div>
-                    <div className="main-menu__call-content">
-                      <p className="main-menu__call-sub-title">Call Anytime</p>
-                      <h5 className="main-menu__call-number"><Link href="tel:9288006780">+92 ( 8800 ) - 6780</Link></h5>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
+              
             </div>
           </div>
         </nav>

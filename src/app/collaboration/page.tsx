@@ -293,7 +293,7 @@ export default function Home() {
                 {
                   icon: "fa-envelope",
                   title: "Send us an email",
-                  text: "contact@gmail.com",
+                  text: "info@sufisciencecenter.info",
                   link: "mailto:contact@gmail.com",
                 },
                 {
