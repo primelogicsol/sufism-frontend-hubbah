@@ -150,10 +150,10 @@ Are you prepared to face the raw, unapologetic conversations that redefine spiri
                   </li>
                   <li>
                     <Link
-                      href="/sacredprofessions"
+                      href="/inspiringinterview"
                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
                     >
-                      Mystic
+                      Inspiring Interviews
                     </Link>
                   </li>
             

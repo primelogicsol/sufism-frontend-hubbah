@@ -129,11 +129,11 @@ export default function Home() {
                   </li>
                   <li>
                     <Link
-                      href="/digitalbooks"
+                      href="/inspiringinterview"
                       className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
                     >
                       {" "}
-                      Mystic
+                      Inspiring Interviews
                     </Link>
                   </li>
 

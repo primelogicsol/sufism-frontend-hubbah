@@ -334,10 +334,10 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/sacredprofessions"
+                href="/inspiringinterview"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
-                Mystic Dashboard
+                Inspiring Interviews
               </Link>
             </li>
             

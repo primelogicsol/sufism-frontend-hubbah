@@ -423,10 +423,10 @@ const MobileMenu = ({
                   </li>
                   <li>
                     <Link
-                      href="/digitalbooks"
+                      href="/inspiringinterview"
                       className="text-white text-sm font-medium"
                     >
-                      Mystic Dashboard
+                      Inspiring Interviews
                     </Link>
                   </li>
                   
