@@ -1,6 +1,6 @@
 "use client";
 import Layout from "@/components/layout/Layout";
-import React, { useState, ChangeEvent, FormEvent } from "react";
+import React, { useState,useEffect, ChangeEvent, FormEvent } from "react";
 
 type InterviewFormState = {
   fullName: string;
@@ -38,16 +38,42 @@ const defaultState: InterviewFormState = {
   additionalNotes: "",
 };
 
+interface SaturdayOption {
+  date: string;
+  formatted: string;
+}
+
 const InterviewForm = () => {
   const [formState, setFormState] = useState<InterviewFormState>(defaultState);
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [errors, setErrors] = useState<Partial<Record<keyof InterviewFormState, string>>>({});
+  const [availableSaturdays, setAvailableSaturdays] = useState<SaturdayOption[]>([]);
+
+  // Set up available Saturdays and default date on component load
+  useEffect(() => {
+    const saturdays = getAvailableSaturdays();
+    setAvailableSaturdays(saturdays);
+
+    // Set default date to the next Saturday and default time to 10:00 AM
+    if (saturdays.length > 0) {
+      setFormState(prev => ({
+        ...prev,
+        interviewDate: saturdays[0].date,
+        interviewTime: '10:00'
+      }));
+    }
+  }, []);
 
   const handleInputChange = (
     e: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
     setFormState((prev) => ({ ...prev, [name]: value }));
+
+    // If changing date or time, validate it immediately
+    if (name === 'interviewDate' || name === 'interviewTime') {
+      validateDateOrTime(name, value);
+    }
   };
 
   const handleCheckboxChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -58,6 +84,66 @@ const InterviewForm = () => {
         : (prev[name as keyof InterviewFormState] as string[]).filter((item) => item !== value);
       return { ...prev, [name]: updatedList };
     });
+  };
+
+  // Helper function to get available Saturdays for the next few weeks
+  const getAvailableSaturdays = (): SaturdayOption[] => {
+    const saturdays: SaturdayOption[] = [];
+    const today = new Date();
+    const startDate = new Date(today);
+    
+    // Start from today, find next 4 Saturdays
+    for (let i = 0; i < 28; i++) {
+      const date = new Date(startDate);
+      date.setDate(startDate.getDate() + i);
+      
+      if (date.getDay() === 6) {  // 6 is Saturday
+        saturdays.push({
+          date: date.toISOString().split('T')[0],
+          formatted: date.toLocaleDateString('en-US', { 
+            weekday: 'long', 
+            month: 'short', 
+            day: 'numeric' 
+          })
+        });
+        
+        if (saturdays.length >= 4) break;
+      }
+    }
+    
+    return saturdays;
+  };
+
+  // Validate date or time field
+  const validateDateOrTime = (name: string, value: string): boolean => {
+    let errorMessage = '';
+    
+    if (name === 'interviewDate' && value) {
+      const selectedDate = new Date(value);
+      const day = selectedDate.getDay();
+      
+      // Check if selected day is Saturday (6)
+      if (day !== 6) {
+        errorMessage = 'Interviews are only available on Saturdays';
+      }
+    }
+    
+    if (name === 'interviewTime' && value) {
+      const [hours, minutes] = value.split(':').map(Number);
+      const timeInMinutes = hours * 60 + minutes;
+      
+      // Check if time is between 10:00 AM and 2:00 PM
+      if (timeInMinutes < 10 * 60 || timeInMinutes > 14 * 60) {
+        errorMessage = 'Interviews are only available between 10:00 AM and 2:00 PM EST';
+      }
+    }
+    
+    setErrors(prev => ({
+      ...prev,
+      [name]: errorMessage
+    }));
+    
+    return errorMessage === '';
   };
 
   const validateForm = () => {
@@ -75,8 +161,25 @@ const InterviewForm = () => {
     if (!formState.tariqa) newErrors.tariqa = "Select your spiritual orientation.";
     if (!formState.hasPublicVoice) newErrors.hasPublicVoice = "Please answer this question.";
     if (!formState.interviewGoals.length) newErrors.interviewGoals = "Select at least one interview goal.";
-    if (!formState.interviewDate) newErrors.interviewDate = "Interview date is required.";
-    if (!formState.interviewTime) newErrors.interviewTime = "Interview time is required.";
+
+    // Date and time validation with custom restrictions
+    if (!formState.interviewDate) {
+      newErrors.interviewDate = "Interview date is required.";
+    } else {
+      const dateValid = validateDateOrTime('interviewDate', formState.interviewDate);
+      if (!dateValid) {
+        newErrors.interviewDate = errors.interviewDate || "Invalid interview date.";
+      }
+    }
+    
+    if (!formState.interviewTime) {
+      newErrors.interviewTime = "Interview time is required.";
+    } else {
+      const timeValid = validateDateOrTime('interviewTime', formState.interviewTime);
+      if (!timeValid) {
+        newErrors.interviewTime = errors.interviewTime || "Invalid interview time.";
+      }
+    }
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -103,7 +206,7 @@ const InterviewForm = () => {
 
         {formSubmitted && (
           <div className="bg-green-100 border border-fixnix-darkpurple text-fixnix-darkpurple p-4 rounded-lg">
-            Thank you! Your interview form has been submitted.
+            Thank you! Your interview form has been submitted and confirmation has been send to your email.
           </div>
         )}
 
@@ -233,31 +336,58 @@ const InterviewForm = () => {
 
         <div>
           <h2 className="text-xl font-bold text-fixnix-lightpurple mb-4">Interview Scheduling</h2>
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Interview Date</label>
-              <input
-                name="interviewDate"
-                type="date"
-                value={formState.interviewDate}
-                onChange={handleInputChange}
-                className="w-full border border-gray-300 rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500"
-              />
-              {errors.interviewDate && <p className="text-red-600 text-sm">{errors.interviewDate}</p>}
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Interview Time(EST)</label>
-              <input
-                name="interviewTime"
-                type="time"
-                value={formState.interviewTime}
-                onChange={handleInputChange}
-                className="w-full border border-gray-300 rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500"
-              />
-              {errors.interviewTime && <p className="text-red-600 text-sm">{errors.interviewTime}</p>}
-            </div>
-          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            Interview Date <span className="text-red-500">*</span>
+          </label>
+          <select
+            name="interviewDate"
+            value={formState.interviewDate}
+            onChange={handleInputChange}
+            className="w-full border border-gray-300 rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500"
+          >
+            <option value="">Select a date</option>
+            {availableSaturdays.map((saturday) => (
+              <option key={saturday.date} value={saturday.date}>
+                {saturday.formatted} (Saturday)
+              </option>
+            ))}
+          </select>
+          {errors.interviewDate && (
+            <p className="text-red-600 text-sm mt-1">{errors.interviewDate}</p>
+          )}
+          <p className="text-sm text-gray-500 mt-1">Interviews are only available on Saturdays</p>
         </div>
+        
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            Interview Time (EST) <span className="text-red-500">*</span>
+          </label>
+          <select
+            name="interviewTime"
+            value={formState.interviewTime}
+            onChange={handleInputChange}
+            className="w-full border border-gray-300 rounded-lg p-2 focus:ring-blue-500 focus:border-blue-500"
+          >
+            <option value="">Select a time</option>
+            <option value="10:00">10:00 AM</option>
+            <option value="10:30">10:30 AM</option>
+            <option value="11:00">11:00 AM</option>
+            <option value="11:30">11:30 AM</option>
+            <option value="12:00">12:00 PM</option>
+            <option value="12:30">12:30 PM</option>
+            <option value="13:00">1:00 PM</option>
+            <option value="13:30">1:30 PM</option>
+            <option value="14:00">2:00 PM</option>
+          </select>
+          {errors.interviewTime && (
+            <p className="text-red-600 text-sm mt-1">{errors.interviewTime}</p>
+          )}
+          <p className="text-sm text-gray-500 mt-1">Available between 10:00 AM - 2:00 PM EST</p>
+        </div>
+      </div>
+      </div>
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">Additional Notes</label>

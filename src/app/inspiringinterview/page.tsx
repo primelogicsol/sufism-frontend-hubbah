@@ -144,20 +144,40 @@ export default function Home() {
                   
                 </ul>
               </div>
-              <div className="p-4 border rounded-lg bg-gray-100 shadow-sm">
-                <h3 className="font-semibold mb-2 bg-fixnix-lightpurple text-white p-3">Be Part of an Inspiring Interview</h3>
-                <p className="" >Your Story Can Illuminate Paths for Others</p>
-                <p>Join a curated series of interviews with individuals who merge professional excellence with spiritual depth. Whether you're a scientist, artist, educator, or healer, your journey matters. Share your insights, your search, and the intersections of Sufism and your work with the world.</p>
-                <h3 className="font-semibold mb-2 my-2">Start Your Interview Journey</h3>
-                <div className="flex items-center  ml-auto">
-                <Link
-                  href="/interviewform"
-                  className="membership-btn "
-                >
-                 Book Interview
-                </Link>
-                
-              </div>
+              <div className="bg-white rounded-lg shadow-md overflow-hidden max-w-lg mx-auto transition-transform hover:shadow-lg">
+      {/* Compact header with gradient background */}
+      <div className="bg-gradient-to-r from-fixnix-darkpurple to-fixnix-lightpurple py-2 px-4">
+        <h3 className="font-bold text-lg text-white">Be Part of an Inspiring Interview</h3>
+      </div>
+      
+      {/* Condensed content section */}
+      <div className="p-3 space-y-2">
+        {/* Combined tagline and description */}
+        <div className="flex items-start">
+          <div className="border-l-4 border-fixnix-lightpurple pl-2 flex-1">
+            <p className="text-sm font-medium text-gray-800 italic">
+              Your Story Can Illuminate Paths for Others
+            </p>
+            <p className="text-xs text-gray-600 mt-1">
+              Join a curated series of interviews with individuals who merge professional 
+              excellence with spiritual depth. Share your insights and the intersections of Sufism with your work.
+            </p>
+          </div>
+        </div>
+        
+        
+        
+          <h3 className="font-medium text-sm text-gray-800">Start Your Interview Journey</h3>
+          <Link href="interviewform" className="bg-fixnix-lightpurple hover:bg-fixnix-darkpurple text-white text-sm font-medium py-3 px-4 rounded transition-colors duration-200 flex items-center">
+            Book Interview Now
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </Link>
+        
+      </div>
+    
+      
 
                 
               </div>

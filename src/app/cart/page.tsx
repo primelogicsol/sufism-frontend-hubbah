@@ -62,7 +62,7 @@ export default function ProductDetails() {
     artisanStory: "This piece comes from the workshop of the Kumar family, who have been furniture makers for seven generations in the foothills of the Himalayas. Master craftsman Rajiv Kumar leads a cooperative of 12 artisans who sustainably harvest local woods and use techniques passed down through centuries.",
     shipping: "Free shipping within India. International shipping available at additional cost. Estimated delivery time is 5-7 business days for domestic orders and 14-21 days for international orders. Each piece is carefully packaged in eco-friendly materials.",
     returns: "We offer a 30-day return policy for unused items in original condition. Custom orders are non-refundable. Please contact customer service to initiate a return.",
-    certifications: ["GI Tagged", "Handmade Certified", "Eco-Friendly", "Fair Trade"],
+    certifications: [ "Eco-Friendly", "Fair Trade"],
     estimatedDelivery: "May 5–May 10",
     images: [
       "/assets/images/shop/product1.jpg",
@@ -76,7 +76,7 @@ export default function ProductDetails() {
   const reviews = [
     {
       id: 1,
-      name: "Anika Sharma",
+      name: "Suleman Faheem",
       date: "April 12, 2025",
       rating: 5,
       content: "The craftsmanship is exceptional! This chair has become the centerpiece of my living room. The wood grain is beautiful and the comfort is surprising for such a traditional design.",
@@ -86,7 +86,7 @@ export default function ProductDetails() {
     },
     {
       id: 2,
-      name: "Rajesh Patel",
+      name: "Esha Irfan",
       date: "March 28, 2025",
       rating: 4.5,
       content: "Very pleased with this purchase. The chair arrived well-packaged and in perfect condition. The quality of the wood and the carving detail exceeds my expectations.",
@@ -95,7 +95,7 @@ export default function ProductDetails() {
     },
     {
       id: 3,
-      name: "Meera Joshi",
+      name: "Fatima Ali",
       date: "February 15, 2025",
       rating: 4,
       content: "Beautiful chair and excellent craftsmanship. Took away one star because the delivery took longer than expected, but the product itself is wonderful.",
@@ -136,25 +136,7 @@ export default function ProductDetails() {
     }
   ];
   
-  // Dummy FAQs
-  const faqs = [
-    {
-      question: "Is each piece truly handmade?",
-      answer: "Yes, each piece is 100% handcrafted by our artisans. Due to the handmade nature, slight variations in color, grain, and finishing may occur, making each piece uniquely yours."
-    },
-    {
-      question: "How long will this furniture last?",
-      answer: "With proper care, our handcrafted wooden furniture is designed to last for generations. The traditional joinery techniques used provide exceptional durability."
-    },
-    {
-      question: "Do you offer custom modifications?",
-      answer: "Yes, we can accommodate custom requests for dimensions, wood type, and finish. Please contact our customer service team for custom orders."
-    },
-    {
-      question: "How should I maintain this piece?",
-      answer: "Regular dusting with a soft cloth and periodic application of wood polish will keep your furniture looking its best. Avoid placing it in direct sunlight or areas with high humidity."
-    }
-  ];
+
   
   // Handle quantity changes
   const handleQuantityChange = (value: number) => {
@@ -464,21 +446,7 @@ export default function ProductDetails() {
               </div>
             </div>
             
-            {/* Trust Badges */}
-            <div className="flex flex-wrap gap-6 mb-6">
-              <div className="flex items-center gap-2">
-                <Image src="/assets/icons/secure-checkout.svg" alt="Secure Checkout" width={24} height={24} />
-                <span className="text-sm text-fixnix-gray">Secure Checkout</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Image src="/assets/icons/free-returns.svg" alt="Free Returns" width={24} height={24} />
-                <span className="text-sm text-fixnix-gray">Free Returns</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Image src="/assets/icons/eco-packaging.svg" alt="Eco-Friendly Packaging" width={24} height={24} />
-                <span className="text-sm text-fixnix-gray">Eco-Friendly Packaging</span>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -488,7 +456,7 @@ export default function ProductDetails() {
         <div className="container mx-auto px-4">
           <div className="mb-8 border-b border-gray-300">
             <div className="flex flex-wrap -mb-px">
-              {["description", "materials", "artisan", "shipping", "reviews"].map((tab) => (
+              {["description", "shipping", "reviews"].map((tab) => (
                 <button
                   key={tab}
                   className={`inline-block py-4 px-4 text-center border-b-2 font-medium text-lg ${
@@ -512,41 +480,7 @@ export default function ProductDetails() {
                 <p className="text-fixnix-gray mb-4">
                   {product.description}
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
-                  <div className="relative h-64">
-                    <Image
-                      src={product.images[0]}
-                      alt="Product feature"
-                      fill
-                      className="object-cover rounded"
-                    />
-                  </div>
-                  <div className="relative h-64">
-                    <Image
-                      src={product.images[1]}
-                      alt="Product feature"
-                      fill
-                      className="object-cover rounded"
-                    />
-                  </div>
-                </div>
-              </div>
-            )}
-            
-            {/* Materials Tab */}
-            {activeTab === "materials" && (
-              <div>
-                <h2 className="text-2xl font-bold text-fixnix-darkpurple mb-4">Materials & Care</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-xl font-bold text-fixnix-darkpurple mb-3">Materials</h3>
-                    <ul className="list-disc pl-5 text-fixnix-gray space-y-2">
-                      {product.materials.split(", ").map((item, index) => (
-                        <li key={index}>{item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
+                <div>
                     <h3 className="text-xl font-bold text-fixnix-darkpurple mb-3">Care Instructions</h3>
                     <ul className="list-disc pl-5 text-fixnix-gray space-y-2">
                       {product.care.split(". ").filter(Boolean).map((item, index) => (
@@ -554,37 +488,12 @@ export default function ProductDetails() {
                       ))}
                     </ul>
                   </div>
-                </div>
+                
               </div>
             )}
             
-            {/* Artisan Tab */}
-            {activeTab === "artisan" && (
-              <div>
-                <h2 className="text-2xl font-bold text-fixnix-darkpurple mb-4">Artisan Story</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  <div className="relative h-64 md:col-span-1">
-                    <Image
-                      src="/assets/images/shop/cart-page-img-1.jpg"
-                      alt="Artisan"
-                      fill
-                      className="object-cover rounded"
-                    />
-                  </div>
-                  <div className="md:col-span-2">
-                    <p className="text-fixnix-gray mb-4">
-                      {product.artisanStory}
-                    </p>
-                    <div className="mt-4 p-4 bg-gray-50 border-l-4 border-fixnix-lightpurple">
-                      <p className="italic text-fixnix-gray">
-                        "Our family has been creating furniture this way for generations. Each piece carries our heritage and passion for craftsmanship."
-                      </p>
-                      <p className="mt-2 font-medium">- Rajiv Kumar, Master Craftsman</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
+            
+            
             
             {/* Shipping Tab */}
             {activeTab === "shipping" && (
@@ -643,23 +552,7 @@ export default function ProductDetails() {
                   <div className="bg-gray-50 p-6 mb-8 rounded-lg">
                     <h3 className="text-xl font-bold text-fixnix-darkpurple mb-4">Write Your Review</h3>
                     <form className="space-y-4">
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div>
-                          <label className="block text-fixnix-gray mb-2">Name *</label>
-                          <input 
-                            type="text" 
-                            className="w-full border border-gray-300 p-3" 
-                            required 
-                          />
-                        </div>
-                        <div>
-                          <label className="block text-fixnix-gray mb-2">Email (optional)</label>
-                          <input 
-                            type="email" 
-                            className="w-full border border-gray-300 p-3" 
-                          />
-                        </div>
-                      </div>
+                      
                                               <div>
                         <label className="block text-fixnix-gray mb-2">Rating *</label>
                         <div className="flex gap-2 text-2xl">
@@ -681,21 +574,8 @@ export default function ProductDetails() {
                           required
                         ></textarea>
                       </div>
-                      <div>
-                        <label className="block text-fixnix-gray mb-2">Upload Photos (optional)</label>
-                        <input 
-                          type="file" 
-                          className="w-full border border-gray-300 p-3" 
-                          accept="image/*"
-                          multiple
-                        />
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <input type="checkbox" id="verifyHuman" className="w-4 h-4" required />
-                        <label htmlFor="verifyHuman" className="text-fixnix-gray">
-                          I am a human and this is my honest review *
-                        </label>
-                      </div>
+                      
+                      
                       <div className="flex justify-end">
                         <button 
                           type="submit" 
@@ -737,14 +617,7 @@ export default function ProductDetails() {
                           </div>
                         </div>
                       )}
-                      <div className="flex items-center gap-4 text-sm">
-                        <button className="text-fixnix-lightpurple hover:underline">
-                          Helpful ({review.helpful})
-                        </button>
-                        <button className="text-fixnix-gray hover:underline">
-                          Report
-                        </button>
-                      </div>
+                      
                     </div>
                   ))}
                 </div>
@@ -772,46 +645,7 @@ export default function ProductDetails() {
         </div>
       </div>
       
-      {/* FAQs Section */}
-      <div className="py-12 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-fixnix-darkpurple mb-8 text-center">
-            Frequently Asked Questions
-          </h2>
-          <div className="max-w-3xl mx-auto">
-            {faqs.map((faq, index) => (
-              <div 
-                key={index} 
-                className="border-b border-gray-200 py-4"
-              >
-                <details className="group cursor-pointer">
-                  <summary className="flex justify-between items-center font-medium text-fixnix-darkpurple list-none">
-                    <span>{faq.question}</span>
-                    <span className="transition group-open:rotate-180">
-                      <svg 
-                        fill="none" 
-                        height="24" 
-                        shape-rendering="geometricPrecision" 
-                        stroke="currentColor" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        stroke-width="1.5" 
-                        viewBox="0 0 24 24" 
-                        width="24"
-                      >
-                        <path d="M6 9l6 6 6-6"></path>
-                      </svg>
-                    </span>
-                  </summary>
-                  <p className="text-fixnix-gray mt-3 group-open:animate-fadeIn">
-                    {faq.answer}
-                  </p>
-                </details>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+     
       
       {/* Related Products */}
       <div className="py-12 bg-gray-50">
