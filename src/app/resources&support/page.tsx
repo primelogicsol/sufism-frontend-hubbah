@@ -660,7 +660,7 @@ export default function Home() {
                           <p>
                           •	Resources are organized by topic, format, and experience level in our digital library<br/>
                               •	Use the personalized recommendation system based on your interests and background<br/>
-                              •	Contact resource@sufiscienceCenter.org for assistance finding specific materials<br/>
+                              •	Contact contact@sufisciencecenter.info for assistance finding specific materials<br/>
                               •	Suggest new resources that have been valuable in your own journey
                               <p className="font-bold">
                             We are committed to making these resources accessible to sincere seekers regardless of financial circumstances. If you need assistance accessing any materials or services, please contact our support team to discuss options.

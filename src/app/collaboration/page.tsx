@@ -299,7 +299,7 @@ export default function Home() {
                 {
                   icon: "fa-phone",
                   title: "Give us a call",
-                  text: "+012 (435) 7689",
+                  text: "+1 916 699 0091",
                   link: "tel:0124357689",
                 },
               ].map((item, index) => (

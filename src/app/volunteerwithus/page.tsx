@@ -249,24 +249,24 @@ export default function Home() {
                 your journey of sacred service.
               </p>
             </div>
-            <div className="flex flex-wrap justify-left gap-8">
+            <div className="flex flex-wrap justify-left gap-10">
               {[
                 {
                   icon: "fa-envelope",
                   title: "Send us an email",
-                  text: "contact@gmail.com",
-                  link: "mailto:contact@gmail.com",
+                  text: "contact@sufisciencecenter.info",
+                  
                 },
                 {
                   icon: "fa-phone",
                   title: "Give us a call",
-                  text: "+012 (435) 7689",
-                  link: "tel:0124357689",
+                  text: "+1 916 699 0091",
+                  
                 },
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="relative flex items-center bg-white rounded-lg p-3 max-w-[325px] w-full transition-all"
+                  className="relative flex items-center bg-white rounded-lg p-3 max-w-[370px] w-full transition-all"
                 >
                   <div className="flex items-center justify-center h-[55px] w-[55px] rounded-full bg-[var(--fixnix-lightpuple)] transition-all duration-500 hover:bg-[var(--fixnix-darkpurple)]">
                     <span
@@ -277,13 +277,12 @@ export default function Home() {
                     <span className="block text-[20px] text-[var(--fixnix-darkpurple)] font-bold leading-6 mb-2">
                       {item.title}
                     </span>
-                    <p className="text-[18px] leading-[18px]">
-                      <a
-                        href={item.link}
-                        className="text-[var(--fixnix-gray)] transition-all duration-500 hover:text-[var(--fixnix-lightpuple)]"
-                      >
+                    <p className="text-[18px] leading-[18px] text-[var(--fixnix-gray)] transition-all duration-500 hover:text-[var(--fixnix-lightpuple)]">
+                      
+                        
+                    
                         {item.text}
-                      </a>
+                     
                     </p>
                   </div>
                 </div>

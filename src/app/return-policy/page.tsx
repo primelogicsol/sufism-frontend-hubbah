@@ -98,7 +98,7 @@ export default function ReturnsPolicy() {
             </h2>
             <ol className="list-decimal ml-6 text-gray-700 space-y-4">
               <li>
-                Email us at <span className="font-medium">returns@sufisciencecenter.info</span> with:
+                Email us at <span className="font-medium">return@sufisciencecenter.info</span> with:
                 <ul className="list-disc ml-6 mt-2 space-y-1">
                   <li>Order number</li>
                   <li>Reason for return</li>
@@ -151,7 +151,7 @@ export default function ReturnsPolicy() {
             </h2>
             <p className="text-gray-700">
               For all refund, return, or exchange requests:<br />
-              📧 <span className="font-medium">returns@sufisciencecenter.info</span>
+              📧 <span className="font-medium">return@sufisciencecenter.info</span>
             </p>
           </section>
         </div>
