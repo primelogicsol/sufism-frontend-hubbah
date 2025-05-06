@@ -16,6 +16,8 @@ module.exports = {
         },
         "fixnix-lightpurple": "#70436b",
         "fixnix-darkpurple": "#472a44",
+        'fixnix-lightpurple-light': '#8e6490',
+        "fixnix-lightpurple-lighter": '#ab86ad',
         "fixnix-white": "#ffffff",
         card: {
           DEFAULT: "hsl(var(--card))",

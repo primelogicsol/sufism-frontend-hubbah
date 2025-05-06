@@ -390,7 +390,7 @@ export default function ProductDetails() {
               </Link>
               <Link
                 href="checkout"
-                className="flex-1 bg-fixnix-darkpurple text-white py-3 px-6 font-medium hover:opacity-90 transition-opacity"
+                className="flex-1 bg-fixnix-lightpurple text-white py-3 px-6 font-medium text-center hover:bg-fixnix-darkpurple transition-opacity"
               >
                 Buy Now
               </Link>

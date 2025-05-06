@@ -4,40 +4,34 @@ import Image from "next/image";
 import Link from "next/link";
 const ResearchSlides=[
   {
-    subTitle: "Preserving Wisdom, Advancing Knowledge Forward",
-    title: "Exploring Sufi Thought<br/>Through Research",
-    text: "  Dive into in-depth research and scholarly publications that uncover the<br/> historical, and scientific dimensions of Kashmiri Sufism.",
+    subTitle: "DIGITAL ACADEMY",
+    title:"Sufi Impact on Professions",
+    text: "Exploring how Sufi principles transform workplace cultures, professional ethics,<br/> and career paths across diverse fields.",
     buttonText: "Read More",
     buttonLink: "/membership",
   },
   {
-    subTitle: "Unveiling Sufi Insights Through Scholarship",
-    title: "A Gateway to Spiritual<br/> Research & Learning",
-    text: "Access a wealth of publications exploring the intersection of Sufism, ,<br/>philosophy, science, and spiritual traditions in a modern context.",
+    subTitle: "DIGITAL ACADEMY PRESENTS",
+    title: "Sufi Impact on Professions",
+    text: "How Sufi principles of service, integrity, and presence are reshaping<br/> leadership across professional domains.",
     buttonText: "Explore",
     buttonLink: "/membership",
   },
   {
-    subTitle: "Sacred Knowledge Meets Academic Inquiry",
-    title: "Deepening Understanding <br/>Through Sufi Studies",
-    text: "Our research and publications offer profound insights into Kashmiri Sufi teachings,<br/> bridging tradition with contemporary academic exploration.",
+    subTitle: "BEYOND CONVENTIONAL SUCCESS",
+    title: "Sufi Impact on Professions",
+    text: "Examining the profound influence of spiritual values on professional<br/> environments, decisions, and outcomes.",
     buttonText: "Join Now",
     buttonLink: "/membership",
   },
   {
-    subTitle: " Expanding Minds, Illuminating Sufi Wisdom",
-    title: " Documenting the Legacy <br/>of Sufi Thought",
-    text: " Explore meticulously curated research on the history, ethics, and spiritual<br/> practices that define Kashmiri Sufi traditions and teachings.",
+    subTitle: "PROFESSION AS SPIRITUAL PATH",
+    title: "Sufi Impact on Professions",
+    text: "Understanding how Sufi practitioners elevate their fields through the integration of <br/>spiritual wisdom and technical expertise.",
     buttonText: "Explore",
     buttonLink: "/membership",
   },
-  {
-    subTitle: "Bridging Tradition with Modern Inquiry",
-    title: " Scholarly Exploration <br/>of Sufi Sciences",
-    text: " Our publications serve as a foundation for learning, offering critical perspectives <br/>on Sufi philosophy, consciousness, and ethical living.",
-    buttonText: "Join Now",
-    buttonLink: "/membership",
-  },
+  
 ];
 const cards = [
   {

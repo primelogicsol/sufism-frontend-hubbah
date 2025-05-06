@@ -4,40 +4,34 @@ import Image from "next/image";
 import Link from "next/link";
 const ResearchSlides=[
   {
-    subTitle: "Preserving Wisdom, Advancing Knowledge Forward",
-    title: "Exploring Sufi Thought<br/>Through Research",
-    text: "  Dive into in-depth research and scholarly publications that uncover the<br/> historical, and scientific dimensions of Kashmiri Sufism.",
+    subTitle:  "DIGITAL ACADEMY",
+    title: "Hard Talk Series",
+    text: "Confronting difficult questions with intellectual honesty,<br/> spiritual insight, and respectful dialogue.",
     buttonText: "Read More",
     buttonLink: "/membership",
   },
   {
-    subTitle: "Unveiling Sufi Insights Through Scholarship",
-    title: "A Gateway to Spiritual<br/> Research & Learning",
-    text: "Access a wealth of publications exploring the intersection of Sufism, ,<br/>philosophy, science, and spiritual traditions in a modern context.",
+    subTitle: "BEYOND COMFORTABLE ANSWERS",
+    title: "Hard Talk Series",
+    text: "Engaging with challenging topics that require both<br/> intellectual rigor and spiritual wisdom.",
     buttonText: "Explore",
     buttonLink: "/membership",
   },
   {
-    subTitle: "Sacred Knowledge Meets Academic Inquiry",
-    title: "Deepening Understanding <br/>Through Sufi Studies",
-    text: "Our research and publications offer profound insights into Kashmiri Sufi teachings,<br/> bridging tradition with contemporary academic exploration.",
+    subTitle: "DIGITAL ACADEMY PRESENTS",
+    title: "Hard Talk Series",
+    text: "Where difficult questions meet deep knowledge, <br/>creating space for authentic spiritual inquiry.",
     buttonText: "Join Now",
     buttonLink: "/membership",
   },
   {
-    subTitle: " Expanding Minds, Illuminating Sufi Wisdom",
-    title: " Documenting the Legacy <br/>of Sufi Thought",
-    text: " Explore meticulously curated research on the history, ethics, and spiritual<br/> practices that define Kashmiri Sufi traditions and teachings.",
+    subTitle: "SEEKING CLARITY",
+    title: "Hard Talk Series",
+    text: "Conversations that move beyond simplistic answers to <br/>embrace the complexity of spiritual truth.",
     buttonText: "Explore",
     buttonLink: "/membership",
   },
-  {
-    subTitle: "Bridging Tradition with Modern Inquiry",
-    title: " Scholarly Exploration <br/>of Sufi Sciences",
-    text: " Our publications serve as a foundation for learning, offering critical perspectives <br/>on Sufi philosophy, consciousness, and ethical living.",
-    buttonText: "Join Now",
-    buttonLink: "/membership",
-  },
+  
 ];
 const cards = [
   {

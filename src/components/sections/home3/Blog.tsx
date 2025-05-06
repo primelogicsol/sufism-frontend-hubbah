@@ -30,7 +30,7 @@ export default function Blog() {
           {/* Blog Item 1 */}
           <div className="bg-fixnix-lightpurple shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/scholarlyinsights.png" alt="" className="w-full h-64 object-cover rounded-t-xl " />
+              <img src="assets/images/dialogs/9.png" alt="" className="w-full h-64 object-cover rounded-t-xl " />
               <div className="absolute inset-0 flex items-center justify-center  bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700">
                 <Link href="/dialogseries">
                   <i className="fa fa-plus text-white text-2xl"></i>
@@ -51,7 +51,7 @@ export default function Blog() {
           {/* Blog Item 2 */}
           <div className="bg-fixnix-lightpurple shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/visualresources.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
+              <img src="assets/images/hardtalk/9.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
               <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 ">
                 <Link href="/hardtalk">
                   <i className="fa fa-plus text-white text-2xl"></i>
@@ -72,9 +72,9 @@ export default function Blog() {
           {/* Blog Item 3 */}
           <div className="bg-fixnix-lightpurple shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/digitalbooks.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
+              <img src="assets/images/professions/1.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
               <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
-                <Link href="/digitalbooks">
+                <Link href="/sacredprofessions">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
               </div>
@@ -82,10 +82,10 @@ export default function Blog() {
             <div className="px-4 py-3 ">
               
               <h3 className="text-xl font-semibold mt-2 text-gray-800">
-                <Link href="/digitalbooks"className="text-white"> Digital Books</Link>
+                <Link href="/sacredprofessions"className="text-white"> Sufi Professions</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
-                A digital sanctum of classical texts, treatises, and modern explorations, bridging the written word with the ineffable Real.
+              This series honors professionals who carry inner stillness into outer action. Success is measured not just in output, but in intention. 
               </p>
             </div>
           </div>
@@ -93,9 +93,9 @@ export default function Blog() {
           {/* Blog Item 4 */}
           <div className="bg-fixnix-lightpurple  shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-[1.02]">
             <div className="relative group">
-              <img src="assets/images/blog/audiospectrum.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
+              <img src="assets/images/interview/1.png" alt="" className="w-full h-64 object-cover rounded-t-xl" />
               <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700">
-                <Link href="/audiospectrum">
+                <Link href="/inspiringinterview">
                   <i className="fa fa-plus text-white text-2xl"></i>
                 </Link>
               </div>
@@ -103,10 +103,10 @@ export default function Blog() {
             <div className="px-4 py-3 ">
               
               <h3 className="text-xl font-semibold mt-2 text-gray-800">
-                <Link href="/audiospectrum" className="text-white">Audio Spectrum</Link>
+                <Link href="/inspiringinterview" className="text-white">Inspiring Interview</Link>
               </h3>
               <p className="text-sm text-gray-100 mt-2">
-                Enter auditory immersion dhikr, lectures, Sufi poetry, and harmonic meditations to attune the soul to divine rhythm.
+              In this series, you’ll meet individuals whose lives have been radically reshaped by the essence of Sufism.
               </p>
             </div>
           </div>

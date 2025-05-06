@@ -5,57 +5,83 @@ import Image from "next/image";
 import Link from "next/link";
 const ResearchSlides=[
   {
-    subTitle: "Preserving Wisdom, Advancing Knowledge Forward",
-    title: "Exploring Sufi Thought<br/>Through Research",
-    text: "  Dive into in-depth research and scholarly publications that uncover the<br/> historical, and scientific dimensions of Kashmiri Sufism.",
+    subTitle: "DIGITAL ACADEMY",
+    title: "Inspiring Interviews",
+    text: "Conversations with remarkable individuals who embody spiritual principles<br/> in their everyday lives."  ,
     buttonText: "Read More",
     buttonLink: "/membership",
   },
   {
-    subTitle: "Unveiling Sufi Insights Through Scholarship",
-    title: "A Gateway to Spiritual<br/> Research & Learning",
-    text: "Access a wealth of publications exploring the intersection of Sufism, ,<br/>philosophy, science, and spiritual traditions in a modern context.",
+    subTitle: "STORIES OF TRANSFORMATION",
+    title: "Inspiring Interviews",
+    text: "Intimate discussions revealing how spiritual practice shapes<br/> personal and professional paths.",
     buttonText: "Explore",
     buttonLink: "/membership",
   },
   {
-    subTitle: "Sacred Knowledge Meets Academic Inquiry",
-    title: "Deepening Understanding <br/>Through Sufi Studies",
-    text: "Our research and publications offer profound insights into Kashmiri Sufi teachings,<br/> bridging tradition with contemporary academic exploration.",
+    subTitle: "FROM PRINCIPLE TO PRACTICE",
+    title: "Inspiring Interviews",
+    text: "Discovering how timeless teachings are applied to <br/>modern challenges through personal stories.",
     buttonText: "Join Now",
     buttonLink: "/membership",
   },
   {
-    subTitle: " Expanding Minds, Illuminating Sufi Wisdom",
-    title: " Documenting the Legacy <br/>of Sufi Thought",
-    text: " Explore meticulously curated research on the history, ethics, and spiritual<br/> practices that define Kashmiri Sufi traditions and teachings.",
+    subTitle: "LIVING TRADITION",
+    title: "Inspiring Interviews",
+    text:  "Capturing the knowledge and experiences of notable figures within the spiritual tradition.",
     buttonText: "Explore",
     buttonLink: "/membership",
   },
-  {
-    subTitle: "Bridging Tradition with Modern Inquiry",
-    title: " Scholarly Exploration <br/>of Sufi Sciences",
-    text: " Our publications serve as a foundation for learning, offering critical perspectives <br/>on Sufi philosophy, consciousness, and ethical living.",
-    buttonText: "Join Now",
-    buttonLink: "/membership",
-  },
+ 
 ];
 const cards = [
   {
-    title:"The Curious Seeker",
-    quote: "A soul questions. A Master listens. What follows is not teaching, it’s unraveling.",
-    image: "/assets/images/dialogs/9.png",
+    title:"Dusk became divine",
+    quote: "The Awakening of Carter Nooruddin, Once a Wall Climber",
+    image: "/assets/images/interview/1.png",
   },
   {
-    title:"The Sufism Challenger",
-    quote: "He came to argue. The Master didn’t resist. Truth didn’t need defending, only revealing.",
-    image: "/assets/images/dialogs/10.png",
+    title:"Feather touched fire",
+    quote: "Layla Sabreen's journey from dance to divine surrender ",
+    image: "/assets/images/interview/2.png",
   },
   {
-    title:"The Sufi Scholar",
-    quote: "He knew everything but missed presence. Until silence taught what books never could explain.",
-    image: "/assets/images/dialogs/11.png",
+    title:"Silence led me Home",
+    quote: "Malik Jennings silent breakdown that became prayer",
+    image: "/assets/images/interview/3.png",
   },
+  {
+    title:"Name turned light",
+    quote: "How Fatime Delgado walked away from titles and toward truth",
+    image: "/assets/images/interview/4.png",
+  },
+  {
+    title:"Unseen, Yet so Near",
+    quote: "Rashid Green healing after loss opened a secret door",
+    image: "/assets/images/interview/5.png",
+  },
+  {
+    title:"He found me disappearing",
+    quote: "Iman Rivera moment of surrender in the forests of oregon",
+    image: "/assets/images/interview/6.png",
+  },
+  {
+    title:"Veils fell, Light spoke",
+    quote: "Zayn Taylor sudden clarity in a seattle bookstore",
+    image: "/assets/images/interview/7.png",
+  },
+  {
+    title:"The path wrote me",
+    quote: "Maryam Hall stopped planning and started listening",
+    image: "/assets/images/interview/8.png",
+  },
+  {
+    title:"Breath from rhythm",
+    quote: "Jasmine Rahma learns that dhikr lives in science",
+    image: "/assets/images/interview/9.png",
+  },
+  
+
   
 ];
 export default function Home() {
@@ -71,16 +97,14 @@ export default function Home() {
                 <span className="absolute top-[6px] left-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
                 <span className="absolute top-[6px] right-[-56px] w-[40px] h-[2px] bg-fixnix-lightpurple"></span>
               </span>
-              <h2 className="text-fixnix-darkpurple font-bold text-2xl py-2">Where Truth Faces Challenge and Wisdom Meets Courage</h2>
+              <h2 className="text-fixnix-darkpurple font-bold text-2xl py-2">Lived Journeys. Lit Souls. Lasting Echoes.</h2>
 
               {/* Section Title */}
 
               {/* Section Text */}
               <p className="pt-[10px] text-left-mobile text-center text-gray-600 text-sm sm:text-base md:text-md lg:text-lg leading-[1.8] sm:leading-[2] md:leading-[1.5]">
-              Step into a realm where conventional beliefs about Sufism are tested through groundbreaking, bold conversations. In this extraordinary series, the curious seeker boldly confronts the seasoned master, the skeptic fearlessly challenges sacred doctrines, and the experienced scholar dares to question established truths. Each dialog peels back layers of tradition, exploring the core of spiritual authenticity with unmatched depth and sincerity. Prepare yourself for a transformative encounter, one that not only questions but illuminates, awakening your inner journey toward profound enlightenment.
-
-
-
+              In inspiring interviews, you’ll meet individuals whose lives have been radically reshaped by the essence of Sufism. These are not celebrities—they are awakened souls: quiet reformers, radiant artists, silent servers, and bold seekers.
+            Each conversation is a mirror into a life transformed. Some found God in grief. Some turned their professions into paths of light. Others carry centuries-old wisdom into modern chaos.
               </p>
             </div>
           </div>
@@ -211,14 +235,14 @@ export default function Home() {
           className="w-full h-64 object-cover rounded-t-xl"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-white/20 opacity-0 group-hover:opacity-100 transition duration-700 bg-fixnix-lightpurple">
-          <Link href="/dialogsdetails">
+          <Link href="/interviewdetails">
             <i className="fa fa-plus text-white text-2xl"></i>
           </Link>
         </div>
       </div>
       <div className="px-4 py-3">
         <h3 className="text-xl font-semibold mt-2 text-white">
-          <Link href="/dialogsdetails" className="text-white">{card.title}</Link>
+          <Link href="/interviewdetails" className="text-white">{card.title}</Link>
         </h3>
         <p className="text-sm text-gray-100 mt-2 italic">"{card.quote}"</p>
       </div>
