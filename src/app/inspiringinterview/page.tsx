@@ -131,7 +131,7 @@ export default function Home() {
                   <li className="font-bold">
                     <Link
                       href="/dialogseries"
-                      className="hover:text-fixnix-darkpurple"
+                      className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
                     >
                       Dialog Series
                     </Link>
@@ -152,10 +152,10 @@ export default function Home() {
                       Sacred Professions
                     </Link>
                   </li>
-                  <li>
+                  <li className="font-bold">
                     <Link
                       href="/inspiringinterview"
-                      className="text-fixnix-lightpurple font-semibold hover:underline hover:text-fixnix-darkpurple"
+                       className="hover:text-fixnix-darkpurple"
                     >
                       {" "}
                       Inspiring Interviews
