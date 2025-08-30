@@ -307,71 +307,111 @@ const MobileMenu = ({
                   className="space-y-2 ml-4"
                 >
                   <li>
-                    <Link href="/foundationalmatrices" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/foundationalmatrices"
+                      className="text-white text-sm font-medium"
+                    >
                       Foundational Matrices
                     </Link>
                   </li>
                   <li>
-                    <Link href="/ecologicalintelligence" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/ecologicalintelligence"
+                      className="text-white text-sm font-medium"
+                    >
                       Ecological Intelligence
                     </Link>
                   </li>
                   <li>
-                    <Link href="/consciousnessgeometries" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/consciousnessgeometries"
+                      className="text-white text-sm font-medium"
+                    >
                       Consciousness Geometries
                     </Link>
                   </li>
                   <li>
-                    <Link href="/perceptualgateways" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/perceptualgateways"
+                      className="text-white text-sm font-medium"
+                    >
                       Perceptual Gateways
                     </Link>
                   </li>
                   <li>
-                    <Link href="/realityframeworks" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/realityframeworks"
+                      className="text-white text-sm font-medium"
+                    >
                       Reality Frameworks
                     </Link>
                   </li>
                   <li>
-                    <Link href="/cosmicharmonics" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/cosmicharmonics"
+                      className="text-white text-sm font-medium"
+                    >
                       Cosmic Harmonics
                     </Link>
                   </li>
                   <li>
-                    <Link href="/energeticarchitectures" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/energeticarchitectures"
+                      className="text-white text-sm font-medium"
+                    >
                       Energetic Architectures
                     </Link>
                   </li>
                   <li>
-                    <Link href="/characteralchemy" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/characteralchemy"
+                      className="text-white text-sm font-medium"
+                    >
                       Character Alchemy
                     </Link>
                   </li>
                   <li>
-                    <Link href="/unitysciences" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/unitysciences"
+                      className="text-white text-sm font-medium"
+                    >
                       Unity Sciences
                     </Link>
                   </li>
                   <li>
-                    <Link href="/healingmysteries" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/healingmysteries"
+                      className="text-white text-sm font-medium"
+                    >
                       Healing Mysteries
                     </Link>
                   </li>
                   <li>
-                    <Link href="/wisdomtransmission" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/wisdomtransmission"
+                      className="text-white text-sm font-medium"
+                    >
                       Wisdom Transmission
                     </Link>
                   </li>
                   <li>
-                    <Link href="/sacredartistry" className="text-white text-sm font-medium">
+                    <Link
+                      href="/explore/sacredartistry"
+                      className="text-white text-sm font-medium"
+                    >
                       Sacred Artistry
                     </Link>
                   </li>
                   <li>
-                    <Link href="/advancedtechnologies" className="text-white text-sm font-medium">
-                      Advanced Technologies
-                ```    </Link>
+                    <Link
+                      href="/explore/advancedtechnologies"
+                      className="text-white text-sm font-medium"
+                    >
+                      Advanced Technologies ```{" "}
+                    </Link>
                   </li>
-                ````</ul>
+                  ````
+                </ul>
                 <button
                   className={`absolute right-2 top-1 mt-2 transform -translate-y-1/2 text-white transition-transform duration-300 ${
                     isActive.key === "4" ? "rotate-90" : ""
@@ -399,15 +439,15 @@ const MobileMenu = ({
                 >
                   <li>
                     <Link
-                      href="/dialogseries"
+                      href="/academy/dialogseries"
                       className="text-white text-sm font-medium"
                     >
-                       Dialog Series
+                      Dialog Series
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/hardtalk"
+                      href="/academy/hardtalk"
                       className="text-white text-sm font-medium"
                     >
                       Hard Talk Series
@@ -415,7 +455,7 @@ const MobileMenu = ({
                   </li>
                   <li>
                     <Link
-                      href="/sacredprofessions"
+                      href="/academy/sacredprofessions"
                       className="text-white text-sm font-medium"
                     >
                       Sufi Professions
@@ -423,13 +463,12 @@ const MobileMenu = ({
                   </li>
                   <li>
                     <Link
-                      href="/inspiringinterview"
+                      href="/academy/inspiringinterview"
                       className="text-white text-sm font-medium"
                     >
                       Inspiring Interviews
                     </Link>
                   </li>
-                  
                 </ul>
                 <button
                   className={`absolute right-2 top-1 mt-2 transform -translate-y-1/2 text-white transition-transform duration-300 ${
@@ -512,7 +551,6 @@ const MobileMenu = ({
                       Audio Spectrum
                     </Link>
                   </li>
-                  
                 </ul>
                 <button
                   className={`absolute right-2 top-1 mt-2 transform -translate-y-1/2 text-white transition-transform duration-300 ${
@@ -585,55 +623,53 @@ const MobileMenu = ({
               </li>
             </ul>
           </div>
-          
 
-         {/* Contact */}
-<ul className="mobile-nav__contact list-unstyled space-y-3">
-<li className="flex items-center text-sm text-dark">
-    <i className="fa fa-user-circle text-white bg-lightpurple p-2 rounded-full mr-2"></i>
-    <Link href="/login" className="text-white">
-      Login
-    </Link>
-    <span className="mx-2 text-white">/</span>
-    <Link href="/Register" className="text-white">
-      Register
-    </Link>
-  </li>
-  <li className="flex items-center text-sm text-dark">
-    <i className="fa fa-envelope text-white bg-lightpurple p-2 rounded-full mr-2"></i>
-    <Link href="mailto: info@sufisciencecenter.info" className="text-white">
-      info@sufisciencecenter.info
-    </Link>
-  </li>
-  
-  
-</ul>
-
+          {/* Contact */}
+          <ul className="mobile-nav__contact list-unstyled space-y-3">
+            <li className="flex items-center text-sm text-dark">
+              <i className="fa fa-user-circle text-white bg-lightpurple p-2 rounded-full mr-2"></i>
+              <Link href="/login" className="text-white">
+                Login
+              </Link>
+              <span className="mx-2 text-white">/</span>
+              <Link href="/Register" className="text-white">
+                Register
+              </Link>
+            </li>
+            <li className="flex items-center text-sm text-dark">
+              <i className="fa fa-envelope text-white bg-lightpurple p-2 rounded-full mr-2"></i>
+              <Link
+                href="mailto: info@sufisciencecenter.info"
+                className="text-white"
+              >
+                info@sufisciencecenter.info
+              </Link>
+            </li>
+          </ul>
 
           {/* Social Media */}
-                  <div className="mobile-nav__social flex items-center space-x-4">
-          <Link
-            href="#"
-            className="fab fa-facebook-square text-white text-lg hover:text-lightpurple"
-          ></Link>
-          <Link
-            href="#"
-            className="fab fa-linkedin text-white text-lg hover:text-lightpurple"
-          ></Link>
-          <Link
-            href="#"
-            className="fab fa-youtube text-white text-lg hover:text-lightpurple"
-          ></Link>
-          <Link
-            href="#"
-            className="fab fa-twitter text-white text-lg hover:text-lightpurple"
-          ></Link>
-          <Link
-            href="#"
-            className="fab fa-instagram text-white text-lg hover:text-lightpurple"
-          ></Link>
-        </div>
-
+          <div className="mobile-nav__social flex items-center space-x-4">
+            <Link
+              href="#"
+              className="fab fa-facebook-square text-white text-lg hover:text-lightpurple"
+            ></Link>
+            <Link
+              href="#"
+              className="fab fa-linkedin text-white text-lg hover:text-lightpurple"
+            ></Link>
+            <Link
+              href="#"
+              className="fab fa-youtube text-white text-lg hover:text-lightpurple"
+            ></Link>
+            <Link
+              href="#"
+              className="fab fa-twitter text-white text-lg hover:text-lightpurple"
+            ></Link>
+            <Link
+              href="#"
+              className="fab fa-instagram text-white text-lg hover:text-lightpurple"
+            ></Link>
+          </div>
         </div>
       </div>
     </>
