@@ -193,7 +193,7 @@ export default function Menu() {
           <ul className="bg-white absolute z-50 mt-0 pt-4 px-2 w-72 rounded-b-md max-h-[500px]   hidden group-hover:block">
             <li className="mb-2">
               <Link
-                href="/foundationalmatrices"
+                href="/explore/foundationalmatrices"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Foundational Matrices
@@ -201,15 +201,15 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/ecologicalintelligence"
+                href="/explore/ecologicalintelligence"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
-               Ecological Intelligence
+                Ecological Intelligence
               </Link>
             </li>
             <li className="mb-2">
               <Link
-                href="/consciousnessgeometries"
+                href="/explore/consciousnessgeometries"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Consciousness Geometries
@@ -217,7 +217,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/perceptualgateways"
+                href="/explore/perceptualgateways"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Perceptual Gateways
@@ -225,7 +225,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/realityframeworks"
+                href="/explore/realityframeworks"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Reality Frameworks
@@ -233,7 +233,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/cosmicharmonics"
+                href="/explore/cosmicharmonics"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Cosmic Harmonics
@@ -241,23 +241,23 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/energeticarchitectures"
+                href="/explore/energeticarchitectures"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
-                Energetic Architectures 
+                Energetic Architectures
               </Link>
             </li>
             <li className="mb-2">
               <Link
-                href="/characteralchemy"
+                href="/explore/characteralchemy"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
-                Character Alchemy 
+                Character Alchemy
               </Link>
             </li>
             <li className="mb-2">
               <Link
-                href="/unitysciences"
+                href="/explore/unitysciences"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Unity Sciences
@@ -265,7 +265,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/healingmysteries"
+                href="/explore/healingmysteries"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Healing Mysteries
@@ -273,7 +273,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/wisdomtransmission"
+                href="/explore/wisdomtransmission"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Wisdom Transmission
@@ -281,7 +281,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/sacredartistry"
+                href="/explore/sacredartistry"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Sacred Artistry
@@ -289,13 +289,12 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/advancedtechnologies"
+                href="/explore/advancedtechnologies"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Advanced Technologies
               </Link>
             </li>
-
           </ul>
         </li>
 
@@ -310,15 +309,15 @@ export default function Menu() {
           <ul className="bg-white absolute z-50 mt-0 pt-4 px-2 w-72 rounded-b-md max-h-[400px] overflow-y-auto scrollbar-thin scrollbar-thumb-fixnix-darkpurple scrollbar-track-fixnix-lightpuple hidden group-hover:block">
             <li className="mb-2">
               <Link
-                href="/dialogseries"
+                href="/academy/dialogseries"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
-                 Dialog Series
+                Dialog Series
               </Link>
             </li>
             <li className="mb-2">
               <Link
-                href="/hardtalk"
+                href="/academy/hardtalk"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Hard Talk Series
@@ -326,7 +325,7 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/sacredprofessions"
+                href="/academy/sacredprofessions"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Sufi Professions
@@ -334,13 +333,12 @@ export default function Menu() {
             </li>
             <li className="mb-2">
               <Link
-                href="/inspiringinterview"
+                href="/academy/inspiringinterview"
                 className="text-fixnix-darkpurple text-[15px] hover:bg-fixnix-darkpurple hover:text-white rounded px-4 py-1 transition-all"
               >
                 Inspiring Interviews
               </Link>
             </li>
-            
           </ul>
         </li>
 
